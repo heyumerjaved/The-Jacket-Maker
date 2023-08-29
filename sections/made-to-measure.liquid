@@ -1,0 +1,118 @@
+<div data-section-type="made-to-measure-tabs" data-components="accordion" data-cc-animate>
+  <div class="container">
+    <div class="made-to-measure-tabs">
+      {% if section.settings.title != blank %}
+        <h3 class="made-to-measure-tabs__heading made-to-measure-tabs__content" id="faq-{{ section.settings.title | handle }}">{{ section.settings.title | escape }}</h3>
+      {% endif %}
+
+      {% capture accordion_content %}
+        {%- for block in section.blocks -%}
+          <div class="made-to-measure-tabs__block" {{ block.shopify_attributes }}>
+            {% if block.type == 'content' %}
+              <div class="made-to-measure-tabs__text made-to-measure-tabs__content rte">{{ block.settings.content }}</div>
+
+            {% elsif block.type == 'button' %}
+              <div class="made-to-measure-tabs__button made-to-measure-tabs__content">
+                <a class="btn btn--primary btn--link" href="{{ block.settings.link }}"><span class="btn__text">{{ block.settings.title | escape }}</span></a>
+              </div>
+
+            {% elsif block.type == 'question' %}
+              <div class="made-to-measure-tabs__tab">
+                {% render 'accordion-item',
+                    title: block.settings.title,
+                    escape_title: true,
+                    content: block.settings.answer,
+                    add_content_class: 'rte',
+                    item_open: false
+                %}
+              </div>
+            {% endif %}
+          </div>
+        {%- endfor -%}
+      {% endcapture %}
+      {%
+        render "accordion",
+          allow_multi_open: false,
+          content: accordion_content
+      %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Made to Mesaure tabs",
+    "class": "section-made-to-measure-tabs",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Made to Mesaure tabs"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "question",
+        "name": "Question",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Question",
+            "default": "Question"
+          },
+          {
+            "type": "richtext",
+            "id": "answer",
+            "label": "Answer",
+            "default": "<p>Answer</p>"
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "name": "Paragraph",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "name": "Button",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Label",
+            "default": "Button label"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Made to Mesaure tabs",
+        "settings": {},
+        "blocks": [
+          {
+            "type": "question"
+          },
+          {
+            "type": "question"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,312 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "a551e945-5f58-4d00-b28e-93c7b15d81bd": {
+          "type": "text",
+          "settings": {
+            "text": "Free shipping and 30 days to return",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "4887f261-c162-4aaa-9368-bef269addc86": {
+          "type": "custom_swatches",
+          "settings": {}
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": false,
+            "variant_style": "listed",
+            "disable_unavailable_variants": true,
+            "show_size_chart": true,
+            "size_chart_variant": "Size",
+            "size_chart_page": "men-size-chart"
+          }
+        },
+        "618a2784-5f00-4dba-9416-fdf0fbb4358f": {
+          "type": "customizethisproduct",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": false
+          }
+        },
+        "88984ba5-14c9-49d8-b1bc-5296cb4157cb": {
+          "type": "accordion",
+          "settings": {
+            "title": "DESCRIPTION",
+            "icon": "",
+            "content": "<p>{{ product.metafields.custom.description | metafield_tag }} <\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "d3d15f18-7803-40f2-8fa8-0ffad18f9d14": {
+          "type": "accordion",
+          "settings": {
+            "title": "REVIEWS",
+            "icon": "star",
+            "content": "<p>Made to Measure tab content <\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "215ebb52-d9c1-43b3-bddc-6cf518f07104": {
+          "type": "accordion",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "icon": "",
+            "content": "{{ product.metafields.custom.product_shipping_returns | metafield_tag }}",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "3d2850fb-354a-4e17-9e17-ca4be79d5b92": {
+          "type": "accordion",
+          "settings": {
+            "title": "CARE DETAILS",
+            "icon": "",
+            "content": "<p>{{ product.metafields.custom.product_care_details | metafield_tag }} <\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "ce883322-baef-4f31-9811-1629147f7dbf": {
+          "type": "accordion",
+          "settings": {
+            "title": "SIZE & FIT",
+            "icon": "",
+            "content": "<p>{{ product.metafields.custom.product_size_fit | metafield_tag }} <\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "bb171d7b-1364-4802-a4eb-86662c94db7f": {
+          "type": "shopify:\/\/apps\/trust-badges-bear\/blocks\/widget\/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "a551e945-5f58-4d00-b28e-93c7b15d81bd",
+        "4887f261-c162-4aaa-9368-bef269addc86",
+        "divider",
+        "variant_picker",
+        "618a2784-5f00-4dba-9416-fdf0fbb4358f",
+        "buy_buttons",
+        "88984ba5-14c9-49d8-b1bc-5296cb4157cb",
+        "d3d15f18-7803-40f2-8fa8-0ffad18f9d14",
+        "215ebb52-d9c1-43b3-bddc-6cf518f07104",
+        "3d2850fb-354a-4e17-9e17-ca4be79d5b92",
+        "ce883322-baef-4f31-9811-1629147f7dbf",
+        "bb171d7b-1364-4802-a4eb-86662c94db7f"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "large",
+        "gallery_layout": "carousel-beside",
+        "enable_zoom": true,
+        "enable_video_looping": true,
+        "enable_var_img_grouping": false,
+        "var_img_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 5
+      }
+    },
+    "8f714e09-34f6-4756-96ba-889c37443c28": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "code": "{% assign array_of_badges = product.metafields.symmetry. productlayflat.value %}\n{% if array_of_badges %}\n {% for product_badge in array_of_badges %}\n  <img src=\"{{ product_badge | image_url }}\">\n {% endfor %}\n{% endif %}"
+      }
+    },
+    "42a9f7b7-3439-4272-a18e-e5afe5076da3": {
+      "type": "LayFlat-Images-Text",
+      "blocks": {
+        "4bb4342a-ea48-439b-ae94-a8909cea5f0c": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.symmetry.singleimage.value }}",
+            "enlarge_image": false,
+            "subheading": "Gallery",
+            "title": "Tell your story",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "4bb4342a-ea48-439b-ae94-a8909cea5f0c"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "use_alt_bg": false,
+        "enable_carousel": true,
+        "image_width": 700,
+        "subheading": "",
+        "title": "{{ product.title }}",
+        "use_h1": false,
+        "text": "<p>{{ product.metafields.custom.description | metafield_tag }}<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image_position": "left",
+        "text_alignment": "left"
+      }
+    },
+    "836a5530-2cc8-4a07-ba31-0d3870395102": {
+      "type": "test",
+      "disabled": true,
+      "settings": {
+        "show_country_selector": true,
+        "show_language_selector": true,
+        "logo_img_width_int": 180,
+        "mobile_logo_img_width_int": 100,
+        "logo_h1": true,
+        "enable_sticky": false,
+        "enable_transparent": false,
+        "transparent_color": "#ffffff",
+        "menu_linklist": "main-menu",
+        "menu_linklist_mobile": "",
+        "menu_layout": "underneath",
+        "nav_featured_link": "Sale",
+        "enable_mobile_promo_carousel": true,
+        "enable_nav_mob_products": false,
+        "nav_mob_products_title": "Best Sellers",
+        "nav_mob_products_collection": "",
+        "enable_search": true,
+        "search_suggestions_title": "",
+        "search_suggestions_menu": "main-menu",
+        "icon_strategy": "icons_all",
+        "cart_icon": "basket"
+      }
+    },
+    "26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20033766392095__26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "The Unboxing Experience",
+            "use_h1": false
+          }
+        },
+        "template--20033766392095__26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our New & Improved Front Lock Mailer Packaging Delivers A First Look Beyond The Ordinary<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20033766392095__26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff-heading-1",
+        "template--20033766392095__26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff-text-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "use_alt_bg": false
+      }
+    },
+    "687a8380-c47a-462f-ba22-ca2205a8558f": {
+      "type": "background-video",
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/stop-motion-seemless.mp4",
+        "video_external": "",
+        "subheading": "",
+        "title": "",
+        "heading_max_width": 800,
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "b7afc90b-7b96-404f-abfc-5ac61b11509e": {
+      "type": "flat-lay",
+      "settings": {
+        "descriptivetext": "<h2>{{ product.title }}<\/h2><h3>Specifications:<\/h3><p>{{ product.metafields.custom.description | metafield_tag }}<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations",
+    "8f714e09-34f6-4756-96ba-889c37443c28",
+    "42a9f7b7-3439-4272-a18e-e5afe5076da3",
+    "836a5530-2cc8-4a07-ba31-0d3870395102",
+    "26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff",
+    "687a8380-c47a-462f-ba22-ca2205a8558f",
+    "b7afc90b-7b96-404f-abfc-5ac61b11509e"
+  ]
+}

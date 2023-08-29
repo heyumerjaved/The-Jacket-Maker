@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "7abd627c-8112-4e03-a50f-49f547ae289b": {
+      "type": "rich-text",
+      "blocks": {
+        "3da50df4-bea4-42b6-9cf5-b7f12cbe1873": {
+          "type": "heading",
+          "settings": {
+            "title": "Contact us",
+            "use_h1": false
+          }
+        },
+        "template--20474332676383__7abd627c-8112-4e03-a50f-49f547ae289b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have you read our FAQs page? To help you faster, we have answered as many questions as possible. <\/p><p>If you still need a little help, please fill out the form below. We aim to respond within 24-48 hrs, Monday to Friday.<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "3da50df4-bea4-42b6-9cf5-b7f12cbe1873",
+        "template--20474332676383__7abd627c-8112-4e03-a50f-49f547ae289b-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "main": {
+      "type": "main-contact",
+      "blocks": {
+        "2eefaa07-87a1-4c5e-b9f6-c8ed51c4de4d": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "6fb3d7ec-cd4b-48e3-82de-8b92cd9ddaae": {
+          "type": "custom_dropdown",
+          "settings": {
+            "title": "Topic",
+            "multiple_options": "Option 1\nOption 2\nOption 3",
+            "half_width": true
+          }
+        },
+        "19146fd9-72a6-4501-bb36-3bded9e5327c": {
+          "type": "custom_dropdown",
+          "settings": {
+            "title": "Subject",
+            "multiple_options": "Option 1\nOption 2\nOption 3",
+            "half_width": true
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "2eefaa07-87a1-4c5e-b9f6-c8ed51c4de4d",
+        "email",
+        "6fb3d7ec-cd4b-48e3-82de-8b92cd9ddaae",
+        "19146fd9-72a6-4501-bb36-3bded9e5327c",
+        "message"
+      ],
+      "settings": {
+        "show_page_title": false,
+        "use_columns": true,
+        "contact_title": "",
+        "contact_text": ""
+      }
+    }
+  },
+  "order": [
+    "7abd627c-8112-4e03-a50f-49f547ae289b",
+    "main"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "a551e945-5f58-4d00-b28e-93c7b15d81bd": {
+          "type": "text",
+          "settings": {
+            "text": "Free shipping and 30 days to return",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "variant_style": "dropdown",
+            "disable_unavailable_variants": true,
+            "show_size_chart": true,
+            "size_chart_variant": "Size",
+            "size_chart_page": "men-size-chart"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": true,
+            "show_pickup_availability": true
+          }
+        },
+        "8134544e-e4c8-4212-b6a3-2553fdfab17c": {
+          "type": "accordion",
+          "settings": {
+            "title": "DESCRIPTION",
+            "icon": "leather",
+            "content": "<p>{{ product.metafields.custom.description | metafield_tag }} <\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "d3d15f18-7803-40f2-8fa8-0ffad18f9d14": {
+          "type": "accordion",
+          "settings": {
+            "title": "REVIEWS",
+            "icon": "star",
+            "content": "<p>Collapsible tab content<\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "215ebb52-d9c1-43b3-bddc-6cf518f07104": {
+          "type": "accordion",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "icon": "plane",
+            "content": "{{ product.metafields.custom.product_shipping_returns | metafield_tag }}",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "3d2850fb-354a-4e17-9e17-ca4be79d5b92": {
+          "type": "accordion",
+          "settings": {
+            "title": "CARE DETAILS",
+            "icon": "shirt",
+            "content": "<p>{{ product.metafields.custom.product_care_details | metafield_tag }} <\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "ce883322-baef-4f31-9811-1629147f7dbf": {
+          "type": "accordion",
+          "disabled": true,
+          "settings": {
+            "title": "SIZE & FIT",
+            "icon": "ruler",
+            "content": "<p>{{ product.metafields.custom.product_size_fit | metafield_tag }} <\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "a551e945-5f58-4d00-b28e-93c7b15d81bd",
+        "divider",
+        "variant_picker",
+        "buy_buttons",
+        "8134544e-e4c8-4212-b6a3-2553fdfab17c",
+        "d3d15f18-7803-40f2-8fa8-0ffad18f9d14",
+        "215ebb52-d9c1-43b3-bddc-6cf518f07104",
+        "3d2850fb-354a-4e17-9e17-ca4be79d5b92",
+        "ce883322-baef-4f31-9811-1629147f7dbf"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "collage-2",
+        "enable_zoom": true,
+        "enable_video_looping": true,
+        "enable_var_img_grouping": false,
+        "var_img_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

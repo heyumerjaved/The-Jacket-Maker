@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+{%- liquid
+  assign rtl_langs = 'ar,arc,dv,fa,ha,he,khw,ks,ku,ps,ur,yi' | split: ','
+  assign current_lang = localization.language.iso_code | split: '-' | first
+  if rtl_langs contains current_lang
+    assign lang_dir = 'rtl'
+  else
+    assign lang_dir = 'ltr'
+  endif
+-%}
+<html lang="{{ request.locale.iso_code }}" dir="{{ lang_dir }}">
+<head>
+  <!-- Symmetry 6.0.3 -->
+
+  <title>
+    {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+  </title>
+
+  <meta name="robots" content="noindex" />
+  
+  {% render 'head-tag' %}
+
+  {%- liquid
+    assign base_font = settings.type_base_font
+    assign base_font_bold = base_font | font_modify: 'weight', 'bolder'
+    assign base_font_medium = base_font | font_modify: 'weight', '500'
+    assign base_font_italic = base_font | font_modify: 'style', 'italic'
+    assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic'
+    assign heading_font = settings.type_heading_font
+    assign logo_font = settings.type_logo_font
+    assign nav_font = settings.type_nav_font
+    assign nav_font_600 = nav_font | font_modify: 'weight', '600'
+  -%}
+
+  <style>
+    {{ base_font | font_face: font_display: 'fallback' }}
+    {{ base_font_bold | font_face: font_display: 'fallback' }}
+    {{ base_font_medium | font_face: font_display: 'fallback' }}
+    {{ base_font_italic | font_face: font_display: 'fallback' }}
+    {{ base_font_bold_italic | font_face: font_display: 'fallback' }}
+    {{ heading_font | font_face: font_display: 'fallback' }}
+    {{ logo_font | font_face: font_display: 'fallback' }}
+    {{ nav_font | font_face: font_display: 'fallback' }}
+    {{ nav_font_600 | font_face: font_display: 'fallback' }}
+  </style>
+
+  {% render 'social-meta-tags' %}
+
+  {{ 'styles.css' | asset_url | stylesheet_tag: preload: true }}
+
+  {%- if settings.custom_theme_css != blank -%}
+    {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+  {%- endif -%}
+
+  {%- if settings.swatch_enabled and settings.swatch_value_list != blank -%}
+    <link rel="stylesheet" href="{{ 'swatches.css' | asset_url }}" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="{{ 'swatches.css' | asset_url }}"></noscript>
+  {%- endif -%}
+
+  <script>
+    window.theme = window.theme || {};
+    theme.money_format_with_product_code_preference = {% if settings.product_currency_code_enabled %}{{ shop.money_with_currency_format | json }}{% else %}{{ shop.money_format | json }}{% endif %};
+    theme.money_format_with_cart_code_preference = {% if settings.cart_currency_code_enabled %}{{ shop.money_with_currency_format | json }}{% else %}{{ shop.money_format | json }}{% endif %};
+    theme.money_format = {{ shop.money_format | json }};
+    theme.strings = {
+      previous: {{ 'general.accessibility_labels.previous' | t | json }},
+      next: {{ 'general.accessibility_labels.next' | t | json }},
+      addressError: {{ 'map.errors.address_error' | t | json }},
+      addressNoResults: {{ 'map.errors.address_no_results' | t | json }},
+      addressQueryLimit: {{ 'map.errors.address_query_limit_html' | t | json }},
+      authError: {{ 'map.errors.auth_error' | t | json }},
+      icon_labels_left: {{ 'general.icon_labels.left' | t | escape | json }},
+      icon_labels_right: {{ 'general.icon_labels.right' | t | escape | json }},
+      icon_labels_down: {{ 'general.icon_labels.down' | t | escape | json }},
+      icon_labels_close: {{ 'general.icon_labels.close' | t | escape | json }},
+      icon_labels_plus: {{ 'general.icon_labels.plus' | t | escape | json }},
+      imageSlider: {{ 'general.slider.images' | t | json }},
+      cart_terms_confirmation: {{ 'cart.terms.confirmation' | t | json }},
+      cart_general_quantity_too_high: {{ 'cart.general.quantity_too_high' | t: quantity: '[QUANTITY]' | json }},
+      products_listing_from: {{ 'products.listing.from' | t | json }},
+      layout_live_search_see_all: {{ 'layout.live_search.see_all' | t | json }},
+      products_product_add_to_cart: {{ 'products.product.add_to_cart' | t | json }},
+      products_variant_no_stock: {{ 'products.variant.no_stock' | t | json }},
+      products_variant_non_existent: {{ 'products.variant.non_existent' | t | json }},
+      products_product_pick_a: {{ 'products.product.pick_a' | t | json }},
+      general_navigation_menu_toggle_aria_label: {{ 'general.navigation.menu_toggle_aria_label' | t | json }},
+      general_accessibility_labels_close: {{ 'general.accessibility_labels.close' | t | json }},
+      products_product_added_to_cart: {{ 'products.product.added_to_cart' | t | json }},
+      general_quick_search_pages: {{ 'general.quick_search.pages' | t | json }},
+      general_quick_search_no_results: {{ 'general.quick_search.no_results' | t | json }},
+      collections_general_see_all_subcollections: {{ 'collections.general.see_all_subcollections' | t | json }}
+    };
+    theme.routes = {
+      cart_url: '{{ routes.cart_url }}',
+      cart_add_url: '{{ routes.cart_add_url }}.js',
+      cart_update_url: '{{ routes.cart_update_url }}.js',
+      predictive_search_url: '{{ routes.predictive_search_url }}'
+    };
+    theme.settings = {
+      cart_type: {{ settings.cart_type | json }},
+      after_add_to_cart: {{ settings.after_add_to_cart | json }},
+      quickbuy_style: {{ settings.quickbuy_style | json }},
+      avoid_orphans: {{ settings.avoid_orphans | json }}
+    };
+    document.documentElement.classList.add('js');
+  </script>
+
+  <script src="{{ 'vendor.min.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+
+  {{ content_for_header }}
+
+  <link rel="stylesheet" type="text/css" href="{{ 'slick.css'  | asset_url }}"/>
+  <link rel="stylesheet" type="text/css" href="{{ 'slick-theme.css'  | asset_url }}"/>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+  <link rel="stylesheet" type="text/css" href="{{ 'modal.min.css' | asset_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+</head>
+
+<body class="template-{{ template | split: '.' | first | handle }}
+    {%- if template.suffix %} template-suffix-{{ template.suffix }}{% endif -%}
+    {%- if settings.swatch_enabled %} swatch-method-{{ settings.swatch_method }} swatch-style-{{ settings.swatch_style }}{% endif -%}
+    " data-cc-animate-timeout="0">
+
+  {%- if settings.animations_enabled_desktop -%}
+    <script>
+      if ('IntersectionObserver' in window) {
+        document.body.classList.add("cc-animate-enabled");
+      }
+    </script>
+  {%- endif -%}
+
+  <a class="skip-link visually-hidden" href="#content">{{ 'general.accessibility_labels.skip_to_content' | t }}</a>
+
+  {% unless template.name == 'cart' or settings.cart_type == 'page' %}{% section 'cart-drawer' %}{% endunless %}
+  {% section 'announcement-bar' %}
+  {% section 'header' %}
+  {% section 'store-messages' %}
+
+  <main id="content" role="main">
+    <div class="container cf">
+
+      {{ content_for_layout }}
+
+    </div><!-- /.container -->
+  </main><!-- /#content -->
+
+  {%- if request.path != '/challenge' -%}
+    <div id="pagefooter">
+      {% section 'cross-page-promos' %}
+      {% section 'footer' %}
+    </div>
+
+    {% section 'popup' %}
+  {%- endif -%}
+
+  {%- if settings.after_add_to_cart == 'notification' -%}
+    <template id="AddedNotification">
+      <added-notification class="added-notification added-notification--hidden">
+        <div class="added-notification__message-area">
+          <div class="added-notification__message-title"></div>
+          <div class="added-notification__message-text underline-child">{{ 'products.product.added_to_cart_with_link_html' | t: cart_url: routes.cart_url }}</div>
+        </div>
+        <div class="added-notification__button-area">
+          <button type="button" class="added-notification__close notabutton" aria-label="{{ 'general.accessibility_labels.close' | t | escape }}">
+            {%- render 'svg-x' -%}
+          </button>
+        </div>
+      </added-notification>
+    </template>
+  {%- endif -%}
+
+  <div data-sprite-container=""><svg id="reusable-icons" xmlns="http://www.w3.org/2000/svg" style="height: 0; width: 0; position: absolute; visibility: hidden">
+  
+
+  <symbol id="reuse-arrow-thin-right" viewBox="0 0 23 40">
+    <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M17.427 20L0 2.57298L2.57298 0L22.573 20L2.57298 40L0 37.427L17.427 20Z"></path>
+  </symbol>
+
+  <symbol id="reuse-arrow-thin-left" viewBox="0 0 23 40">
+    <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M5.14595 20L22.573 2.57298L20 0L0 20L20 40L22.573 37.427L5.14595 20Z"></path>
+  </symbol>
+</svg></div>
+
+  <script type="text/javascript" src="{{ 'modal.min.js' | asset_url }}"></script>
+  <script type="text/javascript" src="{{ 'jquery.min.js'  | asset_url }}"></script>
+  <script type="text/javascript" src="{{ 'slick.min.js'  | asset_url }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script type="text/javascript" src="{{ 'custom.js'  | asset_url }}"></script>
+</body>
+</html>

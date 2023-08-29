@@ -1,0 +1,209 @@
+<div class="custom-columns" style="text-align: center;">
+  <div class="custom-columns__slider" data-flickity='{ "cellAlign": "left", "contain": true, "prevNextButtons": true, "autoPlay": true, "wrapAround": false, "pageDots": false }'>
+    {% for i in (1..3) %}
+      {% assign image_num = "image_" | append: i %}
+      {% assign image = section.settings[image_num] %}
+      <div class="custom-columns__slide" style="text-align: center;">
+        <img src="{{ image.src | img_url: 'large' }}" alt="{{ image.alt }}" style="margin:20px; display: block; margin-left: auto; margin-right: auto;">
+        {% assign heading_id = "image_" | append: i | append: "_heading" %}
+        <h2 style="text-align: center; margin-bottom: 0;">{{ section.settings[heading_id] }}</h2>
+        {% assign subheading_id = "image_" | append: i | append: "_subheading" %}
+        <p style="text-align: center; margin-top: 0; font-weight: bold;">{{ section.settings[subheading_id] }}</p>
+        {% assign text_body_id = "image_" | append: i | append: "_text_body" %}
+        {% assign text_body_italic_id = "image_" | append: i | append: "_text_body_italic" %}
+        <p style="text-align: center; margin-top: 10px; {% if section.settings[text_body_italic_id] %} font-style: italic; {% endif %}">{{ section.settings[text_body_id] | newline_to_br }}</p>
+        {% assign button_url_id = "image_" | append: i | append: "_button_url" %}
+        {% assign button_url_id = "image_" | append: i | append: "_button_url" %}
+        {% assign button_text_id = "image_" | append: i | append: "_button_text" %}
+        <a href="{{ section.settings[button_url_id] }}" class="custom-columns__button" style="display: block; margin: 20px auto; padding: 10px 20px; background-color: #0081A3; color: #FFFFFF; text-align: center; text-decoration: none;">{{ section.settings[button_text_id] }}</a>
+        </div>
+    {% endfor %}
+  </div>
+  {% if template == 'customer/account' %}
+<a href="#" class="custom-columns__delete" data-section-id="{{ section.id }}">Delete this section</a>
+{% endif %}
+</div>
+<script>
+  $(document).ready(function() {
+    $('.custom-columns__delete').on('click', function(e) {
+      e.preventDefault();
+      var sectionId = $(this).data('section-id');
+      Shopify.removeSection(sectionId);
+    });
+    if ( $(window).width() < 768) {
+      $('.custom-columns__slider').flickity({
+        "wrapAround": true,
+        "autoPlay": false
+      });
+    }
+  });
+</script>
+<style>
+  .custom-columns__slider {
+    margin: 20px 0;
+  }
+  .custom-columns__slide {
+  width: calc(100% / 3 - 40px); /* 3 columns on desktop, 1 column on mobile */
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+}
+  @media (max-width: 768px) {
+.custom-columns__slide {
+width: 100%;
+}
+}
+.custom-columns__delete {
+display: block;
+text-align: center;
+margin: 20px 0;
+}
+
+.custom-columns__button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  margin-bottom: 0.5em;
+  background-color: #0081A3;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+  
+</style>
+
+
+{% schema %}
+{
+"name": "Test Section",
+"settings": [
+{
+"type": "image_picker",
+"id": "image_1",
+"label": "Image 1"
+},
+{
+"type": "text",
+"id": "image_1_heading",
+"label": "Heading for Image 1"
+},
+{
+"type": "text",
+"id": "image_1_subheading",
+"label": "Subheading for Image 1"
+},
+{
+"type": "textarea",
+"id": "image_1_text_body",
+"label": "Text Body for Image 1"
+},
+{
+"type": "checkbox",
+"id": "image_1_text_body_italic",
+"label": "Make Text Body for Image 1 italic"
+},
+{
+"type": "text",
+"id": "image_1_button_url",
+"label": "Button URL for Image 1"
+},
+{
+"type": "text",
+"id": "image_1_button_text",
+"label": "Button Text for Image 1"
+},
+{
+"type": "image_picker",
+"id": "image_2",
+"label": "Image 2"
+},
+{
+"type": "text",
+"id": "image_2_heading",
+"label": "Heading for Image 2"
+},
+{
+"type": "text",
+"id": "image_2_subheading",
+"label": "Subheading for Image 2"
+},
+{
+"type": "textarea",
+"id": "image_2_text_body",
+"label": "Text Body for Image 2"
+},
+{
+"type": "checkbox",
+"id": "image_2_text_body_italic",
+"label": "Make Text Body for Image 2 italic"
+},
+{
+"type": "text",
+"id": "image_2_button_url",
+"label": "Button URL for Image 2"
+},
+{
+"type": "text",
+"id": "image_2_button_text",
+"label": "Button Text for Image 2"
+},
+{
+"type": "image_picker",
+"id": "image_3",
+"label": "Image 3"
+},
+{
+"type": "text",
+"id": "image_3_heading",
+"label": "Heading for Image 3"
+},
+{
+"type": "text",
+"id": "image_3_subheading",
+"label": "Subheading for Image 3"
+},
+{
+"type": "textarea",
+"id": "image_3_text_body",
+"label": "Text Body for Image 3"
+},
+{
+"type": "checkbox",
+"id": "image_3_text_body_italic",
+"label": "Make Text Body for Image 3 italic"
+},
+{
+"type": "text",
+"id": "image_3_button_url",
+"label": "Button URL for Image 3"
+},
+{
+"type": "text",
+"id": "image_3_button_text",
+"label": "Button Text for Image 3"
+}
+],
+  "presets": [
+      {
+        "name": "Test Section",
+        "settings": {}
+      }
+    ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  @media screen and (min-width: 768px) {
+  .custom-columns__slider .flickity-prev-next-button {
+    display: none;
+  }
+}
+{% endstylesheet %}
+
+{% javascript %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-n/AaLZpAuDwJ3N5o2BmJDR/5Qz5Fz5h2VJpHtxwI2rvWJ6pe2zjHqTjG+2h7jn/EbTpLrU6btU+6zf8l1dQ==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-bTFnGRr0qcZKb8cuZmJ2QKUHcFpMxuL6W9U6dc5lKcjGj2UJA5F/NF9KjAWwDzsn7VuE+S/ht9j90h/L/9ZjrXVZaXz/z2f2k2/Q2tZ1Q==" crossorigin="anonymous"></script>
+{% endjavascript %}

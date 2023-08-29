@@ -1,0 +1,395 @@
+{
+  "sections": {
+    "16359276425da8ce46": {
+      "type": "slideshow",
+      "blocks": {
+        "16359276425da8ce46-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Men-03.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Men-Mobile-03.jpg",
+            "slide_link": "shopify:\/\/pages\/women",
+            "subheading": "",
+            "title": "FINEST LEATHER JACKETS",
+            "heading_max_width": 680,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "SHOP MEN",
+            "button_url_1": "",
+            "button_label_2": "SHOP WOMEN",
+            "button_url_2": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "cabbff2b-fb30-44b3-a60f-3a3c8ae3908f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eviternity-02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Eviternity-Mobile-02.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Men's Shoes",
+            "heading_max_width": 800,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Shop Now",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16359276425da8ce46-0",
+        "cabbff2b-fb30-44b3-a60f-3a3c8ae3908f"
+      ],
+      "settings": {
+        "height": "full",
+        "height_desktop": 840,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow",
+        "slide_transition": "fade",
+        "slide_navigation": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "68a2cf05-7425-4aaf-97b1-a0c611b9edc4": {
+      "type": "quote-slider",
+      "blocks": {
+        "template--20474332610847__68a2cf05-7425-4aaf-97b1-a0c611b9edc4-quote-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "“The perfect look and perfect fit”",
+            "logo": "shopify:\/\/shop_images\/Forbes-Logo.webp"
+          }
+        },
+        "template--20474332610847__68a2cf05-7425-4aaf-97b1-a0c611b9edc4-quote-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Impressed with the quality of its materials”",
+            "logo": "shopify:\/\/shop_images\/REFINERY29-Logo.webp"
+          }
+        },
+        "bd6d0191-20c9-40eb-a7fa-c5fb16ab36dd": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Luxe bag.. Anyone with a sense of style will love”",
+            "logo": "shopify:\/\/shop_images\/Esquire-Logo.webp"
+          }
+        },
+        "72f4a8a7-fc4d-4e7e-9b18-7cf0f2ae54fd": {
+          "type": "quote",
+          "settings": {
+            "quote": "“A solid brand for first-time buyers”",
+            "logo": "shopify:\/\/shop_images\/Men_sHealth-Logo.webp"
+          }
+        },
+        "9bbbc528-cb66-4ecb-975b-9541a63b9d90": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Bespoke comfort and quality at an incredibly affordable price”",
+            "logo": "shopify:\/\/shop_images\/Gearmoose-Logo.webp"
+          }
+        },
+        "163ce1d6-79d0-4239-bae1-af83bbe42473": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Tailor-made blazer without the bespoke price tag”",
+            "logo": "shopify:\/\/shop_images\/Elle-Logo.webp"
+          }
+        },
+        "ed9cfdc8-a06a-4a73-958a-8497394cca07": {
+          "type": "quote",
+          "settings": {
+            "quote": "“The affordability mixed with the quality is wild”",
+            "logo": "shopify:\/\/shop_images\/nextluxury-logo.webp"
+          }
+        },
+        "18fce4bb-0d7c-4180-8f0b-3cba3adb9ebf": {
+          "type": "quote",
+          "settings": {
+            "quote": "“The Jacket Maker, where tech meets on-demand leather jackets”",
+            "logo": "shopify:\/\/shop_images\/askmen_logo.webp"
+          }
+        },
+        "5bbeb4e9-0840-442d-8b49-7d1fb41600d4": {
+          "type": "quote",
+          "settings": {
+            "quote": "“We received the jackets—it was love at first sight”",
+            "logo": "shopify:\/\/shop_images\/Coveteur-Logo.webp"
+          }
+        },
+        "1f6501c9-9069-4a5b-a08c-b0e26d88cd31": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Made from supremely durable full-grain leather”",
+            "logo": "shopify:\/\/shop_images\/Mashable-Logo.webp"
+          }
+        },
+        "b88446e0-d9f1-4f40-8f86-7f3a0d73449b": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Investment-worthy pieces handmade from top-notch raw materials”",
+            "logo": "shopify:\/\/shop_images\/Buzzfeed-Logo.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--20474332610847__68a2cf05-7425-4aaf-97b1-a0c611b9edc4-quote-1",
+        "template--20474332610847__68a2cf05-7425-4aaf-97b1-a0c611b9edc4-quote-2",
+        "bd6d0191-20c9-40eb-a7fa-c5fb16ab36dd",
+        "72f4a8a7-fc4d-4e7e-9b18-7cf0f2ae54fd",
+        "9bbbc528-cb66-4ecb-975b-9541a63b9d90",
+        "163ce1d6-79d0-4239-bae1-af83bbe42473",
+        "ed9cfdc8-a06a-4a73-958a-8497394cca07",
+        "18fce4bb-0d7c-4180-8f0b-3cba3adb9ebf",
+        "5bbeb4e9-0840-442d-8b49-7d1fb41600d4",
+        "1f6501c9-9069-4a5b-a08c-b0e26d88cd31",
+        "b88446e0-d9f1-4f40-8f86-7f3a0d73449b"
+      ],
+      "settings": {
+        "title": "What people are saying",
+        "extraline": "Over 3000 5-Star Customer Reviews",
+        "stars_image": "shopify:\/\/shop_images\/5-Star-Icon-Black_400x65_508d6f8b-92bd-4f12-a27a-caa5c904eefe.png"
+      }
+    },
+    "16359285201c71bbb1": {
+      "type": "background-video",
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/30 seconds.mp4",
+        "video_external": "https:\/\/vimeo.com\/762940789",
+        "placeholder_image": "shopify:\/\/shop_images\/trucarry_homepage.jpg",
+        "subheading": "",
+        "title": "Eviternity",
+        "heading_max_width": 800,
+        "title_size": 42,
+        "title_size_mobile": 30,
+        "use_h1": false,
+        "text": "<p>Introducing made-to-last handcrafted leather shoes priced for everyone.<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "SHOP NOW",
+        "button_url_1": "shopify:\/\/pages\/eviternity",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "height_desktop": 620,
+        "height_mobile": 480,
+        "full_width": true,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "8ea6a01d-73ed-402c-8b4f-3f0a802626d7": {
+      "type": "featured-blocks",
+      "blocks": {
+        "template--20474332610847__8ea6a01d-73ed-402c-8b4f-3f0a802626d7-featuredblock-1": {
+          "type": "featuredblock",
+          "settings": {
+            "title": "Men's Jackets",
+            "image": "shopify:\/\/shop_images\/1400x1000-_1.jpg",
+            "url": "shopify:\/\/products\/adalyn-quilted-distressed-brown-leather-biker-jacket-html"
+          }
+        },
+        "template--20474332610847__8ea6a01d-73ed-402c-8b4f-3f0a802626d7-featuredblock-2": {
+          "type": "featuredblock",
+          "settings": {
+            "title": "Women's Jackets",
+            "image": "shopify:\/\/shop_images\/1400x1000-_2.jpg",
+            "url": "shopify:\/\/products\/air-rolf-brown-leather-bomber-jacket-html"
+          }
+        },
+        "42c32d08-9e41-498b-9599-66c32d2f73e3": {
+          "type": "featuredblock",
+          "settings": {
+            "title": "Men's Shoes",
+            "image": "shopify:\/\/shop_images\/1000x1000_1.jpg",
+            "url": "shopify:\/\/products\/air-rolf-black-leather-bomber-jacket-html"
+          }
+        },
+        "f95ba29f-2789-4dd1-b30b-772d20f66189": {
+          "type": "featuredblock",
+          "settings": {
+            "title": "Suede Jackets",
+            "image": "shopify:\/\/shop_images\/1000x1000-_2.jpg",
+            "url": "shopify:\/\/products\/alberto-white-shearling-black-leather-jacket-html"
+          }
+        },
+        "08894606-e89c-4dea-888c-6553fb35037a": {
+          "type": "featuredblock",
+          "settings": {
+            "title": "Leather Bags",
+            "image": "shopify:\/\/shop_images\/1000x1000-_3.jpg",
+            "url": "shopify:\/\/products\/armand-distressed-brown-leather-biker-jacket-html"
+          }
+        },
+        "64ee805e-ad2b-450d-8553-1448f7cb8f55": {
+          "type": "featuredblock",
+          "settings": {
+            "title": "Biker Jackets",
+            "image": "shopify:\/\/shop_images\/1000x1000-_5.jpg",
+            "url": "shopify:\/\/products\/alice-brown-double-breasted-leather-coat-html"
+          }
+        },
+        "86e0c9ab-4d2f-41f8-8f17-f83fac64a434": {
+          "type": "featuredblock",
+          "settings": {
+            "title": "Varsity Jackets",
+            "image": "shopify:\/\/shop_images\/1000x1000-_4.jpg",
+            "url": "shopify:\/\/products\/adalyn-quilted-mocha-suede-biker-jacket-html"
+          }
+        }
+      },
+      "block_order": [
+        "template--20474332610847__8ea6a01d-73ed-402c-8b4f-3f0a802626d7-featuredblock-1",
+        "template--20474332610847__8ea6a01d-73ed-402c-8b4f-3f0a802626d7-featuredblock-2",
+        "42c32d08-9e41-498b-9599-66c32d2f73e3",
+        "f95ba29f-2789-4dd1-b30b-772d20f66189",
+        "08894606-e89c-4dea-888c-6553fb35037a",
+        "64ee805e-ad2b-450d-8553-1448f7cb8f55",
+        "86e0c9ab-4d2f-41f8-8f17-f83fac64a434"
+      ],
+      "settings": {}
+    },
+    "16359278676808bea5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "frontpage",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 1,
+        "use_alt_bg": false,
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "3ba7f754-412e-42da-9bcd-0422958d4e95": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19881662087455__3ba7f754-412e-42da-9bcd-0422958d4e95-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "WHY THE JACKET MAKER",
+            "use_h1": false
+          }
+        },
+        "template--19881662087455__3ba7f754-412e-42da-9bcd-0422958d4e95-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Few years ago, we were looking for a leather jacket. Nothing special, the usual: fair price, great quality, clean design. we quickly realized that our options were limited. On one hand, we could buy from a luxury brand, which meant spending over a $1000 out of our student budget. On the other hand, buying a cheaper jacket from a fast-fashion brand would mean shopping for a jacket again, very soon. <\/p><p>Fed up, we did what all the cool entreprenuers do: build an empire.<br\/><br\/>No, not really. But we did build a team to create <strong>The Jacket Maker, <\/strong>where we ensure premium quality and fair prices by cutting out middlemen and storefront costs. As a result, you get one-click access to finest quality jackets that don't break your bank. <\/p>",
+            "enlarge_text": true
+          }
+        },
+        "db752db6-609e-4707-bd67-3408e429fa99": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE MORE",
+            "button_link": "shopify:\/\/pages\/our-story",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--19881662087455__3ba7f754-412e-42da-9bcd-0422958d4e95-heading-1",
+        "template--19881662087455__3ba7f754-412e-42da-9bcd-0422958d4e95-text-1",
+        "db752db6-609e-4707-bd67-3408e429fa99"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "7186c655-0a20-4826-ae01-4cec7ea4f81b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19881662087455__7186c655-0a20-4826-ae01-4cec7ea4f81b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Hear what our customers are saying",
+            "use_h1": false
+          }
+        },
+        "template--19881662087455__7186c655-0a20-4826-ae01-4cec7ea4f81b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"https:\/\/www.thejacketmaker.com\/reviews\" title=\"https:\/\/www.thejacketmaker.com\/reviews\">2650+ 5 Star Reviews<\/a><\/h6>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19881662087455__7186c655-0a20-4826-ae01-4cec7ea4f81b-heading-1",
+        "template--19881662087455__7186c655-0a20-4826-ae01-4cec7ea4f81b-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "16359281184fd0d618": {
+      "type": "testimonials",
+      "blocks": {
+        "16359281184fd0d618-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Such a great style! The fit guide was spot on and I’m obsessed with this jacket. The green is a...",
+            "author": "Shannon Castleberry",
+            "image": "shopify:\/\/shop_images\/Ionic_Black_Leather_Jacket_3-19-1661685993526.webp",
+            "image_caption": "Shop Ionic",
+            "link": "shopify:\/\/products\/ionic-black-leather-jacket"
+          }
+        }
+      },
+      "block_order": [
+        "16359281184fd0d618-0"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "layout": "image-right",
+        "text_caps": false,
+        "quote_text_size": 20,
+        "quote_text_size_mobile": 20,
+        "image_shape": "landscape",
+        "use_alt_bg": false,
+        "autoplay": true,
+        "autoplay_speed": 15
+      }
+    },
+    "8a6afb14-55a1-49b3-a252-144895026109": {
+      "type": "rich-text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    }
+  },
+  "order": [
+    "16359276425da8ce46",
+    "68a2cf05-7425-4aaf-97b1-a0c611b9edc4",
+    "16359285201c71bbb1",
+    "8ea6a01d-73ed-402c-8b4f-3f0a802626d7",
+    "16359278676808bea5",
+    "3ba7f754-412e-42da-9bcd-0422958d4e95",
+    "7186c655-0a20-4826-ae01-4cec7ea4f81b",
+    "16359281184fd0d618",
+    "8a6afb14-55a1-49b3-a252-144895026109"
+  ]
+}

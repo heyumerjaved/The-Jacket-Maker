@@ -1,0 +1,52 @@
+{% if product.metafields.custom.flat_lay_images.value != blank %}
+<div id="section-id-{{ section.id }}"class="fully-spaced-row--medium"data-section-type="flat-lay">
+
+  <div class="container flat-lay-container">
+    <div class="flatlayslider-container">
+      <div class="flatlayslider">
+        {% for flatlayimage in product.metafields.custom.flat_lay_images.value %}
+          <div class="flatlayslide">
+            <a href="{{ flatlayimage.src | img_url: '2000x' }}" data-fancybox="images">
+              <img
+                src="{{ flatlayimage.src | img_url: '1000x' }}"
+                alt="flat lay image"
+                width="auto"
+                height="auto"
+                loading="lazy">
+                <span class="dark-overlay"></span>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="descriptiononside-container">
+      <div class="descriptiononside">
+        {{ section.settings.descriptivetext }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Flat Lay Section",
+    "class": "section-flat-lay",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "descriptivetext",
+        "label": "Description"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Flat Lay Section",
+        "settings": {}
+      }
+    ],
+    "enabled_on": {
+      "templates": ["product"]
+    }
+  }
+{% endschema %}

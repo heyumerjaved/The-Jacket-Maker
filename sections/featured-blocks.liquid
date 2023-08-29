@@ -1,0 +1,70 @@
+<div id="section-id-{{ section.id }}"
+    class="fully-spaced-row--medium"
+    data-section-type="featured-blocks">
+  
+    <div class="container-fluid">
+        <div class="featured-block-container">
+            {% for block in section.blocks %}
+                <div class="featured-block featuredblock-{{forloop.index}}">
+                    <a href="{{ block.settings.url }}">
+                        <img class="featured-block-image" src="{{ block.settings.image | img_url: "master" }}" alt="featured Image" width="auto" height="auto" loading="lazy">
+                        <div class="featured-block-overlay">
+                            <span>{{ block.settings.title }}</span>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+  </div>
+  
+  {% schema %}
+    {
+      "name": "Featured Blocks",
+      "class": "section-featured-blocks",
+      "settings": [
+      ],
+      "blocks": [
+        {
+          "type": "featuredblock",
+          "name": "Featured Blocks",
+          "settings": [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title",
+              "default": "Men's Jacket"
+            },
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+            },
+            {
+                "type": "url",
+                "id": "url",
+                "label": "URL"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Featured Blocks",
+          "settings": {},
+          "blocks": [
+            {
+              "type": "featuredblock",
+              "settings": {
+              }
+            },
+            {
+              "type": "featuredblock",
+              "settings": {
+              }
+            }
+          ]
+        }
+      ]
+    }
+  {% endschema %}

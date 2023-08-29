@@ -1,0 +1,29 @@
+<button data-toggle="modal" class="btn-invert" data-target="#myModal">Customize this product</button>
+  <!-- Modal markup -->
+  <div id="myModal" class="modal modal-md">
+    <div class="modal-dialog" id="template">
+        <div class="modal-content">
+            <div class="modal-close">&times;</div>
+            <h1>Customize this product</h1>
+            <form action="https://portal.thejacketmaker.com/shopify/product/customize" method="POST">
+                <input type="hidden" name="product_id" value="{{ productid }}">
+
+                <div class="flexible-layout flexible-layout--form">
+                    <div class="column column--half">
+                        <label for="contact_name">Name</label>
+                        <input type="text" autocomplete="name" required="" id="contact_name" name="name" value="">
+                    </div>
+                    <div class="column column--half">
+                        <label for="contact_email">Email</label>
+                        <input type="email" required="" id="contact_email" class="email" name="email" autocomplete="email" spellcheck="false" autocapitalize="off" value="">
+                    </div>
+                    <div class="column column--full">
+                        <label for="message">Message</label>
+                        <textarea id="message" required="" name="description" spellcheck="false"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>

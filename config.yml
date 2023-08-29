@@ -1,0 +1,6 @@
+development:
+  password: "shptka_a51596fb3e5411b51909f92775c9a962"
+  theme_id: "157204807967"
+  store: "35d34f-2.myshopify.com"
+  ignore_files:
+    - config/settings_data.json

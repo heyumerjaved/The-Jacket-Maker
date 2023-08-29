@@ -1,0 +1,102 @@
+<div id="section-id-{{ section.id }}"
+  class="fully-spaced-row--medium"
+  data-section-type="quote-slider">
+
+  <div class="container">
+
+    {% if section.settings.title != blank %}
+    <div class="align-center spaced-column">
+      <h2 class="majortitle in-content h1-style">{{ section.settings.title }}</h2>
+    </div>
+    {% endif %}
+
+    <div class="quotes-carousel">
+      {% for block in section.blocks %}
+        <p class="logo-list-content-wrap">{{ block.settings.quote }}</p>
+      {% endfor %}
+    </div>
+
+    <div class="logos-carousel">
+      {% for block in section.blocks %}
+        <div class="logo-list-image-wrap">
+          <img src="{{ block.settings.logo | img_url: "300x" }}" alt="logo" width="auto" height="auto" loading="lazy">
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if section.settings.extraline != blank %}
+    <p class="extra-text-line dark-text">{{ section.settings.extraline }}</p>
+    {% endif %}
+
+    {% if section.settings.stars_image != blank %}
+    <img class="stars-image" src="{{ section.settings.stars_image | img_url: "300x" }}" alt="stars image" width="auto" height="auto" loading="lazy">
+    {% endif %}
+
+  </div>
+
+</div>
+
+{% schema %}
+  {
+    "name": "Quote Slider",
+    "class": "section-quote-slider",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "What people are saying"
+      },
+      {
+        "type": "text",
+        "id": "extraline",
+        "label": "Extra Line",
+        "default": "Over 100,000 5-Star Customer Reviews"
+      },
+      {
+        "type": "image_picker",
+        "id": "stars_image",
+        "label": "Stars Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "quote",
+        "name": "Quote Slider",
+        "settings": [
+          {
+            "type": "text",
+            "id": "quote",
+            "label": "Quote",
+            "default": "“Durable, versatile boots that are comfortable and don’t cost a fortune.”",
+            "info": "For best results, keep the word count similar in each quote"
+          },
+          {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo",
+            "info": "Keep the dimensions same for all logos"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Quote Slider",
+        "settings": {},
+        "blocks": [
+          {
+            "type": "quote",
+            "settings": {
+            }
+          },
+          {
+            "type": "quote",
+            "settings": {
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

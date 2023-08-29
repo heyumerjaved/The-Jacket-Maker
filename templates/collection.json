@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": true,
+        "heading_image_height": "huge",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "show_disabled_filters": true,
+        "ajax_products": true,
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "filter_two_columns": false,
+        "coll_show_sort": true,
+        "coll_show_feat": false,
+        "enable_subcoll": true,
+        "subcoll_menu": "main-menu",
+        "subcoll_style": "buttons",
+        "subcoll_gall_shape": "sq",
+        "image_position": "center center",
+        "subcoll_gall_enable_margin": true,
+        "subcoll_gall_full_width": true,
+        "subcoll_gall_overlay_style": "shadow",
+        "subcoll_gall_text_alignment": "center center",
+        "subcoll_gall_mobile_layout": "2"
+      }
+    },
+    "e1bdd90d-5e21-4a0a-93e1-c2127b5dc4fc": {
+      "type": "contact-form",
+      "blocks": {
+        "template--19881661989151__e1bdd90d-5e21-4a0a-93e1-c2127b5dc4fc-16894270383eace692-0": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "template--19881661989151__e1bdd90d-5e21-4a0a-93e1-c2127b5dc4fc-16894270383eace692-1": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "588dfc77-ecd4-4eb8-a2c8-b3c8af06d1ae": {
+          "type": "custom_dropdown",
+          "settings": {
+            "title": "What do you want to make?",
+            "multiple_options": "Option 1\nOption 2\nOption 3",
+            "half_width": true
+          }
+        },
+        "023cf28b-32d3-463e-9165-97fb73e38b79": {
+          "type": "phone_input",
+          "settings": {
+            "required": true,
+            "half_width": true
+          }
+        },
+        "51468797-02c9-452b-a926-1d09def42f27": {
+          "type": "custom_dropdown",
+          "settings": {
+            "title": "Quantity",
+            "multiple_options": "Option 1\nOption 2\nOption 3",
+            "half_width": true
+          }
+        },
+        "c741a2fa-efd4-425b-8bfe-c3ddcd0cba7a": {
+          "type": "custom_dropdown",
+          "settings": {
+            "title": "Country",
+            "multiple_options": "Option 1\nOption 2\nOption 3",
+            "half_width": true
+          }
+        },
+        "fa154c7b-8e34-4591-b6f5-4ae3750429a5": {
+          "type": "custom_dropdown",
+          "settings": {
+            "title": "Gender",
+            "multiple_options": "Male\nFemale",
+            "half_width": true
+          }
+        },
+        "0cba55bd-a033-4fd7-8f58-d7a3cc9e10ba": {
+          "type": "custom_input",
+          "settings": {
+            "title": "Upload: Art work",
+            "type": "text",
+            "required": false,
+            "half_width": true
+          }
+        },
+        "template--19881661989151__e1bdd90d-5e21-4a0a-93e1-c2127b5dc4fc-16894270383eace692-2": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19881661989151__e1bdd90d-5e21-4a0a-93e1-c2127b5dc4fc-16894270383eace692-0",
+        "template--19881661989151__e1bdd90d-5e21-4a0a-93e1-c2127b5dc4fc-16894270383eace692-1",
+        "588dfc77-ecd4-4eb8-a2c8-b3c8af06d1ae",
+        "023cf28b-32d3-463e-9165-97fb73e38b79",
+        "51468797-02c9-452b-a926-1d09def42f27",
+        "c741a2fa-efd4-425b-8bfe-c3ddcd0cba7a",
+        "fa154c7b-8e34-4591-b6f5-4ae3750429a5",
+        "0cba55bd-a033-4fd7-8f58-d7a3cc9e10ba",
+        "template--19881661989151__e1bdd90d-5e21-4a0a-93e1-c2127b5dc4fc-16894270383eace692-2"
+      ],
+      "settings": {
+        "contact_title": "Customize Your Own",
+        "contact_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e1bdd90d-5e21-4a0a-93e1-c2127b5dc4fc"
+  ]
+}

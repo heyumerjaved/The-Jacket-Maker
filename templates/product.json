@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "3246130e-8879-4ba8-aeff-6c91a8b6b8d4": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "a551e945-5f58-4d00-b28e-93c7b15d81bd": {
+          "type": "text",
+          "settings": {
+            "text": "Free shipping and 30 days to return",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "6263b80a-1129-45e4-9bb4-860a4de588f8": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p> Size up if you are in between sizes<\/p>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_single": false,
+            "select_first_variant": true,
+            "variant_style": "dropdown",
+            "disable_unavailable_variants": true,
+            "show_size_chart": true,
+            "size_chart_variant": "Size",
+            "size_chart_page": "men-size-chart"
+          }
+        },
+        "5e221ace-d213-458b-90e4-dc0379fc7b5f": {
+          "type": "custom_swatches",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": false
+          }
+        },
+        "cee22e6a-5db8-4da3-a3c0-1134bf8c7f59": {
+          "type": "popup",
+          "settings": {
+            "text": "Customize this Product",
+            "style": "secondary",
+            "page": "contact",
+            "show_in_quickbuy": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": true,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "d3d15f18-7803-40f2-8fa8-0ffad18f9d14": {
+          "type": "accordion",
+          "settings": {
+            "title": "REVIEWS (9)",
+            "icon": "star",
+            "content": "<p>Collapsible tab content<\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "215ebb52-d9c1-43b3-bddc-6cf518f07104": {
+          "type": "accordion",
+          "settings": {
+            "title": "SHIPPING & RETURNS",
+            "icon": "",
+            "content": "<p><strong>Shipping<\/strong><\/p><ul><li>All orders are shipped for free using express worldwide delivery<\/li><li>Standard size orders are shipped within 5-10 working days<\/li><li>Made-to-measure orders are normally shipped within 5-7 weeks<\/li><\/ul><p><a href=\"https:\/\/www.thejacketmaker.com\/help#delivery-policy\">Delivery Policy<\/a><\/p><p><\/p><p><strong>Returns<\/strong><\/p><ul><li>We have a hassle-free return policy of 30 days<\/li><li>If you don't like the items, or they don't fit, you can just request a return online within 30 days of receipt<\/li><li>Standard size orders can be returned for a full refund or exchange<\/li><li>Made-to-measure or other customized orders can only be returned for alteration<\/li><\/ul><p><a href=\"https:\/\/www.thejacketmaker.com\/help#refunds-returns\" title=\"https:\/\/www.thejacketmaker.com\/help#refunds-returns\">Shipping Details<\/a><\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "3d2850fb-354a-4e17-9e17-ca4be79d5b92": {
+          "type": "accordion",
+          "settings": {
+            "title": "CARE DETAILS",
+            "icon": "",
+            "content": "<p>Do not wash, bleach, tumble dry or ironSoft dry clean only<\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "ce883322-baef-4f31-9811-1629147f7dbf": {
+          "type": "accordion",
+          "settings": {
+            "title": "SIZE & FIT",
+            "icon": "",
+            "content": "<ul><li>Our jackets fit true to size. If you are between sizes, we recommend sizing up.<\/li><\/ul><p><a href=\"https:\/\/www.thejacketmaker.com\/Aaron-Black-Leather-Bomber-Jacket.html#\" title=\"https:\/\/www.thejacketmaker.com\/Aaron-Black-Leather-Bomber-Jacket.html#\">View complete size chart<\/a><\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "3246130e-8879-4ba8-aeff-6c91a8b6b8d4",
+        "a551e945-5f58-4d00-b28e-93c7b15d81bd",
+        "divider",
+        "6263b80a-1129-45e4-9bb4-860a4de588f8",
+        "variant_picker",
+        "5e221ace-d213-458b-90e4-dc0379fc7b5f",
+        "buy_buttons",
+        "cee22e6a-5db8-4da3-a3c0-1134bf8c7f59",
+        "description",
+        "d3d15f18-7803-40f2-8fa8-0ffad18f9d14",
+        "215ebb52-d9c1-43b3-bddc-6cf518f07104",
+        "3d2850fb-354a-4e17-9e17-ca4be79d5b92",
+        "ce883322-baef-4f31-9811-1629147f7dbf"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "large",
+        "gallery_layout": "carousel-beside",
+        "enable_zoom": true,
+        "enable_video_looping": true,
+        "enable_var_img_grouping": false,
+        "var_img_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "15878058f9a4bded3776": {
+      "type": "apps",
+      "blocks": {
+        "2d9efc57-1efd-4adb-916b-392a37fe9454": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "2d9efc57-1efd-4adb-916b-392a37fe9454"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "ba7f84df-cc34-4379-98e6-529f09e6975e": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Air_Rolf_Black_Leather_Bomber_Jacket_2-18-1661674498705.webp",
+        "image_width": 700,
+        "subheading": "Specification",
+        "title": "Ionic black leather jacket",
+        "use_h1": false,
+        "text": "<p><strong>- Outer Shell: Real Leather<br\/>- Leather Type: Sheep skin<br\/>- Leather Finish: Semi-aniline<br\/>- Inner Shell: Quilted Polyester Lining (Fleece on Collar)<br\/>- Closure Style: Zipper<br\/>- Collar Style: Rib Knit<br\/>- Cuffs Style: Rib Knit<br\/>- Inside Pockets: Two<br\/>- Outside Pockets: Two<br\/>- Color: Black<\/strong><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": true
+      }
+    },
+    "53f4d1fc-f483-4640-80b8-832afa0d469c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19881662546207__53f4d1fc-f483-4640-80b8-832afa0d469c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "The Unboxing Experience",
+            "use_h1": false
+          }
+        },
+        "template--19881662546207__53f4d1fc-f483-4640-80b8-832afa0d469c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our New & Improved Front Lock Mailer Packaging Delivers A First Look Beyond The Ordinary<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19881662546207__53f4d1fc-f483-4640-80b8-832afa0d469c-heading-1",
+        "template--19881662546207__53f4d1fc-f483-4640-80b8-832afa0d469c-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "d0024270-6c57-4ef6-9ddd-87191538d472": {
+      "type": "background-video",
+      "settings": {
+        "video_shopify": "shopify:\/\/files\/videos\/The Jacket Maker Unboxing Video.mp4",
+        "video_external": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "subheading": "",
+        "title": "",
+        "heading_max_width": 800,
+        "title_size": 84,
+        "title_size_mobile": 32,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 5
+      }
+    },
+    "3ee82664-6ec8-4e18-a909-21d326a81919": {
+      "type": "flat-lay",
+      "blocks": {
+        "template--20474332905759__3ee82664-6ec8-4e18-a909-21d326a81919-flatlay-1": {
+          "type": "flatlay",
+          "settings": {}
+        },
+        "template--20474332905759__3ee82664-6ec8-4e18-a909-21d326a81919-flatlay-2": {
+          "type": "flatlay",
+          "settings": {}
+        },
+        "7de40cc3-2ff8-402e-92d9-7ecdd86160ab": {
+          "type": "flatlay",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--20474332905759__3ee82664-6ec8-4e18-a909-21d326a81919-flatlay-1",
+        "template--20474332905759__3ee82664-6ec8-4e18-a909-21d326a81919-flatlay-2",
+        "7de40cc3-2ff8-402e-92d9-7ecdd86160ab"
+      ],
+      "settings": {
+        "descriptivetext": "<p>{{ product.metafields.custom.description | metafield_tag }}<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "15878058f9a4bded3776",
+    "ba7f84df-cc34-4379-98e6-529f09e6975e",
+    "53f4d1fc-f483-4640-80b8-832afa0d469c",
+    "d0024270-6c57-4ef6-9ddd-87191538d472",
+    "recommendations",
+    "3ee82664-6ec8-4e18-a909-21d326a81919"
+  ]
+}
