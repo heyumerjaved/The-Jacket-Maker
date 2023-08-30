@@ -8,7 +8,7 @@ $(document).ready(function(){
         asNavFor: '.logos-carousel',
         autoplay: true,
         autoplaySpeed: 3000,
-        adaptiveHeight: true
+        adaptiveHeight: false
     });
     $('.logos-carousel').slick({
         infinite: true,
