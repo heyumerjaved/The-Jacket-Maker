@@ -3,11 +3,41 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "full_width": true
+        "full_width": false
+      }
+    },
+    "04adeb04-d84a-44a5-832a-56c3124607d1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20474332840223__04adeb04-d84a-44a5-832a-56c3124607d1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR STORY",
+            "use_h1": false
+          }
+        },
+        "template--20474332840223__04adeb04-d84a-44a5-832a-56c3124607d1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20474332840223__04adeb04-d84a-44a5-832a-56c3124607d1-heading-1",
+        "template--20474332840223__04adeb04-d84a-44a5-832a-56c3124607d1-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "04adeb04-d84a-44a5-832a-56c3124607d1"
   ]
 }

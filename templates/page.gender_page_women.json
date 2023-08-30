@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "f27cc21e-c77f-4ada-99a7-6663ce3e9c93": {
+      "type": "collection-list",
+      "blocks": {
+        "5b8b9728-5baf-4be7-adef-10fd865a01f6": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-leather-jackets",
+            "image": "shopify:\/\/shop_images\/Women-Leather-Jackets-1582971755151.webp"
+          }
+        },
+        "20e02585-3e32-4198-a947-a71a085e1fca": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-bomber-jackets",
+            "image": "shopify:\/\/shop_images\/Women-Leather-Bomber-Jackets-1582971772570.webp"
+          }
+        },
+        "f71edc38-369f-4392-9345-baccd40904c8": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-biker-jackets",
+            "image": "shopify:\/\/shop_images\/Women-Biker-Leather-Jackets-1582971780515.webp"
+          }
+        },
+        "a236a4dc-3c4c-49b1-8734-dc6a33fbd058": {
+          "type": "collection",
+          "settings": {
+            "collection": "women-leather-coats",
+            "image": "shopify:\/\/shop_images\/Women-Trench-Coats-1582971855982.webp"
+          }
+        },
+        "f461a860-4542-456f-a5b3-4338143bcddd": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-leather-blazers",
+            "image": "shopify:\/\/shop_images\/Women-Leather-Blazers-1582971765016.webp"
+          }
+        }
+      },
+      "block_order": [
+        "5b8b9728-5baf-4be7-adef-10fd865a01f6",
+        "20e02585-3e32-4198-a947-a71a085e1fca",
+        "f71edc38-369f-4392-9345-baccd40904c8",
+        "a236a4dc-3c4c-49b1-8734-dc6a33fbd058",
+        "f461a860-4542-456f-a5b3-4338143bcddd"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "use_alt_bg": false,
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f27cc21e-c77f-4ada-99a7-6663ce3e9c93"
+  ]
+}

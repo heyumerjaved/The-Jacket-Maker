@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "full_width": false
+      }
+    },
+    "0feee7ec-ba32-4326-8e2a-bc6df0396747": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/header-bespoke-a69336cfcafe83b9b8ea5f8a0115ec41be1557165ac8b3df705f20f57cc7cd1b.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "Our Bespoke Process",
+        "heading_max_width": 780,
+        "title_size": 62,
+        "title_size_mobile": 36,
+        "use_h1": false,
+        "text": "<p>Fusing bespoke with digital technology<\/p>",
+        "enlarge_text": true,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "8f650f20-08a6-4b90-9af7-ea26195a6274": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20699012399391__8f650f20-08a6-4b90-9af7-ea26195a6274-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "template--20699012399391__8f650f20-08a6-4b90-9af7-ea26195a6274-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Bespoke Process is truly bespoke to the roots. We may best be described as digital bespoke, following the traditions of bespoke and fusing it with digital technology.<br\/><br\/>Despite operating as an e-commerce, as opposed to a physical store for traditional bespoke, we have not lost bespoke essence. For every custom order, we go through the decades old process of consultation, taking exact measurements, making unique patterns, offering widest fabric selection possible & giving limitless customization options. E-commerce enables us to offer bespoke services across the globe and make it accessible for all.<\/p><p>We believe bespoke is all about a discovery of perfection and an expression which shouldn’t be limited by options, after all this is what sets bespoke apart from made to measure.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20699012399391__8f650f20-08a6-4b90-9af7-ea26195a6274-heading-1",
+        "template--20699012399391__8f650f20-08a6-4b90-9af7-ea26195a6274-text-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "use_alt_bg": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0feee7ec-ba32-4326-8e2a-bc6df0396747",
+    "8f650f20-08a6-4b90-9af7-ea26195a6274"
+  ]
+}

@@ -51,10 +51,6 @@
             "size_chart_page": "men-size-chart"
           }
         },
-        "618a2784-5f00-4dba-9416-fdf0fbb4358f": {
-          "type": "customizethisproduct",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -63,6 +59,10 @@
             "show_backorder_text": false,
             "show_pickup_availability": false
           }
+        },
+        "618a2784-5f00-4dba-9416-fdf0fbb4358f": {
+          "type": "customizethisproduct",
+          "settings": {}
         },
         "88984ba5-14c9-49d8-b1bc-5296cb4157cb": {
           "type": "accordion",
@@ -132,8 +132,8 @@
         "4887f261-c162-4aaa-9368-bef269addc86",
         "divider",
         "variant_picker",
-        "618a2784-5f00-4dba-9416-fdf0fbb4358f",
         "buy_buttons",
+        "618a2784-5f00-4dba-9416-fdf0fbb4358f",
         "88984ba5-14c9-49d8-b1bc-5296cb4157cb",
         "d3d15f18-7803-40f2-8fa8-0ffad18f9d14",
         "215ebb52-d9c1-43b3-bddc-6cf518f07104",
@@ -239,6 +239,12 @@
         "cart_icon": "basket"
       }
     },
+    "b7afc90b-7b96-404f-abfc-5ac61b11509e": {
+      "type": "flat-lay",
+      "settings": {
+        "descriptivetext": "<h6>Specifications:<\/h6><h2>{{ product.title }}<\/h2><p>{{ product.metafields.custom.description | metafield_tag }}<\/p>"
+      }
+    },
     "26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff": {
       "type": "rich-text",
       "blocks": {
@@ -291,12 +297,6 @@
         "full_width": true,
         "overlay_style": "shadow"
       }
-    },
-    "b7afc90b-7b96-404f-abfc-5ac61b11509e": {
-      "type": "flat-lay",
-      "settings": {
-        "descriptivetext": "<h2>{{ product.title }}<\/h2><h3>Specifications:<\/h3><p>{{ product.metafields.custom.description | metafield_tag }}<\/p>"
-      }
     }
   },
   "order": [
@@ -305,8 +305,8 @@
     "8f714e09-34f6-4756-96ba-889c37443c28",
     "42a9f7b7-3439-4272-a18e-e5afe5076da3",
     "836a5530-2cc8-4a07-ba31-0d3870395102",
+    "b7afc90b-7b96-404f-abfc-5ac61b11509e",
     "26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff",
-    "687a8380-c47a-462f-ba22-ca2205a8558f",
-    "b7afc90b-7b96-404f-abfc-5ac61b11509e"
+    "687a8380-c47a-462f-ba22-ca2205a8558f"
   ]
 }

@@ -2,10 +2,93 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "blocks": {
+        "9b9260c5-6a35-4565-bc1a-bc0e189688a4": {
+          "type": "image",
+          "settings": {
+            "collection": "mens-leather-jackets",
+            "image": "shopify:\/\/shop_images\/Leather_Jackets.webp"
+          }
+        },
+        "334423de-e5e6-465b-9614-adc70e1ac6a3": {
+          "type": "image",
+          "settings": {
+            "collection": "custom-leather-bags",
+            "image": "shopify:\/\/shop_images\/2-_The_Carismatico_Black_Leather_Messenger_Bag_Made_Of_Premium_Full_Grain_Real_Leather-23-1666108182281.jpg"
+          }
+        },
+        "4cf532c0-799c-4bf0-a57e-14e92b96f932": {
+          "type": "image",
+          "settings": {
+            "collection": "custom-shoes",
+            "image": "shopify:\/\/shop_images\/08_Knight_Derby_Brown_Suede_Leather_Boots_Side_Back_Walk-11-1674651086673_9d8894de-7cf0-4968-a439-30177951e700.webp"
+          }
+        },
+        "fdf2ff4e-7ff4-4398-bc79-5bf58e4b2577": {
+          "type": "image",
+          "settings": {
+            "collection": "mens-bomber-jackets",
+            "image": "shopify:\/\/shop_images\/Bomber_Jackets.webp"
+          }
+        },
+        "0a077d17-1cbd-43e2-a022-99954dac65af": {
+          "type": "image",
+          "settings": {
+            "collection": "mens-biker-jackets",
+            "image": "shopify:\/\/shop_images\/Mens-Biker-Leather-Jackets-1582970679266.webp"
+          }
+        },
+        "462a8849-479c-433d-8542-473267d2684f": {
+          "type": "image",
+          "settings": {
+            "collection": "mens-suede-jackets",
+            "image": "shopify:\/\/shop_images\/Mens-Suede-Jackets-1582975727446.webp"
+          }
+        },
+        "338736cf-099b-4a12-8a6d-c5ab959ba14c": {
+          "type": "image",
+          "settings": {
+            "collection": "mens-winter-coats",
+            "image": "shopify:\/\/shop_images\/Mens-Leather-Coats-1582970965715.webp"
+          }
+        },
+        "531753f0-2fa6-41f3-846a-f97aa26b9099": {
+          "type": "image",
+          "settings": {
+            "collection": "mens-winter-jackets",
+            "image": "shopify:\/\/shop_images\/Mens-Winter-Jackets-1582970827918.webp"
+          }
+        },
+        "f2989b4a-0c05-4a95-95dc-5c3e1df4894c": {
+          "type": "image",
+          "settings": {
+            "collection": "mens-blazers",
+            "image": "shopify:\/\/shop_images\/Mens-Leather-Blazers-1582970774384.webp"
+          }
+        },
+        "3e765b9e-b4dc-4ee1-b7c3-6ecb98a94fba": {
+          "type": "image",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "9b9260c5-6a35-4565-bc1a-bc0e189688a4",
+        "334423de-e5e6-465b-9614-adc70e1ac6a3",
+        "4cf532c0-799c-4bf0-a57e-14e92b96f932",
+        "fdf2ff4e-7ff4-4398-bc79-5bf58e4b2577",
+        "0a077d17-1cbd-43e2-a022-99954dac65af",
+        "462a8849-479c-433d-8542-473267d2684f",
+        "338736cf-099b-4a12-8a6d-c5ab959ba14c",
+        "531753f0-2fa6-41f3-846a-f97aa26b9099",
+        "f2989b4a-0c05-4a95-95dc-5c3e1df4894c",
+        "3e765b9e-b4dc-4ee1-b7c3-6ecb98a94fba"
+      ],
       "settings": {
-        "title": "Our collections",
-        "display_type": "all",
-        "grid": 5
+        "title": "Men's Jacket",
+        "display_type": "selected",
+        "grid": 2
       }
     }
   },

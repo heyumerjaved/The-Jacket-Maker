@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "full_width": true
+      }
+    },
+    "e84bc830-d904-415e-9213-9a1f3f625942": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20698511048991__e84bc830-d904-415e-9213-9a1f3f625942-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR STORY",
+            "use_h1": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20698511048991__e84bc830-d904-415e-9213-9a1f3f625942-heading-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "13e7bd47-0bbe-43de-98a3-ac180aa9c581": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20698511048991__13e7bd47-0bbe-43de-98a3-ac180aa9c581-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Any wardrobe is simply incomplete without a great leather jacket. A search for a good leather jacket is exactly where The Jacket Maker started, when some friends and I were in the market, looking for leather jackets ourselves.<\/p><p>We were fed up with either choosing between fast-fashion or overpriced luxury. On one side were luxury brands, which meant spending over a $1000 and on the other side was fast-fashion which meant buying a product that wouldn't last for years to come. Where were the other options?<\/p><p>After much digging and research, it turned out that the explanation for higher prices of leather outerwear was; long supply chain of distributors, wholesalers, retailers coupled with costly marketing campaigns. This meant only a minute fraction of the price consumers paid went into the product itself.<\/p><p>We could identify that the problem was solvable and consumers like us deserve better, so we started The Jacket Maker.<\/p><p>The challenge we took on ourselves was simple, make it easy for people to buy high quality leather jacket at accessible pricing.<\/p><p>By cutting out the unnecessary expenses, designing and manufacturing in-house, selling directly to consumers and utilizing just-in-time production we are able to provide higher quality leather jackets at a fraction of market price.<\/p><p>We know that electrifying feeling of wearing a leather jacket and believe everyone has the right to have that feeling.<\/p><p><strong>- Syed Obaid, CEO & Co-Founder<\/strong><\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20698511048991__13e7bd47-0bbe-43de-98a3-ac180aa9c581-text-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "left",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "c3c4ec3a-4399-47f8-b89e-5c1ca633a7ff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20698511048991__c3c4ec3a-4399-47f8-b89e-5c1ca633a7ff-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "THE JACKET MAKER DIFFERENCE",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20698511048991__c3c4ec3a-4399-47f8-b89e-5c1ca633a7ff-heading-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "73916580-e69f-447d-b2f9-e059c07dd87d": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2-_The_Carismatico_Black_Leather_Messenger_Bag_Made_Of_Premium_Full_Grain_Real_Leather-23-1666108182281_1.jpg",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Finest Raw Materials",
+        "use_h1": false,
+        "text": "<p>It all starts with the raw materials and since we carry our life in our jackets, we don’t use anything but only the best possible materials. All our jackets are made with full grain natural leather, YKK Zippers, and polyester lining.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "23537236-3611-4793-bdf2-d66650ae6ede": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Men-27s-Danny-Quilted-Brown-Leather-Biker-Jacket45614548-8-1557200563048.jpg",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Exquisite Craftsmanship",
+        "use_h1": false,
+        "text": "<p>Our products are handmade, one at a time by one craftsman with precision and attention to detail, unlike the mass chain production. Not opting for chain production means higher cost but a better quality that you will notice in our stitching.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "29ce48b1-2774-4e69-917b-b3c7ba52bcb3": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/download.webp",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Fair Pricing - Direct to You",
+        "use_h1": false,
+        "text": "<p>With our direct-to-consumer approach, our products come at ¼ the price of what luxury brands would sell them for. We keep our prices lower by cutting out middlemen, storefront costs and inefficient marketing spent. Additionally, with just-in-time production.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "5748aae8-ab23-48cb-853a-2fe623a8ef54": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed-2.png",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Sizes that fit all",
+        "use_h1": false,
+        "text": "<p>Inclusivity is a buzzword but we take it quite seriously. We truly know there is something electrifying about wearing a great leather jacket, we ensure no one misses out on this. All our jackets are offered in eight standard sizes from XS to 4XL and made-to-measure-option.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "9bdabdd6-8ebd-4bdb-9bbc-25da9fd9e40f": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-08-28_123417.jpg",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Discovery & Expression",
+        "use_h1": false,
+        "text": "<p>As no two persons are alike, we believe in discovery and expression. Our customers can make 100% custom, bespoke jackets from scratch with the help of our design consultants. Thus, fostering diversity and enabling our customers to fully express themselves and be apart from the rest.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "8b943aa7-0277-403d-a75c-2d59969a36d7": {
+      "type": "gallery",
+      "blocks": {
+        "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.webp",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.webp",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.webp",
+            "enlarge_image": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.webp",
+            "enlarge_image": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-1",
+        "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-2",
+        "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-3",
+        "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-4"
+      ],
+      "settings": {
+        "grid": 4,
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": false,
+        "enable_row_spacing": false,
+        "full_width": true,
+        "use_alt_bg": false,
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e84bc830-d904-415e-9213-9a1f3f625942",
+    "13e7bd47-0bbe-43de-98a3-ac180aa9c581",
+    "c3c4ec3a-4399-47f8-b89e-5c1ca633a7ff",
+    "73916580-e69f-447d-b2f9-e059c07dd87d",
+    "23537236-3611-4793-bdf2-d66650ae6ede",
+    "29ce48b1-2774-4e69-917b-b3c7ba52bcb3",
+    "5748aae8-ab23-48cb-853a-2fe623a8ef54",
+    "9bdabdd6-8ebd-4bdb-9bbc-25da9fd9e40f",
+    "8b943aa7-0277-403d-a75c-2d59969a36d7"
+  ]
+}
