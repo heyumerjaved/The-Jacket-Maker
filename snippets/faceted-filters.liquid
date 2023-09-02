@@ -209,5 +209,25 @@
         <button type="submit" class="btn">{{ 'collections.filtering.submit' | t }}</button>
       </noscript>
     </form>
+    {% if firstlist != blank %}
+      <div class="custom-filter-wrapper">
+        <div class="custom-filter-title">{{ firstlist.title }}</div>
+        <ul>
+        {% for link in linklists[firstlist].links %}
+          <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+    {% if secondlist != blank %}
+      <div class="custom-filter-wrapper">
+        <div class="custom-filter-title">{{ secondlist.title }}</div>
+        <ul>
+        {% for link in linklists[secondlist].links %}
+          <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
   </div>
 </div>

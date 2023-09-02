@@ -291,7 +291,7 @@
 
     <div class="filter-container filter-container--side{% if section.settings.collapse_tag_sidebar_by_default == false %} filter-container--show-filters-desktop{% endif %}">
       {% if section.settings.coll_show_sort or show_filters %}
-        {% render 'faceted-filters', filter_context: collection, clear_url: collection.url, current_sort: current_sort %}
+        {% render 'faceted-filters', filter_context: collection, clear_url: collection.url, current_sort: current_sort, firstlist: section.settings.animal_linklist, secondlist: section.settings.color_linklist %}
       {% endif %}
 
       <div class="filters-adjacent collection-listing" data-ajax-container>
@@ -479,6 +479,18 @@
         "label": "Enable filtering",
         "info": "[Customize filters](\/admin\/menus)",
         "default": true
+      },
+      {
+        "type": "link_list",
+        "id": "animal_linklist",
+        "label": "List for Animals Filter",
+        "info": "You can set this from Navigation"
+      },
+      {
+        "type": "link_list",
+        "id": "color_linklist",
+        "label": "List for Colors Filter",
+        "info": "You can set this from Navigation"
       },
       {
         "type": "checkbox",

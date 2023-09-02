@@ -5,7 +5,8 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
@@ -62,7 +63,8 @@
         },
         "5e221ace-d213-458b-90e4-dc0379fc7b5f": {
           "type": "custom_swatches",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -261,27 +263,8 @@
         "grid": 5
       }
     },
-    "3ee82664-6ec8-4e18-a909-21d326a81919": {
+    "5082c3ac-97c5-4188-86ba-3af5602f6edc": {
       "type": "flat-lay",
-      "blocks": {
-        "template--20474332905759__3ee82664-6ec8-4e18-a909-21d326a81919-flatlay-1": {
-          "type": "flatlay",
-          "settings": {}
-        },
-        "template--20474332905759__3ee82664-6ec8-4e18-a909-21d326a81919-flatlay-2": {
-          "type": "flatlay",
-          "settings": {}
-        },
-        "7de40cc3-2ff8-402e-92d9-7ecdd86160ab": {
-          "type": "flatlay",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "template--20474332905759__3ee82664-6ec8-4e18-a909-21d326a81919-flatlay-1",
-        "template--20474332905759__3ee82664-6ec8-4e18-a909-21d326a81919-flatlay-2",
-        "7de40cc3-2ff8-402e-92d9-7ecdd86160ab"
-      ],
       "settings": {
         "descriptivetext": "<p>{{ product.metafields.custom.description | metafield_tag }}<\/p>"
       }
@@ -294,6 +277,6 @@
     "53f4d1fc-f483-4640-80b8-832afa0d469c",
     "d0024270-6c57-4ef6-9ddd-87191538d472",
     "recommendations",
-    "3ee82664-6ec8-4e18-a909-21d326a81919"
+    "5082c3ac-97c5-4188-86ba-3af5602f6edc"
   ]
 }
