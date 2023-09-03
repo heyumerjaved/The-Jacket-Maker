@@ -1,5 +1,6 @@
 {% assign main_image = section.settings.main_image %}
 {% assign logo_image = section.settings.logo_image %}
+{% assign main_text = section.settings.maintext %}
 
 {% if main_image != blank %}
 <div id="carousel-header" class="eviternity carousel slide" data-ride="carousel">
@@ -9,9 +10,10 @@
                 {% if logo_image != blank %}
                 <img width="200" class="mbm" src="{{ logo_image | img_url: '200x' }}">
                 {% endif %}
-                <span class="pull-left">
-                    {{ page.content }}
-                </span>
+
+                {% if main_text != blank %}
+                <span class="main-heading">{{ main_text }}</span>
+                {% endif %}
             </p>
         </div>
     </div>
@@ -41,6 +43,13 @@
     width: 100%;
     height: 800px;
 }
+
+.eviternity-page .eviternity .head .main-heading{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
 .eviternity-page .eviternity .head .logo{
     display: flex;
     flex-direction: column;
@@ -48,19 +57,19 @@
     align-items: center;
     height: 100%;
     justify-content: center;
-    max-width: 615px;
+    max-width: 655px;
     width: 100%;
     margin: auto;
     text-align: center;
     line-height: 20px;
     transform: translateY(-40px);
     padding: 0 30px;
+    gap: 40px;
 }
 
 .eviternity-page .eviternity .head .logo img{
     width: 200px;
     height: auto;
-    margin-bottom: 1rem;
 }
 </style>
 
@@ -80,6 +89,12 @@
             "id": "logo_image",
             "label": "Logo",
             "info": "To be placed on main image"
+        },
+        {
+            "type": "text",
+            "id": "maintext",
+            "label": "Main Text",
+            "info": "To be placed on main image below the logo"
         }
     ]
 }

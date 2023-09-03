@@ -1,7 +1,7 @@
 {% assign main_product = section.settings.main_product %}
 
-<div class="trucarry-main-container">
-    <div class="trucarry-slider-wrapper">
+<div class="eviternity-main-container">
+    <div class="eviternity-slider-wrapper">
         {% for block in section.blocks %}
 
         {% assign slideimage = block.settings.slide_image %}
@@ -9,13 +9,13 @@
         {% assign slidetext = block.settings.slide_text %}
 
         <div class="outer-container">
-            <div class="flex-container-tc">
-                <div class="image-wrapper-tc">
+            <div class="flex-container-ev">
+                <div class="image-wrapper-ev">
                     <img src="{{ slideimage | img_url: 'master' }}" alt="Slider Image">
                 </div>
-                <div class="flex-content-tc">
-                    <div class="slider-heading-tc">{{ slideheading }}</div>
-                    <div class="slider-text-tc">{{ slidetext }}</div>
+                <div class="flex-content-ev">
+                    <div class="slider-heading-ev">{{ slideheading }}</div>
+                    <div class="slider-text-ev">{{ slidetext }}</div>
                 </div>
             </div>
         </div>
@@ -23,55 +23,77 @@
     </div>
 </div>
 <style>
-    .trucarry-slider-wrapper{
+    .eviternity-slider-wrapper{
         max-width: 1100px;
         margin: auto;
         padding: 0 30px;
     }
 
-    .trucarry-slider-wrapper img{
+    .eviternity-slider-wrapper img{
         display: block;
         width: 100%;
     }
 
-    .flex-container-tc > div{
+    .flex-container-ev > div{
         flex-basis: 50%;
     }
 
-    .slider-heading-tc{
+    .slider-heading-ev{
         font-weight: bold;
         font-size: 24px;
         margin-bottom: 1rem;
     }
 
-    .trucarry-main-container .slick-dots li{
+    .eviternity-main-container .slick-dots li{
         margin: 0;
     }
 
+    .eviternity-main-container{
+        margin-bottom: 3rem;
+    }
+
     @media screen and (min-width: 751px){
-        .flex-container-tc {
+        .flex-container-ev {
             display: flex;
             align-items: center;
-            gap: 60px;
+        }
+        .flex-container-ev .flex-content-ev{
+            padding-left: 60px;
         }
 
-        .trucarry-main-container .outer-container{
-            padding-bottom: 1rem;
+        .outer-container:nth-child(even) .flex-container-ev .flex-content-ev{
+            padding-right: 60px;
+        }
+
+        .outer-container:nth-child(even) .flex-container-ev{
+            flex-direction: row-reverse;
         }
     }
 
     @media screen and (max-width: 750px){
-        .trucarry-slider-wrapper .slick-dots{
+        .eviternity-slider-wrapper .slick-dots{
             margin-inline-start: 0;
             left: 0;
+        }
+
+        .eviternity-slider-wrapper{
+            padding: 0;
+        }
+
+        .flex-content-ev{
+            padding: 30px
+        }
+
+        .image-wrapper-ev{
+            padding: 0 15px;
         }
     }
 </style>
 
 {% schema %}
     {
-      "name": "Trucarry Carousel",
-      "class": "trucarry-carousel",
+      "name": "Eviternity Carousel",
+      "class": "eviternity-carousel",
       "max_blocks": 8,
       "settings": [
       ],
@@ -100,7 +122,7 @@
       ],
       "presets": [
         {
-          "name": "TruCarry Carousel",
+          "name": "Eviternity Carousel",
           "settings": {
           },
           "blocks": [

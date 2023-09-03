@@ -46,31 +46,62 @@ $('.trucarry-slider-wrapper').slick({
   dots: true,
 });
 
-// Function to initialize the slider
-function initSlider() {
+// Function to initialize the slider TC
+function initTCSlider() {
   $('.tc-grid-container').slick({
     arrows: true,
     dots: true
   });
 }
 
-// Function to destroy the slider
-function destroySlider() {
+// Function to destroy the slider TC
+function destroyTCSlider() {
   $('.tc-grid-container').slick('unslick');
 }
 
-// Check window size on page load
+// Check window size on page load TC
 $(document).ready(function() {
   if ($(window).width() <= 750) {
-    initSlider();
+    initTCSlider();
   }
 });
 
-// Check window size when it's resized
+// Check window size when it's resized TC
 $(window).resize(function() {
   if ($(window).width() <= 750) {
-    initSlider();
+    initTCSlider();
   } else {
-    destroySlider();
+    destroyTCSlider();
+  }
+});
+
+// Function to initialize the slider EV
+function initEVSlider() {
+  $('.ev-grid-container').slick({
+    arrows: true,
+    dots: true,
+    slidesToShow: 2,
+    slidesToScroll: 2
+  });
+}
+
+// Function to destroy the slider EV
+function destroyEVSlider() {
+  $('.ev-grid-container').slick('unslick');
+}
+
+// Check window size on page load EV
+$(document).ready(function() {
+  if ($(window).width() <= 750) {
+    initEVSlider();
+  }
+});
+
+// Check window size when it's resized EV
+$(window).resize(function() {
+  if ($(window).width() <= 750) {
+    initEVSlider();
+  } else {
+    destroyEVSlider();
   }
 });

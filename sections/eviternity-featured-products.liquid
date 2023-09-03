@@ -1,0 +1,224 @@
+{% assign main_product = section.settings.main_product %}
+{% assign main_image = section.settings.main_image %}
+{% assign overlaytext = section.settings.overlaytext %}
+
+<div class="eviternity-fp-wrapper">
+
+    {% if main_image != blank %}
+    <div class="featured-product-ev">
+        {% if main_product != blank %}
+        <a href="{{ main_product.url }}">
+        {% endif %}
+            {% if overlaytext != blank %}
+                <div class="overlapping-title">
+                    <span>{{ overlaytext }}</span>
+                </div>
+            {% endif %}
+            <img src="{{ main_image | img_url: 'master' }}" alt="featured image">
+        {% if main_product != blank %}
+        </a>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="multiple-products-ev">
+        <div class="ev-grid-container">
+            {% for block in section.blocks %}
+
+            {% assign mpproduct = block.settings.mp_product %}
+            {% assign mpimage = block.settings.mp_image %}
+            {% assign smalltext = block.settings.smalltext %}
+            {% assign smallprice = mpproduct.variants.first.price | money %}
+
+            {% if mpimage == blank %}
+                {% assign mpimage = mpproduct.featured_image %}
+            {% endif %}
+
+            {% if mpproduct != blank %}
+            <div class="ev-grid-item">
+                <div class="mp-product">
+                    <a href="{{ mpproduct.url }}">
+                        <img src="{{ mpimage | img_url: 'medium' }}" alt="featured small product">
+                        <div class="ev-product-info">
+                            <div class="smalltext">{{ smalltext }}</div>
+                            <div class="smallprice">{{ smallprice }}</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<style>
+    .eviternity-fp-wrapper{
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 30px;
+        display: flex;
+        gap: 30px;
+        padding-bottom: 6rem;
+    }
+
+    .featured-product-ev img{
+        display: block;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .featured-product-ev a{
+        position: relative;
+    }
+
+    .eviternity-fp-wrapper .featured-product-ev{
+        flex-basis: 38%;
+    }
+    
+    .eviternity-fp-wrapper .multiple-products-ev{
+        flex-basis: 62%
+    }
+    
+    .ev-grid-item img{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .mp-product a{
+        position: relative;
+    }
+
+    .ev-product-info{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 4px 10px;
+        color: #666;
+        font-size: 11.2px;
+    }
+
+    .overlapping-title{
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 40px;
+        margin-bottom: 1rem;
+    }
+
+    .eviternity-fp-wrapper .slick-prev:before, .eviternity-fp-wrapper .slick-next:before{
+        color: black;
+    }
+
+    .eviternity-fp-wrapper .slick-initialized .slick-slide{
+        margin: 0 15px;
+    }
+
+    .eviternity-fp-wrapper .slick-initialized .slick-list{
+        margin: 0 -15px;
+    }
+
+    @media screen and (max-width: 750px){
+        .eviternity-fp-wrapper{
+            display: block;
+        }
+
+        .featured-product-ev{
+            margin-bottom: 30px;
+        }
+
+        .featured-product-ev a:hover{
+            text-decoration: underline;
+        }
+    }
+
+    @media screen and (min-width: 751px){
+        .overlapping-title{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            line-height: 40px;
+            pointer-events: none;
+            margin-bottom: 0;
+        }
+        
+        .ev-grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            grid-gap: 30px; 
+        }
+    }
+</style>
+
+{% schema %}
+    {
+      "name": "Eviternity Products",
+      "class": "eviternity-featured-products",
+      "max_blocks": 6,
+      "settings": [
+        {
+            "type": "product",
+            "id": "main_product",
+            "label": "Featured Product"
+        },
+        {
+            "type": "image_picker",
+            "id": "main_image",
+            "label": "Featured Image"
+        },
+        {
+            "type": "text",
+            "id": "overlaytext",
+            "label": "Text"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "product",
+          "name": "Product",
+          "settings": [
+            {
+                "type": "product",
+                "id": "mp_product",
+                "label": "Product"
+            },
+            {
+                "type": "image_picker",
+                "id": "mp_image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "smalltext",
+                "label": "Text"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Eviternity Products",
+          "settings": {
+          },
+          "blocks": [
+          ]
+        }
+      ]
+    }
+  {% endschema %}

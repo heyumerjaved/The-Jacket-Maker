@@ -3,30 +3,23 @@
     "main": {
       "type": "main-page-eviternity",
       "settings": {
-        "main_image": "shopify:\/\/shop_images\/01-header-d3c803ab6c2c14a09ec348a3ff24b913f3e4238e01f41a3876a35dd17cf3795b.jpg",
-        "logo_image": "shopify:\/\/shop_images\/trucarry_logo.png"
+        "main_image": "shopify:\/\/shop_images\/ev-hero-863cdb7d484e25d772da0996.png",
+        "logo_image": "shopify:\/\/shop_images\/logo-white-0717fa5f9e100b8063bf0b8f31f2d0da9747aa477288144c0328814e28030a82.svg",
+        "maintext": "Made To Last Handcrafted Leather Shoes"
       }
     },
     "8f5cf3ba-92d4-4a99-810c-519fa0d45791": {
       "type": "rich-text",
       "blocks": {
-        "d0d3ca59-c834-419f-87a1-97cfae917000": {
-          "type": "heading",
-          "settings": {
-            "title": "Handmade Minimalist Leather Bags",
-            "use_h1": false
-          }
-        },
         "bb6d3645-d7f4-4ba1-b79d-db7eb6ba031a": {
           "type": "text",
           "settings": {
-            "text": "<p>Transcending the style binary with minimalist inspiration in focus, our first leather bags collection embodies the versatility of simplicity.<\/p>",
-            "enlarge_text": true
+            "text": "<p>Grounded in tradition yet embracing modernity, Eviternity’s first collection is an assemblage of enduring leather shoes & boots. Crafted from the finest leathers, it is a testament to human hand ingenuity, bringing footwear staples that transcend the typical transience of trends always remaining at the heart of your wardrobe.<\/p>",
+            "enlarge_text": false
           }
         }
       },
       "block_order": [
-        "d0d3ca59-c834-419f-87a1-97cfae917000",
         "bb6d3645-d7f4-4ba1-b79d-db7eb6ba031a"
       ],
       "settings": {
@@ -36,94 +29,201 @@
         "use_alt_bg": false
       }
     },
-    "84a7278e-1546-40e9-9fa1-6abaf587b99d": {
-      "type": "trucarry-featured-products",
+    "828aed6e-7261-4b18-95ce-fd25dc567443": {
+      "type": "eviternity-featured-products",
       "blocks": {
-        "7ca02ebd-0df8-4721-8abe-d0bb6d8126aa": {
+        "82bc4c7e-c2dc-472a-be66-734a8f945a90": {
           "type": "product",
           "settings": {
-            "mp_product": "the-philos-black-leather-backpack",
+            "mp_product": "attorney-derby-black-leather-shoes-html",
+            "smalltext": "Black"
+          }
+        },
+        "cfb419a7-afc5-42af-9923-9b9d8d22b530": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-brown-leather-shoes-html",
+            "smalltext": "Dark Brown"
+          }
+        },
+        "09bd9ed6-700d-4fcd-82f1-a2785ad25542": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-brown-nubuck-leather-shoes-html",
             "smalltext": "Brown"
           }
         },
-        "5ecfe987-e7f5-4572-92f7-335e3ebefd7d": {
+        "bdca46ea-f2a1-4740-acc4-c7182d245fcb": {
           "type": "product",
           "settings": {
-            "mp_product": "the-philos-black-leather-backpack",
-            "mp_image": "shopify:\/\/shop_images\/02-_The_Philos_Brown_Leather_Backpack_front-3-1666105573812_e0a54a8e-eb62-4d00-a092-f76ae7575b12.jpg",
+            "mp_product": "attorney-derby-midnight-blue-suede-leather-shoes-html",
+            "smalltext": "Blue"
+          }
+        },
+        "8b1de6f4-85e3-4e5f-b88d-6ee519d9260b": {
+          "type": "product",
+          "settings": {
+            "mp_product": "baxton-brown-leather-loafers-html",
             "smalltext": "Brown"
           }
         },
-        "dd2b829d-4bc8-4833-817a-e01462c010c8": {
+        "42a9ade4-defe-4a26-a98b-878ed2b62fa5": {
           "type": "product",
           "settings": {
-            "mp_product": "the-philos-black-leather-backpack",
-            "mp_image": "shopify:\/\/shop_images\/02--The-Philos-Navy-Blue-Leather-Backpack-front-3-1666634069825.jpg",
-            "smalltext": "Navy Blue"
-          }
-        },
-        "a455e300-eb1d-45af-9d20-bc7942a557ab": {
-          "type": "product",
-          "settings": {
-            "mp_product": "the-philos-black-leather-backpack",
-            "smalltext": "Green"
+            "mp_product": "boston-double-monk-strap-black-leather-shoes-html",
+            "smalltext": "Black"
           }
         }
       },
       "block_order": [
-        "7ca02ebd-0df8-4721-8abe-d0bb6d8126aa",
-        "5ecfe987-e7f5-4572-92f7-335e3ebefd7d",
-        "dd2b829d-4bc8-4833-817a-e01462c010c8",
-        "a455e300-eb1d-45af-9d20-bc7942a557ab"
+        "82bc4c7e-c2dc-472a-be66-734a8f945a90",
+        "cfb419a7-afc5-42af-9923-9b9d8d22b530",
+        "09bd9ed6-700d-4fcd-82f1-a2785ad25542",
+        "bdca46ea-f2a1-4740-acc4-c7182d245fcb",
+        "8b1de6f4-85e3-4e5f-b88d-6ee519d9260b",
+        "42a9ade4-defe-4a26-a98b-878ed2b62fa5"
       ],
       "settings": {
-        "main_product": "the-philos-black-leather-backpack",
-        "main_image": "shopify:\/\/shop_images\/Backpack-1666635284235.jpg",
-        "overlaytext": "Philos Backpack"
+        "main_product": "attorney-derby-black-leather-shoes-html",
+        "main_image": "shopify:\/\/shop_images\/07_Professor_Oxford_Black_Leathe.png",
+        "overlaytext": "Professor Oxford"
       }
     },
-    "be16f625-335c-46c8-8004-394d5c6728d3": {
-      "type": "trucarry-featured-products",
+    "32c56252-a103-4f5d-8da2-68ab60147185": {
+      "type": "eviternity-featured-products",
       "blocks": {
-        "ec79098a-ccd8-46ea-aa9f-e6fab958c31f": {
+        "46c47ecc-c3be-44e4-a62a-1e95f6fc68ba": {
           "type": "product",
           "settings": {
-            "mp_product": "aaron-brown-leather-bomber-jacket-html",
-            "smalltext": ""
+            "mp_product": "attorney-derby-black-leather-shoes-html",
+            "smalltext": "Black"
           }
         },
-        "54b4ec9c-5f51-4181-aa0b-87874f0c5f2b": {
+        "867d4c11-d327-467e-8cc3-38de0ee68f13": {
           "type": "product",
           "settings": {
-            "mp_product": "abstract-maroon-leather-jacket-html",
-            "smalltext": ""
+            "mp_product": "attorney-derby-brown-leather-shoes-html",
+            "smalltext": "Dark Brown"
           }
         },
-        "982d7cac-709e-48c1-a799-8635cb4e8366": {
+        "cc5ea4d5-b849-4a53-89fe-efd02fbe1413": {
           "type": "product",
           "settings": {
-            "mp_product": "adalyn-quilted-black-leather-biker-jacket-html",
-            "smalltext": ""
+            "mp_product": "attorney-derby-brown-nubuck-leather-shoes-html",
+            "smalltext": "Brown"
           }
         },
-        "a9c03ac8-cd49-4588-b6b0-2ed9be54ca3d": {
+        "836e33a6-25fb-4084-9d58-63acf0bbb869": {
           "type": "product",
           "settings": {
-            "mp_product": "adornica-black-leather-jacket-html",
-            "smalltext": "Bags and Jackets"
+            "mp_product": "attorney-derby-midnight-blue-suede-leather-shoes-html",
+            "smalltext": "Blue"
+          }
+        },
+        "4272106f-caef-4456-bd87-793d8204a74c": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "mp_product": "baxton-brown-leather-loafers-html",
+            "smalltext": "Brown"
+          }
+        },
+        "068b64c7-c8ae-4b07-84e2-3cf627e320b2": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "mp_product": "boston-double-monk-strap-black-leather-shoes-html",
+            "smalltext": "Black"
           }
         }
       },
       "block_order": [
-        "ec79098a-ccd8-46ea-aa9f-e6fab958c31f",
-        "54b4ec9c-5f51-4181-aa0b-87874f0c5f2b",
-        "982d7cac-709e-48c1-a799-8635cb4e8366",
-        "a9c03ac8-cd49-4588-b6b0-2ed9be54ca3d"
+        "46c47ecc-c3be-44e4-a62a-1e95f6fc68ba",
+        "867d4c11-d327-467e-8cc3-38de0ee68f13",
+        "cc5ea4d5-b849-4a53-89fe-efd02fbe1413",
+        "836e33a6-25fb-4084-9d58-63acf0bbb869",
+        "4272106f-caef-4456-bd87-793d8204a74c",
+        "068b64c7-c8ae-4b07-84e2-3cf627e320b2"
       ],
       "settings": {
-        "main_product": "abstract-maroon-leather-jacket-html",
-        "main_image": "shopify:\/\/shop_images\/01-header-d3c803ab6c2c14a09ec348a3ff24b913f3e4238e01f41a3876a35dd17cf3795b.jpg",
-        "overlaytext": "Bags & Jackets"
+        "main_product": "attorney-derby-black-leather-shoes-html",
+        "main_image": "shopify:\/\/shop_images\/07_Professor_Oxford_Black_Leathe.png",
+        "overlaytext": "Professor Oxford"
+      }
+    },
+    "048f829e-e119-4a6c-a800-ae413201cbe0": {
+      "type": "rich-text",
+      "blocks": {
+        "d0737201-5011-4c2b-8996-5fa44bebdb29": {
+          "type": "heading",
+          "settings": {
+            "title": "Why Eviternity?",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "d0737201-5011-4c2b-8996-5fa44bebdb29"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "b29f7161-1bb4-4f49-b4c1-a16c6e3af97b": {
+      "type": "eviternity-carousel",
+      "blocks": {
+        "fd8c81fd-0228-4c67-88d5-80cdf21edc4d": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/1_1e78aedd-4b5a-4aa0-97d9-727a50d2a67e.jpg",
+            "slide_heading": "Finest Full Grain Leathers",
+            "slide_text": "<p><em><strong>Cowhide leather uppers, naturally milled soft leather lining & premium leather outsoles.<\/strong><\/em><\/p><p>With a supreme focus on quality at Eviternity, we create footwear that won't falter against the trials of everyday life. Where other brands may be tempted to use lower-grade materials, we opt for the finest leathers. All our products are crafted from full-grain cowhide leather, which is unparalleled in its softness and durability. It's a material that develops an exclusive patina as it ages - each pair becoming unique in form and function.<\/p>"
+          }
+        },
+        "31885f86-b8d7-4850-891b-cc3bf952e6df": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/2_53e655cf-e298-4179-b5dc-0da4ac6db407.jpg",
+            "slide_heading": "Truly & Expertly Handmade",
+            "slide_text": "<p><em><strong>Over 250 operations performed by hand, including stitching, cutting, sole compression & lasting.<\/strong><\/em><\/p><p>We believe craftsmanship and quality are words with immense value that require sight and sentiment in equal measure. In each Eviternity pair, you will witness a tangible embodiment of effort, passion, and skill where beauty truly lies. From the sole to the insole to the heels and stitching, it is carefully planned, crafted, and thoughtfully executed for an end result far exceeding any production line shoe. With over 250 operations performed by hand over two weeks, mastery truly shines through each shoe.<\/p>"
+          }
+        },
+        "6ed3b0e4-0fd0-4d57-962f-e8cd0b4ae3ec": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/3_62c0c4c0-971f-4d28-a279-4a6cfab8d83c.jpg",
+            "slide_heading": "Finest Full Grain Leathers",
+            "slide_text": "<p><em><strong>Cowhide leather uppers, naturally milled soft leather lining & premium leather outsoles.<\/strong><\/em><\/p><p>With a supreme focus on quality at Eviternity, we create footwear that won't falter against the trials of everyday life. Where other brands may be tempted to use lower-grade materials, we opt for the finest leathers. All our products are crafted from full-grain cowhide leather, which is unparalleled in its softness and durability. It's a material that develops an exclusive patina as it ages - each pair becoming unique in form and function.<\/p>"
+          }
+        },
+        "76067cf5-8fe5-4849-ba7d-ea18605c3b1f": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/4_b17e9e2d-daef-491d-a523-417d7bc2e4b7.jpg",
+            "slide_heading": "Truly & Expertly Handmade",
+            "slide_text": "<p><em><strong>Over 250 operations performed by hand, including stitching, cutting, sole compression & lasting.<\/strong><\/em><\/p><p>We believe craftsmanship and quality are words with immense value that require sight and sentiment in equal measure. In each Eviternity pair, you will witness a tangible embodiment of effort, passion, and skill where beauty truly lies. From the sole to the insole to the heels and stitching, it is carefully planned, crafted, and thoughtfully executed for an end result far exceeding any production line shoe. With over 250 operations performed by hand over two weeks, mastery truly shines through each shoe.<\/p>"
+          }
+        },
+        "33b53707-0676-4678-8414-ecd9c4f560f5": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/5_ec01571b-7203-446c-9f52-370f2f15a0e4.jpg",
+            "slide_heading": "Finest Full Grain Leathers",
+            "slide_text": "<p><em><strong>Cowhide leather uppers, naturally milled soft leather lining & premium leather outsoles.<\/strong><\/em><\/p><p>With a supreme focus on quality at Eviternity, we create footwear that won't falter against the trials of everyday life. Where other brands may be tempted to use lower-grade materials, we opt for the finest leathers. All our products are crafted from full-grain cowhide leather, which is unparalleled in its softness and durability. It's a material that develops an exclusive patina as it ages - each pair becoming unique in form and function.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fd8c81fd-0228-4c67-88d5-80cdf21edc4d",
+        "31885f86-b8d7-4850-891b-cc3bf952e6df",
+        "6ed3b0e4-0fd0-4d57-962f-e8cd0b4ae3ec",
+        "76067cf5-8fe5-4849-ba7d-ea18605c3b1f",
+        "33b53707-0676-4678-8414-ecd9c4f560f5"
+      ],
+      "settings": {
       }
     },
     "be8d56e0-ccf7-492c-b2c6-386410b2886c": {
@@ -143,90 +243,15 @@
         "full_width": true,
         "overlay_style": "shadow"
       }
-    },
-    "68a23324-bca7-4c1d-bc7d-42761859dd92": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20785090560287__68a23324-bca7-4c1d-bc7d-42761859dd92-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "The TruCarry Promise",
-            "use_h1": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20785090560287__68a23324-bca7-4c1d-bc7d-42761859dd92-heading-1"
-      ],
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "use_alt_bg": false
-      }
-    },
-    "f25f9c0f-8d13-40c0-afe9-03acb03a5dcd": {
-      "type": "trucarry-carousel",
-      "blocks": {
-        "40f188cf-668a-4ccc-b2f2-a84852ac0a5e": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/1.jpg",
-            "slide_heading": "Naturally Milled Full-Grain Leather",
-            "slide_text": "<p>Crafted from the finest naturally milled cow-hide leather with distinct lines & grain, TruCarry bags will develop a gorgeous patina & unique character as you do.<\/p>"
-          }
-        },
-        "efe29d0b-b39f-45b7-ab21-49229e86d519": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/2.jpg",
-            "slide_heading": "Durable & Designed To Last",
-            "slide_text": "<p>We are proudly \"anti-disposable.\" Handcrafted in small batches with painstaking attention to detail, delivering flawless stitching, fine edges & curves, TruCarry bags are high quality and made to last.<\/p>"
-          }
-        },
-        "4ae44721-14c3-43bc-8903-3cb4ea3c2660": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/3.jpg",
-            "slide_heading": "Short Supply Chain, Honest Prices",
-            "slide_text": "<p>TruCarry bags come straight from us to you. Unlike luxury houses' superfluous supply chains, ours is streamlined, allowing us to keep our prices consistently low & fair so you never have to pay for crazy markups.<\/p>"
-          }
-        },
-        "43160cd9-3a52-4f4b-ad34-a177aaf47db0": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/4.jpg",
-            "slide_heading": "High-Grade Raw Materials",
-            "slide_text": "<p>We believe in the adage that it's what is inside that counts the most that's why TruCarry bags are always crafted from full-grain leather, premium cotton twill lining & chrome finished rust-proof accessories.<\/p>"
-          }
-        },
-        "9c64db85-9b4d-4165-8d7d-eee7eae88c63": {
-          "type": "slide",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/5.jpg",
-            "slide_heading": "Your TruCarry, Your Way",
-            "slide_text": "<p>Carrying our legacy & intrinsic appreciation for creativity & expression, all TruCarry products are up for customization. Your TruCarry should speak to your truest self & we are all here for it.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "40f188cf-668a-4ccc-b2f2-a84852ac0a5e",
-        "efe29d0b-b39f-45b7-ab21-49229e86d519",
-        "4ae44721-14c3-43bc-8903-3cb4ea3c2660",
-        "43160cd9-3a52-4f4b-ad34-a177aaf47db0",
-        "9c64db85-9b4d-4165-8d7d-eee7eae88c63"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
     "8f5cf3ba-92d4-4a99-810c-519fa0d45791",
-    "84a7278e-1546-40e9-9fa1-6abaf587b99d",
-    "be16f625-335c-46c8-8004-394d5c6728d3",
-    "be8d56e0-ccf7-492c-b2c6-386410b2886c",
-    "68a23324-bca7-4c1d-bc7d-42761859dd92",
-    "f25f9c0f-8d13-40c0-afe9-03acb03a5dcd"
+    "828aed6e-7261-4b18-95ce-fd25dc567443",
+    "32c56252-a103-4f5d-8da2-68ab60147185",
+    "048f829e-e119-4a6c-a800-ae413201cbe0",
+    "b29f7161-1bb4-4f49-b4c1-a16c6e3af97b",
+    "be8d56e0-ccf7-492c-b2c6-386410b2886c"
   ]
 }
