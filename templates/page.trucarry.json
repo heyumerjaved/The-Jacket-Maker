@@ -1,13 +1,233 @@
 {
-    "sections": {
-      "main": {
-        "type": "main-page-trucarry",
-        "settings": {
-          "full_width": false
-        }
+  "sections": {
+    "main": {
+      "type": "main-page-trucarry",
+      "settings": {
+        "main_image": "shopify:\/\/shop_images\/01-header-d3c803ab6c2c14a09ec348a3ff24b913f3e4238e01f41a3876a35dd17cf3795b.jpg",
+        "logo_image": "shopify:\/\/shop_images\/trucarry_logo.png"
       }
     },
-    "order": [
-      "main"
-    ]
-  }
+    "8f5cf3ba-92d4-4a99-810c-519fa0d45791": {
+      "type": "rich-text",
+      "blocks": {
+        "d0d3ca59-c834-419f-87a1-97cfae917000": {
+          "type": "heading",
+          "settings": {
+            "title": "Handmade Minimalist Leather Bags",
+            "use_h1": false
+          }
+        },
+        "bb6d3645-d7f4-4ba1-b79d-db7eb6ba031a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transcending the style binary with minimalist inspiration in focus, our first leather bags collection embodies the versatility of simplicity.<\/p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "d0d3ca59-c834-419f-87a1-97cfae917000",
+        "bb6d3645-d7f4-4ba1-b79d-db7eb6ba031a"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "84a7278e-1546-40e9-9fa1-6abaf587b99d": {
+      "type": "trucarry-featured-products",
+      "blocks": {
+        "7ca02ebd-0df8-4721-8abe-d0bb6d8126aa": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Brown"
+          }
+        },
+        "5ecfe987-e7f5-4572-92f7-335e3ebefd7d": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02-_The_Philos_Brown_Leather_Backpack_front-3-1666105573812_e0a54a8e-eb62-4d00-a092-f76ae7575b12.jpg",
+            "smalltext": "Brown"
+          }
+        },
+        "dd2b829d-4bc8-4833-817a-e01462c010c8": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02--The-Philos-Navy-Blue-Leather-Backpack-front-3-1666634069825.jpg",
+            "smalltext": "Navy Blue"
+          }
+        },
+        "a455e300-eb1d-45af-9d20-bc7942a557ab": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Green"
+          }
+        }
+      },
+      "block_order": [
+        "7ca02ebd-0df8-4721-8abe-d0bb6d8126aa",
+        "5ecfe987-e7f5-4572-92f7-335e3ebefd7d",
+        "dd2b829d-4bc8-4833-817a-e01462c010c8",
+        "a455e300-eb1d-45af-9d20-bc7942a557ab"
+      ],
+      "settings": {
+        "main_product": "the-philos-black-leather-backpack",
+        "main_image": "shopify:\/\/shop_images\/Backpack-1666635284235.jpg",
+        "overlaytext": "Philos Backpack"
+      }
+    },
+    "be16f625-335c-46c8-8004-394d5c6728d3": {
+      "type": "trucarry-featured-products",
+      "blocks": {
+        "ec79098a-ccd8-46ea-aa9f-e6fab958c31f": {
+          "type": "product",
+          "settings": {
+            "mp_product": "aaron-brown-leather-bomber-jacket-html",
+            "smalltext": ""
+          }
+        },
+        "54b4ec9c-5f51-4181-aa0b-87874f0c5f2b": {
+          "type": "product",
+          "settings": {
+            "mp_product": "abstract-maroon-leather-jacket-html",
+            "smalltext": ""
+          }
+        },
+        "982d7cac-709e-48c1-a799-8635cb4e8366": {
+          "type": "product",
+          "settings": {
+            "mp_product": "adalyn-quilted-black-leather-biker-jacket-html",
+            "smalltext": ""
+          }
+        },
+        "a9c03ac8-cd49-4588-b6b0-2ed9be54ca3d": {
+          "type": "product",
+          "settings": {
+            "mp_product": "adornica-black-leather-jacket-html",
+            "smalltext": "Bags and Jackets"
+          }
+        }
+      },
+      "block_order": [
+        "ec79098a-ccd8-46ea-aa9f-e6fab958c31f",
+        "54b4ec9c-5f51-4181-aa0b-87874f0c5f2b",
+        "982d7cac-709e-48c1-a799-8635cb4e8366",
+        "a9c03ac8-cd49-4588-b6b0-2ed9be54ca3d"
+      ],
+      "settings": {
+        "main_product": "abstract-maroon-leather-jacket-html",
+        "main_image": "shopify:\/\/shop_images\/01-header-d3c803ab6c2c14a09ec348a3ff24b913f3e4238e01f41a3876a35dd17cf3795b.jpg",
+        "overlaytext": "Bags & Jackets"
+      }
+    },
+    "be8d56e0-ccf7-492c-b2c6-386410b2886c": {
+      "type": "video",
+      "settings": {
+        "video_external": "https:\/\/vimeo.com\/524933864",
+        "image": "shopify:\/\/shop_images\/video_thumbnail.png",
+        "subheading": "",
+        "video_title": "",
+        "heading_max_width": 800,
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "68a23324-bca7-4c1d-bc7d-42761859dd92": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20785090560287__68a23324-bca7-4c1d-bc7d-42761859dd92-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "The TruCarry Promise",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20785090560287__68a23324-bca7-4c1d-bc7d-42761859dd92-heading-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "f25f9c0f-8d13-40c0-afe9-03acb03a5dcd": {
+      "type": "trucarry-carousel",
+      "blocks": {
+        "40f188cf-668a-4ccc-b2f2-a84852ac0a5e": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/1.jpg",
+            "slide_heading": "Naturally Milled Full-Grain Leather",
+            "slide_text": "<p>Crafted from the finest naturally milled cow-hide leather with distinct lines & grain, TruCarry bags will develop a gorgeous patina & unique character as you do.<\/p>"
+          }
+        },
+        "efe29d0b-b39f-45b7-ab21-49229e86d519": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/2.jpg",
+            "slide_heading": "Durable & Designed To Last",
+            "slide_text": "<p>We are proudly \"anti-disposable.\" Handcrafted in small batches with painstaking attention to detail, delivering flawless stitching, fine edges & curves, TruCarry bags are high quality and made to last.<\/p>"
+          }
+        },
+        "4ae44721-14c3-43bc-8903-3cb4ea3c2660": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/3.jpg",
+            "slide_heading": "Short Supply Chain, Honest Prices",
+            "slide_text": "<p>TruCarry bags come straight from us to you. Unlike luxury houses' superfluous supply chains, ours is streamlined, allowing us to keep our prices consistently low & fair so you never have to pay for crazy markups.<\/p>"
+          }
+        },
+        "43160cd9-3a52-4f4b-ad34-a177aaf47db0": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/4.jpg",
+            "slide_heading": "High-Grade Raw Materials",
+            "slide_text": "<p>We believe in the adage that it's what is inside that counts the most that's why TruCarry bags are always crafted from full-grain leather, premium cotton twill lining & chrome finished rust-proof accessories.<\/p>"
+          }
+        },
+        "9c64db85-9b4d-4165-8d7d-eee7eae88c63": {
+          "type": "slide",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/5.jpg",
+            "slide_heading": "Your TruCarry, Your Way",
+            "slide_text": "<p>Carrying our legacy & intrinsic appreciation for creativity & expression, all TruCarry products are up for customization. Your TruCarry should speak to your truest self & we are all here for it.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "40f188cf-668a-4ccc-b2f2-a84852ac0a5e",
+        "efe29d0b-b39f-45b7-ab21-49229e86d519",
+        "4ae44721-14c3-43bc-8903-3cb4ea3c2660",
+        "43160cd9-3a52-4f4b-ad34-a177aaf47db0",
+        "9c64db85-9b4d-4165-8d7d-eee7eae88c63"
+      ],
+      "settings": {
+        "main_heading": "The TruCarry Promise"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8f5cf3ba-92d4-4a99-810c-519fa0d45791",
+    "84a7278e-1546-40e9-9fa1-6abaf587b99d",
+    "be16f625-335c-46c8-8004-394d5c6728d3",
+    "be8d56e0-ccf7-492c-b2c6-386410b2886c",
+    "68a23324-bca7-4c1d-bc7d-42761859dd92",
+    "f25f9c0f-8d13-40c0-afe9-03acb03a5dcd"
+  ]
+}

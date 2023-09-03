@@ -13,6 +13,8 @@
         "show_vendor": false,
         "show_total": true,
         "enable_filtering": true,
+        "animal_linklist": "animal-filter",
+        "color_linklist": "color-filter",
         "collapse_tag_sidebar_by_default": false,
         "collapse_filters_method": "over-12",
         "show_filter_counts": false,

@@ -1,0 +1,111 @@
+{% assign main_product = section.settings.main_product %}
+
+<div class="trucarry-main-container">
+    <div class="trucarry-slider-wrapper">
+        {% for block in section.blocks %}
+
+        {% assign slideimage = block.settings.slide_image %}
+        {% assign slideheading = block.settings.slide_heading %}
+        {% assign slidetext = block.settings.slide_text %}
+
+        <div class="outer-container">
+            <div class="flex-container-tc">
+                <div class="image-wrapper-tc">
+                    <img src="{{ slideimage | img_url: 'master' }}" alt="Slider Image">
+                </div>
+                <div class="flex-content-tc">
+                    <div class="slider-heading-tc">{{ slideheading }}</div>
+                    <div class="slider-text-tc">{{ slidetext }}</div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<style>
+    .trucarry-slider-wrapper{
+        max-width: 1100px;
+        margin: auto;
+        padding: 0 30px;
+    }
+
+    .trucarry-slider-wrapper img{
+        display: block;
+        width: 100%;
+    }
+
+    .flex-container-tc > div{
+        flex-basis: 50%;
+    }
+
+    .slider-heading-tc{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+
+    .trucarry-main-container .slick-dots li{
+        margin: 0;
+    }
+
+    @media screen and (min-width: 751px){
+        .flex-container-tc {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .trucarry-main-container .outer-container{
+            padding-bottom: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 751px){
+        .trucarry-slider-wrapper .slick-dots{
+            margin-inline-start: 0;
+            left: 0;
+        }
+    }
+</style>
+
+{% schema %}
+    {
+      "name": "Trucarry Carousel",
+      "class": "trucarry-carousel",
+      "max_blocks": 8,
+      "settings": [
+      ],
+      "blocks": [
+        {
+          "type": "slide",
+          "name": "Slide",
+          "settings": [
+            {
+                "type": "image_picker",
+                "id": "slide_image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "slide_heading",
+                "label": "Heading"
+            },
+            {
+                "type": "richtext",
+                "id": "slide_text",
+                "label": "Text"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "TruCarry Carousel",
+          "settings": {
+          },
+          "blocks": [
+          ]
+        }
+      ]
+    }
+  {% endschema %}

@@ -38,6 +38,39 @@ $(document).ready(function(){
 });
 
 
-  Fancybox.bind('[data-fancybox="images"]', {
-    Thumbs: false,
+Fancybox.bind('[data-fancybox="images"]', {
+  Thumbs: false,
+});
+
+$('.trucarry-slider-wrapper').slick({
+  dots: true,
+});
+
+// Function to initialize the slider
+function initSlider() {
+  $('.tc-grid-container').slick({
+    arrows: true,
+    dots: true
   });
+}
+
+// Function to destroy the slider
+function destroySlider() {
+  $('.tc-grid-container').slick('unslick');
+}
+
+// Check window size on page load
+$(document).ready(function() {
+  if ($(window).width() <= 750) {
+    initSlider();
+  }
+});
+
+// Check window size when it's resized
+$(window).resize(function() {
+  if ($(window).width() <= 750) {
+    initSlider();
+  } else {
+    destroySlider();
+  }
+});
