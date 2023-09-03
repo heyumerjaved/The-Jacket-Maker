@@ -1,0 +1,87 @@
+{% assign main_image = section.settings.main_image %}
+{% assign logo_image = section.settings.logo_image %}
+
+{% if main_image != blank %}
+<div id="carousel-header" class="trucarry carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="head" style="background-image: url({{ main_image | img_url: 'master' }})">  
+            <p class="logo">
+                {% if logo_image != blank %}
+                <img width="200" class="mbm" src="{{ logo_image | img_url: '200x' }}">
+                {% endif %}
+                <span class="pull-left">
+                    {{ page.content }}
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+
+{% else %}
+
+<div class="article">
+    <div class="container cf">
+        <div class="page-header cf">
+        <h1 class="majortitle">{{ page.title }}</h1>
+        </div>
+        <div class="rte">
+        {{ page.content }}
+        </div>
+    </div>
+</div>
+
+{% endif %}
+
+<style>
+.trucarry-page .trucarry .head {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 800px;
+}
+.trucarry-page .trucarry .head .logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    max-width: 615px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 20px;
+    transform: translateY(-40px);
+    padding: 0 30px;
+}
+
+.trucarry-page .trucarry .head .logo img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+</style>
+  
+{% schema %}
+{
+    "name": "Page",
+    "class": "trucarry-page",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "main_image",
+            "label": "Main Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo_image",
+            "label": "Logo",
+            "info": "To be placed on main image"
+        }
+    ]
+}
+{% endschema %}
+  
+  

@@ -1,0 +1,13 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page-trucarry",
+        "settings": {
+          "full_width": false
+        }
+      }
+    },
+    "order": [
+      "main"
+    ]
+  }
