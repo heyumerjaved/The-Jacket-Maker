@@ -6,42 +6,185 @@
         "height": "fixed",
         "height_desktop": 400,
         "height_mobile": 300,
+        "image_link": "",
         "subheading": "",
         "title": "Customer Help",
+        "heading_max_width": 800,
         "title_size": 52,
+        "title_size_mobile": 46,
+        "use_h1": false,
         "text": "<p>If talking to a real-life human is more your thing, you can reach our Customer Happiness Team via email (below).<\/p>",
+        "enlarge_text": true,
         "button_label_1": "",
-        "button_label_2": ""
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
       }
     },
     "main": {
       "type": "faq-header",
-      "settings": {}
+      "settings": {
+        "title": "FAQ",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": true,
+        "index_heading": "How can we help?"
+      }
     },
     "faq-content-1": {
       "type": "collapsible-tabs",
       "blocks": {
+        "aa45e56e-ebfc-4033-85ec-4e43254b21e2": {
+          "type": "content",
+          "settings": {
+            "content": "<h6>General<\/h6>"
+          }
+        },
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "What size should I buy?",
-            "answer": "<p>If you’re not quite sure which size is right for you, refer to our size guides. They’re located underneath the available sizes for each of our products.<\/p>"
+            "title": "What is a regular order?",
+            "answer": "<p>Regular order is an order of any pre-listed product on our website in a regular size\/fit.<\/p>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Can I cancel my order?",
-            "answer": "<p>We completely get it, we change our minds too! While we wish could, once an order is placed, we are unable to alter or cancel it at this time. We hope to have a cancellation window one day in the future.<\/p><p>Should the item(s) not work out, make sure to exchange for a preferred style or return for a refund. As a reminder, domestic return shipping is free.<\/p>"
+            "title": "What are pre orders?",
+            "answer": "<p>Pre-orders are the orders placed through The Jacket Maker's Pre Launch campaign. By pre-ordering such products, you are able to get them at a discounted price and be the first ones to own the product.<\/p>"
+          }
+        },
+        "7acd9102-929a-484d-92b1-c84f617cfdc7": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have regular jackets in stock? Or are they made to order?",
+            "answer": "<p>To ensure the best quality products at a minimal price, we keep only our top selling products in stock and mostly focus on made to order. This strategy helps us in reducing the product cost by eliminating the warehouse cost and at the same time, helps in fighting environmental pollution by maintaining production with less waste.<\/p>"
+          }
+        },
+        "768189dc-f43c-4588-be87-b54406881edf": {
+          "type": "question",
+          "settings": {
+            "title": "Can I change or cancel the order once it has been placed?",
+            "answer": "<p>You can ask for order cancellation or change within 2 days of placing the order. If the order is dispatched, you will have to accept it and than return it for a refund or exchange.<\/p>"
+          }
+        },
+        "7527c5dc-ff25-4cb3-985e-507dde70c8e1": {
+          "type": "question",
+          "settings": {
+            "title": "How can I track my order?",
+            "answer": "<p>You can simply track your order by visiting the following link:<br\/><a href=\"https:\/\/www.thejacketmaker.com\/track\" target=\"_self\">https:\/\/www.thejacketmaker.com\/track<\/a><\/p><p>Or, you can also email us your details and our customer support agent will assist you thoroughly.<\/p>"
+          }
+        },
+        "c2ce7f95-b278-4192-9fef-fe989cbff651": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008902973-Custom-Bespoke-Orders\">Custom\/Bespoke Orders<\/a><\/h6>"
+          }
+        },
+        "bf6ef203-6738-4bbc-aa3c-c80975a1256b": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get any type of jacket custom made? What details do I need to provide?",
+            "answer": "<p>Yes, you can get literally any type of jacket custom made from us. You can share any picture or design for reference and write the description of your jacket in the Custom Order Form.<\/p>"
+          }
+        },
+        "6c08402f-00c5-4548-b25e-8d8d890e43fb": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get my jacket custom made in any type of leather?",
+            "answer": "<p>Absolutely Yes! It all starts with leather, over the years we have become experts in leather, getting it made from one of the finest tanneries of the world. Our core proposition is the best quality leather that ranges from Lambskin, Sheepskin and Goatskin to Buffalo-hide and Cow-hide. We have the experience of making jackets in over 200 different leather articles differentiated by type, pattern, colors, shades & thickness.<\/p>"
+          }
+        },
+        "79e1c27f-a583-4044-a269-18987751dfd9": {
+          "type": "question",
+          "settings": {
+            "title": "How does the custom order process work?",
+            "answer": "<p>We’ve made a flow of the custom order. You can have a look at it here:<\/p><p><a href=\"https:\/\/www.thejacketmaker.com\/bespoke\">https:\/\/www.thejacketmaker.com\/bespoke<\/a><\/p>"
+          }
+        },
+        "aaf04a20-ff34-421d-b8f9-0d469232268a": {
+          "type": "question",
+          "settings": {
+            "title": "Do you deal in fabrics other than leather for custom orders?",
+            "answer": "<p>Yes, where our core strength is leather, we also make custom orders in other fabrics like cotton, polyester, satin, wool and other fabrics.<\/p>"
+          }
+        },
+        "2fb57ff4-f9a4-49ee-92ca-6fc12997bdce": {
+          "type": "question",
+          "settings": {
+            "title": "I am reluctant to place a custom order; how can I pay for something I have not seen in actual? I am concerned about sizing, design and quality.",
+            "answer": "<p>We totally understand your concerns about the sizing, design, and quality of your custom order. We’ve worked really hard on processes to make sure we make the best possible custom order as per your expectation. We have worked out each of these issues<\/p><p><strong>Sizing<\/strong><br\/>Solution: When you place your custom order, our CS agent asks for your body measurement. Please refer to our sizing guide to take your body measurements. When you take your measurements correctly, there are zero chances for sizing errors.<\/p><p><strong>Design & Quality<\/strong><br\/>Solution: To give you a better visualization of how your final custom product will look like, we share a<br\/>digital illustration made by our creative team with the customer before proceeding with the order.<\/p><p>Also, before dispatching your order, we share pictures of your actual product with you. You can review the design, material, and stitching before we dispatch it. So this reason is potentially eliminated.<\/p>"
+          }
+        },
+        "403b779c-f9e5-4fb1-a658-db54fb35029c": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008799774-Payment-Pricing\">Payment & Pricing<\/a><\/h6>"
+          }
+        },
+        "df06f5a2-6a59-4b1e-b8a7-ab99b3bd59d1": {
+          "type": "question",
+          "settings": {
+            "title": "Which form of payment do you accept?",
+            "answer": "<p>You can make the payment through PayPal or Credit Card. We use SSL secured checkout so you can make the payment without any worries.<\/p>"
+          }
+        },
+        "5a207c24-0a6d-4906-94bf-1ef22b21ba76": {
+          "type": "question",
+          "settings": {
+            "title": "Why was my payment declined? What should I do?",
+            "answer": "<p>Your payment may have been declined due to any of the following reasons:<\/p><p><strong>Incorrect billing address and phone number:<\/strong><br\/>Make sure that the billing address listed in your account matches that associated with your payment method.<\/p><p><strong>Credit card limit reached:<\/strong><br\/>Check your credit card limit. You may have reached your daily or total credit card limit when we tried to charge your card. Try decreasing your daily spending limit or enter a new credit card with a higher credit limit.<\/p><p><strong>Credit \/ Debit Card Number:<\/strong><br\/>Make sure that the credit card or debit card number is correct and up-to-date.<\/p><p><strong>Credit \/ Debit Card Expiration date:<\/strong><br\/>Review the expiration date on your credit card or debit card. If your card expired, update your credit card or debit card information.<\/p><p><strong>PayPal account out of funds:<\/strong><br\/>Make sure funds are available in your PayPal account if Paypal is listed as your payment method.<\/p>"
+          }
+        },
+        "eea82aaa-8873-4500-8b55-b48f6f0366b8": {
+          "type": "question",
+          "settings": {
+            "title": "Why have I been asked to verify my details for my order?",
+            "answer": "<p>To protect our customers, we regularly perform security checks on orders placed through Credit\/Debit cards. If your order has been selected for review, we will request you to share an alternative email address and phone number.<\/p>"
+          }
+        },
+        "c67dbcfa-7283-496e-a6c1-bbccb5eb02ed": {
+          "type": "question",
+          "settings": {
+            "title": "Are there any charges for requesting custom order, getting quotation and discussing custom order?",
+            "answer": "<p>Please do not hesitate to fill the custom order form, there are no charges for quotation, discussion, or even getting an illustration made for your custom jacket. The only time we would charge you is when you make an actual purchase of your custom order.<\/p>"
+          }
+        },
+        "18843710-e1c5-45a5-bbb5-4517ad719fcb": {
+          "type": "question",
+          "settings": {
+            "title": "How much does a custom jacket cost?",
+            "answer": "<p>Our base price for custom leather jacket starts from $400 USD and custom fabric jacket starts from $300 USD.<\/p><p>If you choose to customize the jacket which is already listed on our website, then the listed price of the jacket will be considered as the base price.<\/p>"
           }
         }
       },
       "block_order": [
+        "aa45e56e-ebfc-4033-85ec-4e43254b21e2",
         "question-1",
-        "question-2"
+        "question-2",
+        "7acd9102-929a-484d-92b1-c84f617cfdc7",
+        "768189dc-f43c-4588-be87-b54406881edf",
+        "7527c5dc-ff25-4cb3-985e-507dde70c8e1",
+        "c2ce7f95-b278-4192-9fef-fe989cbff651",
+        "bf6ef203-6738-4bbc-aa3c-c80975a1256b",
+        "6c08402f-00c5-4548-b25e-8d8d890e43fb",
+        "79e1c27f-a583-4044-a269-18987751dfd9",
+        "aaf04a20-ff34-421d-b8f9-0d469232268a",
+        "2fb57ff4-f9a4-49ee-92ca-6fc12997bdce",
+        "403b779c-f9e5-4fb1-a658-db54fb35029c",
+        "df06f5a2-6a59-4b1e-b8a7-ab99b3bd59d1",
+        "5a207c24-0a6d-4906-94bf-1ef22b21ba76",
+        "eea82aaa-8873-4500-8b55-b48f6f0366b8",
+        "c67dbcfa-7283-496e-a6c1-bbccb5eb02ed",
+        "18843710-e1c5-45a5-bbb5-4517ad719fcb"
       ],
       "settings": {
-        "title": "Ordering"
+        "title": "Orders"
       }
     },
     "faq-content-2": {
@@ -89,19 +232,23 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Get in touch"
+            "title": "Get in touch",
+            "use_h1": false
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Have questions about your order, or a general enquiry?<\/p>"
+            "text": "<p>Have questions about your order, or a general enquiry?<\/p>",
+            "enlarge_text": true
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Contact us"
+            "button_label": "Contact us",
+            "button_link": "",
+            "button_style": "primary"
           }
         }
       },
@@ -112,6 +259,9 @@
         "button"
       ],
       "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
         "use_alt_bg": true
       }
     }

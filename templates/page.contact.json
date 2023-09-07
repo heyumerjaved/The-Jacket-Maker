@@ -48,16 +48,8 @@
           "type": "custom_dropdown",
           "settings": {
             "title": "Topic",
-            "multiple_options": "Option 1\nOption 2\nOption 3",
-            "half_width": true
-          }
-        },
-        "19146fd9-72a6-4501-bb36-3bded9e5327c": {
-          "type": "custom_dropdown",
-          "settings": {
-            "title": "Subject",
-            "multiple_options": "Option 1\nOption 2\nOption 3",
-            "half_width": true
+            "multiple_options": "Order Query\nReturns\nComplaint\nGeneral Inquiry\nSize & Fit\nFeedback",
+            "half_width": false
           }
         },
         "message": {
@@ -71,7 +63,6 @@
         "2eefaa07-87a1-4c5e-b9f6-c8ed51c4de4d",
         "email",
         "6fb3d7ec-cd4b-48e3-82de-8b92cd9ddaae",
-        "19146fd9-72a6-4501-bb36-3bded9e5327c",
         "message"
       ],
       "settings": {
