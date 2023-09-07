@@ -54,7 +54,7 @@
 
 <style>
     .trucarry-fp-wrapper{
-        max-width: 1200px;
+        max-width: 1400px;
         margin: auto;
         padding: 0 30px;
         display: flex;
@@ -112,40 +112,51 @@
         color: black;
     }
 
+    .trucarry-fp-wrapper .slick-initialized .slick-slide{
+        margin: 0 5px;
+    }
+
+    .trucarry-fp-wrapper .slick-initialized .slick-list{
+        margin: 0 -5px;
+    }
+
+    .overlapping-title{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        line-height: 40px;
+        pointer-events: none;
+        margin-bottom: 0;
+    }
+
     @media screen and (max-width: 750px){
         .trucarry-fp-wrapper{
             display: block;
         }
 
         .featured-product-tc{
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
 
         .featured-product-tc a:hover{
             text-decoration: underline;
         }
+        .trucarry-fp-wrapper{
+            padding-bottom: 2rem;
+        }
     }
 
     @media screen and (min-width: 751px){
-        .overlapping-title{
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            display: flex;
-            width: 100%;
-            align-items: center;
-            justify-content: center;
-            font-size: 32px;
-            text-align: center;
-            color: white;
-            font-weight: bold;
-            line-height: 40px;
-            pointer-events: none;
-            margin-bottom: 0;
-        }
-        
         .tc-grid-container {
             display: grid;
             grid-template-columns: repeat(2, 1fr); 

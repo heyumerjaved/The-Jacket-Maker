@@ -50,7 +50,9 @@ $('.trucarry-slider-wrapper').slick({
 function initTCSlider() {
   $('.tc-grid-container').slick({
     arrows: true,
-    dots: true
+    dots: true,
+    slidesToShow: 2,
+    slidesToScroll: 2
   });
 }
 
