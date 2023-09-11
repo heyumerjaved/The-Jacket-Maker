@@ -342,6 +342,55 @@
             {% when 'variant_picker' %}
               <div class="input-row" {{ block.shopify_attributes }}>
                 {% render 'variant-picker', section: section, product: product, block: block %}
+                {% if product.vendor == "Eviternity" %}
+                <style>
+                  .option-selector__btns{
+                    display: grid;
+                    grid-template-columns: repeat(8, 1fr);
+                    grid-template-rows: repeat(2, auto);
+                    gap: 10px;
+                    margin: 0;
+                    margin-top: 5px;
+                  }
+                  .option-selector__btns .opt-label{
+                    min-width: unset;
+                    min-height: unset;
+                    margin: unset;
+                    padding: 10px 0;
+                  }
+                </style>
+                {% endif %}
+
+                {% if product.type == "Jacket" %}
+                <style>
+                  .option-selector__btns{
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(2, auto);
+                    gap: 10px;
+                    margin: 0;
+                    margin-top: 5px;
+                  }
+                  .option-selector__btns .opt-label{
+                    min-width: unset;
+                    min-height: unset;
+                    margin: unset;
+                    padding: 10px 0;
+                  }
+                  </style>
+                  <script>
+                    const spans = document.querySelectorAll('span');
+                    for (const span of spans) {
+                      if (span.textContent === 'MADE TO MEASURE (+£45)') {
+                        // Find the parent div
+                        const parentDiv = span.parentElement;
+                        
+                        // Assign grid-column: span 4 to the parent div
+                        parentDiv.style.gridColumn = 'span 4';
+                      }
+                    }
+                  </script>
+                {% endif %}
               </div>
 
 
