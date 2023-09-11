@@ -1025,7 +1025,7 @@
     "coll_grid_show_count": false,
     "prod_thumb_shape": "square",
     "prod_thumb_crop": true,
-    "prod_thumb_mob_per_row": "1",
+    "prod_thumb_mob_per_row": "2",
     "prod_thumb_text_align": "left",
     "prod_thumb_hover_image": false,
     "prod_thumb_url_within_coll": false,

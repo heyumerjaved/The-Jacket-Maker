@@ -35,7 +35,7 @@
         "82bc4c7e-c2dc-472a-be66-734a8f945a90": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-black-leather-shoes-html",
+            "mp_product": "attorney-derby-black-leather-shoes",
             "smalltext": "Black"
           }
         },
@@ -56,21 +56,21 @@
         "bdca46ea-f2a1-4740-acc4-c7182d245fcb": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-midnight-blue-suede-leather-shoes-html",
+            "mp_product": "attorney-derby-midnight-blue-suede-leather-shoes",
             "smalltext": "Blue"
           }
         },
         "8b1de6f4-85e3-4e5f-b88d-6ee519d9260b": {
           "type": "product",
           "settings": {
-            "mp_product": "baxton-brown-leather-loafers-html",
+            "mp_product": "baxton-brown-leather-loafers",
             "smalltext": "Brown"
           }
         },
         "42a9ade4-defe-4a26-a98b-878ed2b62fa5": {
           "type": "product",
           "settings": {
-            "mp_product": "boston-double-monk-strap-black-leather-shoes-html",
+            "mp_product": "boston-double-monk-strap-black-leather-shoes",
             "smalltext": "Black"
           }
         }
@@ -84,7 +84,7 @@
         "42a9ade4-defe-4a26-a98b-878ed2b62fa5"
       ],
       "settings": {
-        "main_product": "attorney-derby-black-leather-shoes-html",
+        "main_product": "attorney-derby-black-leather-shoes",
         "main_image": "shopify:\/\/shop_images\/07_Professor_Oxford_Black_Leathe.png",
         "overlaytext": "Professor Oxford"
       }
@@ -95,7 +95,7 @@
         "46c47ecc-c3be-44e4-a62a-1e95f6fc68ba": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-black-leather-shoes-html",
+            "mp_product": "attorney-derby-black-leather-shoes",
             "smalltext": "Black"
           }
         },
@@ -116,7 +116,7 @@
         "836e33a6-25fb-4084-9d58-63acf0bbb869": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-midnight-blue-suede-leather-shoes-html",
+            "mp_product": "attorney-derby-midnight-blue-suede-leather-shoes",
             "smalltext": "Blue"
           }
         },
@@ -124,7 +124,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "mp_product": "baxton-brown-leather-loafers-html",
+            "mp_product": "baxton-brown-leather-loafers",
             "smalltext": "Brown"
           }
         },
@@ -132,7 +132,7 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "mp_product": "boston-double-monk-strap-black-leather-shoes-html",
+            "mp_product": "boston-double-monk-strap-black-leather-shoes",
             "smalltext": "Black"
           }
         }
@@ -146,7 +146,7 @@
         "068b64c7-c8ae-4b07-84e2-3cf627e320b2"
       ],
       "settings": {
-        "main_product": "attorney-derby-black-leather-shoes-html",
+        "main_product": "attorney-derby-black-leather-shoes",
         "main_image": "shopify:\/\/shop_images\/07_Professor_Oxford_Black_Leathe.png",
         "overlaytext": "Professor Oxford"
       }

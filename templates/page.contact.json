@@ -13,7 +13,7 @@
         "template--20474332676383__7abd627c-8112-4e03-a50f-49f547ae289b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Have you read our FAQs page? To help you faster, we have answered as many questions as possible. <\/p><p>If you still need a little help, please fill out the form below. We aim to respond within 24-48 hrs, Monday to Friday.<\/p>",
+            "text": "<p>Have you read our <a href=\"https:\/\/www.thejacketmaker.co.nz\/pages\/help-center\" title=\"https:\/\/www.thejacketmaker.co.nz\/pages\/help-center\">FAQs <\/a>page? To help you faster, we have answered as many questions as possible. <\/p><p>If you still need a little help, please fill out the form below. We aim to respond within 24-48 hrs, Monday to Friday.<\/p>",
             "enlarge_text": false
           }
         }
@@ -71,10 +71,48 @@
         "contact_title": "",
         "contact_text": ""
       }
+    },
+    "da836eac-020e-4f53-8bf6-2ae92a13ba9b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20474332676383__da836eac-020e-4f53-8bf6-2ae92a13ba9b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Address",
+            "use_h1": false
+          }
+        },
+        "template--20474332676383__da836eac-020e-4f53-8bf6-2ae92a13ba9b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Iconic Fashion<\/strong><\/p><p>24048 Hesperian Blvd, Hayward, CA 94545, United States of America<\/p>",
+            "enlarge_text": false
+          }
+        },
+        "b223e35b-c86c-4cc5-830e-81c15b773d6d": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Evolution Fashion FZC<\/strong><\/p><p>Office #606, Business Park, P.O.Box 37277, Ras Al Khaimah, United Arab Emirates<\/p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20474332676383__da836eac-020e-4f53-8bf6-2ae92a13ba9b-heading-1",
+        "template--20474332676383__da836eac-020e-4f53-8bf6-2ae92a13ba9b-text-1",
+        "b223e35b-c86c-4cc5-830e-81c15b773d6d"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
     }
   },
   "order": [
     "7abd627c-8112-4e03-a50f-49f547ae289b",
-    "main"
+    "main",
+    "da836eac-020e-4f53-8bf6-2ae92a13ba9b"
   ]
 }

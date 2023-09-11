@@ -28,7 +28,7 @@
     "main": {
       "type": "faq-header",
       "settings": {
-        "title": "FAQ",
+        "title": "Frequently asked questions",
         "use_h1": false,
         "text": "",
         "show_search": true,
@@ -193,31 +193,340 @@
         "para-1": {
           "type": "content",
           "settings": {
-            "content": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.<\/p>"
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008293293-General\">General<\/a><\/h6>"
           }
         },
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "What is the shipping policy?",
-            "answer": "<p>Once your order is placed, you will receive a confirmation email letting you know that our fulfillment team has received your order. Once your order is fulfilled, you will receive an email notification with your tracking information. Shipping fees are non-refundable in the case of returns.<\/p>"
+            "title": "How long would it take for an order to be received at my place?",
+            "answer": "<p><strong>Regular<\/strong> orders are made to order and are shipped within 10 business days. However, it can take up to 20 business days for your item to be shipped. <strong>Prime products<\/strong> are ready in stock and are shipped the next day from placement of order.<\/p><p>We strive to minimize fulfillment time for our custom orders as well and usually dispatch <strong>made-to-measure <\/strong>orders within 4-7 weeks and <strong>bespoke <\/strong>orders within 12-15 weeks.<\/p><p>We ship through Express Deliveries including DHL, FedEx, TNT, etc. After shipping,<br\/>it usually takes 3-5 business days for the items to be delivered to your doorstep.<br\/><br\/>Please view our custom orders delivery section for delivery details of custom orders.<\/p>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout.<\/p>"
+            "title": "What countries do you ship to?",
+            "answer": "<p>We provide free international shipping. This includes shipping to all countries except for Russia, Brazil, Israel, Iran, Iraq, India, and OFAC and Sanctioned Countries.<\/p>"
+          }
+        },
+        "774da940-83a8-47d1-b0e5-817eb51ae538": {
+          "type": "question",
+          "settings": {
+            "title": "Does free shipping includes customs, tax and duties?",
+            "answer": "<p>All our orders are shipped on a Delivery Duty Unpaid (DDU ) basis. This means that the prices are exclusive of all custom taxes and import duties.<\/p><p>Any charges on a parcel must be paid by the person receiving the parcel (this also applies to retail & wholesale customers).<\/p><p>The Jacket Maker has no control over these charges and we can’t tell you what the cost would be, as customs policies and import duties vary widely from country to country.<\/p><p>It might be a good idea to contact your local customs office for current charges before you order, so you are not surprised by charges you were not expecting.<\/p>"
+          }
+        },
+        "d8de3bb5-6493-43fe-bedc-ef4b43e66255": {
+          "type": "question",
+          "settings": {
+            "title": "Can you ship to APO or PO Box addresses?",
+            "answer": "<p>We ship through Express Deliveries including DHL, FedEx, and unfortunately, they do not accept APO, FPO or PO box addresses.<\/p>"
+          }
+        },
+        "142e694c-0641-4bc3-b7bc-01154dca5edf": {
+          "type": "question",
+          "settings": {
+            "title": "How Can I track the delivery of my shipment?",
+            "answer": "<p>Once your order has been dispatched, you will be notified via email and SMS with the courier tracking number and link to track your parcel. You can also check the progress of your delivery at anytime through \"<a href=\"https:\/\/www.thejacketmaker.com\/track\" target=\"_blank\"><strong>Track Your Order<\/strong><\/a>\" page.<\/p>"
+          }
+        },
+        "246a172f-8913-45c0-990c-5ae3f9a54139": {
+          "type": "question",
+          "settings": {
+            "title": "Can I change the shipping address after I've placed the order?",
+            "answer": "<p>The change of the shipping address depends on your order’s current status. If your order status is anything other than shipped, you can contact us at <a href=\"https:\/\/www.thejacketmaker.com\/contact-us\" target=\"_blank\"><strong>contact@thejacketmaker.com<\/strong><\/a>and let us know the new address. We’ll take the necessary steps to change the address for you.<\/p><p>In case your order has been shipped, we would suggest you to contact the courier company with your order's tracking details and request them the change of address.<\/p>"
+          }
+        },
+        "7f46affc-49b6-4f5c-8335-8b7e892594f8": {
+          "type": "question",
+          "settings": {
+            "title": "What should I do if my order hasn't been delivered yet?",
+            "answer": "<p>You can always check your order status. To check this, all you need to do is go to the \"<a href=\"https:\/\/www.thejacketmaker.com\/track\" target=\"_blank\"><strong>Track Your Order<\/strong><\/a>\" Page and enter the required details to check the actual state of your order.<\/p><p>Your tracking link will be able to provide up to date information on the status of your order. If your estimated delivery date has passed and you haven’t received your order, feel free to write us at <a href=\"https:\/\/www.thejacketmaker.com\/contact-us\" target=\"_blank\"><strong>contact@thejacketmaker.com<\/strong><\/a><\/p>"
+          }
+        },
+        "472f49e3-4d3e-4af3-a63b-c1d2ceb8f580": {
+          "type": "content",
+          "settings": {
+            "content": "<h6>Custom\/Bespoke Orders<\/h6>"
+          }
+        },
+        "54bbf2c3-6a44-4f38-a23e-2aa46c58fab1": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to deliver bespoke\/custom orders?",
+            "answer": "<p>Our first and foremost effort is to ship custom orders within 12-15 weeks time. However, being it a custom order, it can sometimes take more or even less than the estimated time. In case you have a certain timeline for your order, we would recommend sharing it with your design consultant.<\/p>"
+          }
+        },
+        "e088949b-c6dd-4e46-ab21-4cbd273140ba": {
+          "type": "question",
+          "settings": {
+            "title": "When can I expect the delivery of my made-to-measure order?",
+            "answer": "<p>A Made-to-measure or custom size order is usually shipped within 3-5 weeks time after the confirmation of measurements<\/p>"
+          }
+        },
+        "067df205-bbda-42c1-affd-0205f0d363a0": {
+          "type": "question",
+          "settings": {
+            "title": "Can I request the delivery for any specific date?",
+            "answer": "<p>You can mention your required delivery date through Track YYour Order Page <a href=\"https:\/\/www.thejacketmaker.com\/track\" title=\"https:\/\/www.thejacketmaker.com\/track\">HERE <\/a>or can discuss with your design consultant the possibility of delivering the custom order by a certain date.<\/p>"
           }
         }
       },
       "block_order": [
         "para-1",
         "question-1",
-        "question-2"
+        "question-2",
+        "774da940-83a8-47d1-b0e5-817eb51ae538",
+        "d8de3bb5-6493-43fe-bedc-ef4b43e66255",
+        "142e694c-0641-4bc3-b7bc-01154dca5edf",
+        "246a172f-8913-45c0-990c-5ae3f9a54139",
+        "7f46affc-49b6-4f5c-8335-8b7e892594f8",
+        "472f49e3-4d3e-4af3-a63b-c1d2ceb8f580",
+        "54bbf2c3-6a44-4f38-a23e-2aa46c58fab1",
+        "e088949b-c6dd-4e46-ab21-4cbd273140ba",
+        "067df205-bbda-42c1-affd-0205f0d363a0"
       ],
       "settings": {
-        "title": "Shipping, Returns & Exchanges"
+        "title": "Shipping & Delivery"
+      }
+    },
+    "68a83f37-09d7-4845-a721-3914de96f1ff": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "db2c10a5-1795-4e6b-9e86-7f2d71d28912": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008813754-Regular-Size\">Regular Size<\/a><\/h6>"
+          }
+        },
+        "template--20474332774687__68a83f37-09d7-4845-a721-3914de96f1ff-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "I love a jacket, but I am unsure which size would fit me perfectly?",
+            "answer": "<p>You can click on <strong>\"What is my size?\"<\/strong> on the product page to get a size recommendation and can also view our <strong>\"Measurements Chart\"<\/strong> to know your size.<\/p><p>Still, if you have any problems regarding the size, no worries. You can leave us a message that you’re unsure about the size at <a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/articles\/contact@thejacketmaker.com\" target=\"_self\">contact@thejacketmaker.com<\/a> and our support agent will assist you in getting a perfectly fitted jacket.<\/p>"
+          }
+        },
+        "template--20474332774687__68a83f37-09d7-4845-a721-3914de96f1ff-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Do you make big and tall sizes?",
+            "answer": "<p>To ensure a good fit, all big and tall size customers are requested to place a<strong>\"Made to Measure\"<\/strong>order from the size options.<\/p>"
+          }
+        },
+        "5a3293f9-5cc0-4781-b0cf-3d0718f07bf3": {
+          "type": "question",
+          "settings": {
+            "title": "None of the given sizes seems to fit me perfectly; can I have a custom fit?",
+            "answer": "<p>Yes, of course. You can select <strong>“Made to Measure” <\/strong>in size options and can provide your body measurements. In case you're unsure of your body measurements then you can select <strong>\"I am not sure, I'll provide measurements later on email\" <\/strong>and place the order without any hesitation.<br\/>Once your order is placed, our customer support representative will get back to you and will guide you on taking your correct measurements.<\/p>"
+          }
+        },
+        "90164220-997e-41a8-8efa-7496fffdb690": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008915133-Made-to-Measure\">Made to Measure<\/a><\/h6>"
+          }
+        },
+        "bfc82794-78bf-474b-9424-8b01973b0e7d": {
+          "type": "question",
+          "settings": {
+            "title": "How do I measure myself?",
+            "answer": "<p>You can take your body measurements as instructed in our size measuring video guide in the link:<\/p><p><a href=\"https:\/\/www.thejacketmaker.com\/size-guide\" target=\"_self\">https:\/\/www.thejacketmaker.com\/size-guide<\/a><\/p>"
+          }
+        },
+        "c7c9fc17-b276-4540-8886-7f33e90908aa": {
+          "type": "question",
+          "settings": {
+            "title": "I have a jacket that fits me well. Can you use the measurements of it to make my new jacket?",
+            "answer": "<p>Yes, we can definitely use the measurements of the jacket that fits you well. You can contact our Customer Support team to get help in taking the required measurements.<\/p>"
+          }
+        },
+        "88a4d778-832f-47aa-8810-e2dac57b5f19": {
+          "type": "question",
+          "settings": {
+            "title": "I am not sure if I took the measurements correctly. Can your team help me?",
+            "answer": "<p>Yes, you can take the measurements as to your best decision with the help of our <a href=\"https:\/\/youtu.be\/ipyhV51zUWk\" target=\"_blank\"><strong>\"How to measure\" <\/strong><\/a>video guide and share them with us making sure that your height and weight measurements are accurate. Our team will then review your measurements based on your height and weight, and will suggest you if there's any change required.<\/p>"
+          }
+        },
+        "61c2e43d-40f4-41ff-9975-1f5426f26eb5": {
+          "type": "question",
+          "settings": {
+            "title": "What if I order a custom size jacket and it does not fit?",
+            "answer": "<p>In case the jacket you received does not fit you, we provide 1st free alteration for made to measure and bespoke garments.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "db2c10a5-1795-4e6b-9e86-7f2d71d28912",
+        "template--20474332774687__68a83f37-09d7-4845-a721-3914de96f1ff-question-1",
+        "template--20474332774687__68a83f37-09d7-4845-a721-3914de96f1ff-question-2",
+        "5a3293f9-5cc0-4781-b0cf-3d0718f07bf3",
+        "90164220-997e-41a8-8efa-7496fffdb690",
+        "bfc82794-78bf-474b-9424-8b01973b0e7d",
+        "c7c9fc17-b276-4540-8886-7f33e90908aa",
+        "88a4d778-832f-47aa-8810-e2dac57b5f19",
+        "61c2e43d-40f4-41ff-9975-1f5426f26eb5"
+      ],
+      "settings": {
+        "title": "Size & Fit"
+      }
+    },
+    "1cea65b2-e3f4-46d1-b64e-8df49cc44670": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "4ff1cf3b-f7aa-41fe-a799-6d38a9c393ac": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008309753-Returns\">Returns<\/a><\/h6>"
+          }
+        },
+        "template--20474332774687__1cea65b2-e3f4-46d1-b64e-8df49cc44670-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "What do I do if I receive a faulty item in my order?",
+            "answer": "<p>We want to sort out any issues with faulty items straightaway.<\/p><p>As soon as you discover a fault, please contact our Customer Care team with:<\/p><p>- The order number<\/p><p>- The faulty item's name and number<\/p><p>- A description of the fault (along with the pictures)<\/p><p>We'll get back to you within 24 hours and once the details have been verified, will send you a replacement item as quickly as we can.<\/p>"
+          }
+        },
+        "template--20474332774687__1cea65b2-e3f4-46d1-b64e-8df49cc44670-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "How can I return a jacket?",
+            "answer": "<p>You simply need to go to the link below and follow the instructions for returning the product.<\/p><p><a href=\"http:\/\/thejacketmaker.com\/returns\" target=\"_self\">http:\/\/thejacketmaker.com\/returns<\/a><\/p><p>P.S. We accept returns for refund or exchange only for regular jackets made in regular size.<\/p>"
+          }
+        },
+        "163e7e98-0663-4ed0-9843-886f87c8ec98": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return the jacket if I don’t like it or if it does not fit me perfectly?",
+            "answer": "<p>We want to ensure a satisfactory customer experience that’s why our return policy is set for 30 days of delivery. You can return or exchange Regular Orders within 30 days of delivery for a full refund or exchange. Personalized or other customized products may not be returned for refund or exchange under any circumstances.<\/p>"
+          }
+        },
+        "6a6a2f34-1176-4697-8b32-1fe0b145e100": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008309973-Refunds\">Refunds<\/a><\/h6>"
+          }
+        },
+        "3202aaeb-e045-41b7-9915-e6a16f476f4d": {
+          "type": "question",
+          "settings": {
+            "title": "I received a custom order. Can I return and get a refund?",
+            "answer": "<p>We do not accept returns against refunds for custom orders (bespoke and made-to-measure orders). Please understand that your custom order is specially made for you. All details including style, material, accessories are as per your choice and we are not likely to sell it to anyone else.<\/p>"
+          }
+        },
+        "eb71f8c3-2058-4151-b6d1-e18911281a32": {
+          "type": "question",
+          "settings": {
+            "title": "Am I eligible for a refund?",
+            "answer": "<p>You are only eligible for a refund if you fit the following criteria:<\/p><p>1. You have purchased a regular, in-store product.<\/p><p>2. The product is of a regular size (non-custom-made).<\/p><p>3. The product is returned in original condition and packaging within 30 days of delivery.<\/p><p>Personalized or other customized products may not be returned for refund or exchange under any circumstances.<\/p>"
+          }
+        },
+        "8190f4b5-3b01-4d9a-9c30-a117dc8d02ca": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008309993-Exchange-Alteration\">Exchange\/Alteration<\/a><\/h6>"
+          }
+        },
+        "9aeccf50-dc9d-4c5b-bbe4-067cf32f53d4": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to receive a replacement jacket?",
+            "answer": "<p>A Return Merchandise Authorization (RMA) order is generated on the request of a replacement jacket which takes the same amount of time to deliver as the new order.<\/p>"
+          }
+        },
+        "e2b0e2cf-95b9-4757-a51c-4cc8636a2711": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return and exchange a regular jacket for another style?",
+            "answer": "<p>Yes, you can definitely return a regular jacket and get a replacement for another style by contacting our Customer Care team.<\/p><p>You'll have to pay the differential amount for another style jacket and in case, the amount for replacement jacket is less than the one you placed the order for, we'll provide you store credit for the remaining amount.<\/p>"
+          }
+        },
+        "53741832-30e5-4cdd-a215-e1394a03c892": {
+          "type": "question",
+          "settings": {
+            "title": "I received a custom order. Can I return it for alteration?",
+            "answer": "<p>We are committed to getting you your perfect jacket in the first go. However, if your custom or made-to-measure order doesn’t fit you well, we do the first alteration free of cost. You'll need to contact our customer support for guidance on returning the jacket for alteration.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4ff1cf3b-f7aa-41fe-a799-6d38a9c393ac",
+        "template--20474332774687__1cea65b2-e3f4-46d1-b64e-8df49cc44670-question-1",
+        "template--20474332774687__1cea65b2-e3f4-46d1-b64e-8df49cc44670-question-2",
+        "163e7e98-0663-4ed0-9843-886f87c8ec98",
+        "6a6a2f34-1176-4697-8b32-1fe0b145e100",
+        "3202aaeb-e045-41b7-9915-e6a16f476f4d",
+        "eb71f8c3-2058-4151-b6d1-e18911281a32",
+        "8190f4b5-3b01-4d9a-9c30-a117dc8d02ca",
+        "9aeccf50-dc9d-4c5b-bbe4-067cf32f53d4",
+        "e2b0e2cf-95b9-4757-a51c-4cc8636a2711",
+        "53741832-30e5-4cdd-a215-e1394a03c892"
+      ],
+      "settings": {
+        "title": "Returns, Refund & Exchange"
+      }
+    },
+    "51b4e17a-00c3-42fb-908d-437d6e8865bf": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "f00303b2-77a6-4b08-adad-d17d3d77cb69": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008998393-Cleaning\">Cleaning<\/a><\/h6>"
+          }
+        },
+        "template--20474332774687__51b4e17a-00c3-42fb-908d-437d6e8865bf-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "How should I clean my leather garment?",
+            "answer": "<p>Proper care and treatment of your leather garment increases the life of it and allows you to continue enjoying the style and benefits of having a leather jacket that’s as good as new.<\/p><p>Here are a few simple steps to help you clean your leather garment.<\/p><ul><li>Remove any dust or dirt by using a soft brush and gently brushing to the garment.<\/li><li>Clean the garment using a cleaning solution of water (preferably distilled water) and neutral soap (without any chemicals). Moisten a microfiber cloth or sponge with the solution and gently wipe down, from top to bottom, the outside of the garment.<\/li><li>Dampen another cloth with just the water and wipe the garment again to remove the soap.<\/li><li>Wipe off any excess water to ensure no water marks are left on the garment and quickly dry with a clean towel.<\/li><li>Hang the garment to let it dry naturally. Never use an air dryer and keep the garment away from direct sunlight and heat sources.<\/li><\/ul><p>P.S. For deep cleaning, it is always recommended to go to a cleaner that specializes in leather.<\/p>"
+          }
+        },
+        "3cbbd18d-4409-461c-b68d-384b63cc4952": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360009000873-Special-Care\">Special Care<\/a><\/h6>"
+          }
+        },
+        "baaaf717-445e-4bc8-8ecf-220df861234c": {
+          "type": "question",
+          "settings": {
+            "title": "Can I wear a leather jacket in the rain?",
+            "answer": "<p>Whilst mild rain is perfectly okay and wouldn't cause any or much damage to your leather jacket, the leather should not be exposed to significant amounts of moisture over a prolonged length of time.<\/p><p>In case, the leather may come into contact with water or exposed to rain, you should quickly wipe it off and allow it to dry by hanging the garment in a cool & dry place, far from direct sunlight and heat sources.<\/p>"
+          }
+        },
+        "ebbd2571-af77-469e-b2d8-a437272e60d6": {
+          "type": "question",
+          "settings": {
+            "title": "What else should I do for the care of my leather garment?",
+            "answer": "<p>Our leather jackets are not water-resistant by default and exposure to water and significant amounts of moisture can make your jacket brittle and dry.<\/p><p>If you choose, you can apply a water-resistant product to your garment, following the instructions of the manufacturer; however, The Jacket Maker does not take any responsibility for any damage caused by the use of such products.<\/p><p>It is advisable to keep your jacket clean from dust and dirt, and condition it once or twice a year to maintain the new looks of the leather, as well as keeping it strong and providing it with some protection from water damage.<\/p><p>We also recommend you to avoid dry cleaning, machine washing, tumble drying, using bleach, detergents and chemical soaps, ironing and force drying your leather garment. Additionally protect your leather garment from direct sunlight, rain, humidity, alcohol, oil, grease, and other abrasive products and cleaners with caustic ingredients.<\/p>"
+          }
+        },
+        "cc79ca1a-5360-423e-b1c2-e9ebd456ced3": {
+          "type": "content",
+          "settings": {
+            "content": "<h6><a href=\"https:\/\/help.thejacketmaker.com\/hc\/en-us\/sections\/360008890094-Storing\">Storing<\/a><\/h6>"
+          }
+        },
+        "19590363-4ee8-44d4-9b26-c7b674768fc9": {
+          "type": "question",
+          "settings": {
+            "title": "How should I store my leather garment?",
+            "answer": "<p>In order to maintain the looks and shape of your leather garment, it is highly important to know how to store your leather garment.<\/p><p>Here are a few suggestions that will help you keep your leather jacket in proper shape.<\/p><ul><li>Use a breathable garment bag for storing the leather jacket, avoid plastic packaging.<\/li><li>Use padded or wooden hangers to hang the leather jacket, this will help keep the garment in shape.<\/li><li>Do not keep or hung the garment folded.<\/li><li>Always store the leather garment in a cool and dry place and keep it away from direct sunlight or high heat sources.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "f00303b2-77a6-4b08-adad-d17d3d77cb69",
+        "template--20474332774687__51b4e17a-00c3-42fb-908d-437d6e8865bf-question-1",
+        "3cbbd18d-4409-461c-b68d-384b63cc4952",
+        "baaaf717-445e-4bc8-8ecf-220df861234c",
+        "ebbd2571-af77-469e-b2d8-a437272e60d6",
+        "cc79ca1a-5360-423e-b1c2-e9ebd456ced3",
+        "19590363-4ee8-44d4-9b26-c7b674768fc9"
+      ],
+      "settings": {
+        "title": "Product Care"
       }
     },
     "contact": {
@@ -232,14 +541,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Get in touch",
+            "title": "Still have any questions?",
             "use_h1": false
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Have questions about your order, or a general enquiry?<\/p>",
+            "text": "<p>No problem, send us your query and our team will get back to you.<\/p>",
             "enlarge_text": true
           }
         },
@@ -247,7 +556,7 @@
           "type": "button",
           "settings": {
             "button_label": "Contact us",
-            "button_link": "",
+            "button_link": "https:\/\/www.thejacketmaker.co.nz\/pages\/contact-us",
             "button_style": "primary"
           }
         }
@@ -271,6 +580,9 @@
     "main",
     "faq-content-1",
     "faq-content-2",
+    "68a83f37-09d7-4845-a721-3914de96f1ff",
+    "1cea65b2-e3f4-46d1-b64e-8df49cc44670",
+    "51b4e17a-00c3-42fb-908d-437d6e8865bf",
     "contact"
   ]
 }

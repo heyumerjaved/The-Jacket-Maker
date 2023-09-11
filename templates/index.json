@@ -158,7 +158,7 @@
         "b88446e0-d9f1-4f40-8f86-7f3a0d73449b"
       ],
       "settings": {
-        "title": "What people are saying",
+        "title": "AS FEATURED IN",
         "extraline": "Over 3000 5-Star Customer Reviews",
         "stars_image": "shopify:\/\/shop_images\/5-Star-Icon-Black_400x65_508d6f8b-92bd-4f12-a27a-caa5c904eefe.png"
       }
@@ -212,7 +212,7 @@
           "settings": {
             "title": "Men's Shoes",
             "image": "shopify:\/\/shop_images\/1000x1000_1.jpg",
-            "url": "shopify:\/\/products\/air-rolf-black-leather-bomber-jacket-html"
+            "url": "shopify:\/\/products\/air-rolf-black-leather-bomber-jacket"
           }
         },
         "f95ba29f-2789-4dd1-b30b-772d20f66189": {
@@ -220,7 +220,7 @@
           "settings": {
             "title": "Suede Jackets",
             "image": "shopify:\/\/shop_images\/1000x1000-_2.jpg",
-            "url": "shopify:\/\/products\/alberto-white-shearling-black-leather-jacket-html"
+            "url": "shopify:\/\/products\/alberto-white-shearling-black-leather-jacket"
           }
         },
         "08894606-e89c-4dea-888c-6553fb35037a": {
@@ -228,7 +228,7 @@
           "settings": {
             "title": "Leather Bags",
             "image": "shopify:\/\/shop_images\/1000x1000-_3.jpg",
-            "url": "shopify:\/\/products\/armand-distressed-brown-leather-biker-jacket-html"
+            "url": "shopify:\/\/products\/armand-distressed-brown-leather-biker-jacket"
           }
         },
         "64ee805e-ad2b-450d-8553-1448f7cb8f55": {
@@ -236,7 +236,7 @@
           "settings": {
             "title": "Biker Jackets",
             "image": "shopify:\/\/shop_images\/1000x1000-_5.jpg",
-            "url": "shopify:\/\/products\/alice-brown-double-breasted-leather-coat-html"
+            "url": "shopify:\/\/products\/alice-brown-double-breasted-leather-coat"
           }
         },
         "86e0c9ab-4d2f-41f8-8f17-f83fac64a434": {
@@ -244,7 +244,7 @@
           "settings": {
             "title": "Varsity Jackets",
             "image": "shopify:\/\/shop_images\/1000x1000-_4.jpg",
-            "url": "shopify:\/\/products\/adalyn-quilted-mocha-suede-biker-jacket-html"
+            "url": "shopify:\/\/products\/adalyn-quilted-mocha-suede-biker-jacket"
           }
         }
       },
@@ -257,19 +257,20 @@
         "64ee805e-ad2b-450d-8553-1448f7cb8f55",
         "86e0c9ab-4d2f-41f8-8f17-f83fac64a434"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "16359278676808bea5": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "collection": "frontpage",
+        "title": "SHOP BEST SELLERS",
+        "collection": "mens-best-sellers",
         "show_vendor": false,
-        "enable_carousel": false,
+        "enable_carousel": true,
         "grid": 5,
         "rows": 1,
         "use_alt_bg": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "full_width": true
       }
     },
@@ -333,42 +334,12 @@
         "template--19881662087455__7186c655-0a20-4826-ae01-4cec7ea4f81b-heading-1",
         "template--19881662087455__7186c655-0a20-4826-ae01-4cec7ea4f81b-text-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "medium",
         "text_alignment": "center",
         "full_width": false,
         "use_alt_bg": false
-      }
-    },
-    "16359281184fd0d618": {
-      "type": "testimonials",
-      "blocks": {
-        "16359281184fd0d618-0": {
-          "type": "testimonial",
-          "settings": {
-            "star_rating": 5,
-            "testimonial": "Such a great style! The fit guide was spot on and I’m obsessed with this jacket. The green is a...",
-            "author": "Shannon Castleberry",
-            "image": "shopify:\/\/shop_images\/Ionic_Black_Leather_Jacket_3-19-1661685993526.webp",
-            "image_caption": "Shop Ionic",
-            "link": "shopify:\/\/products\/ionic-black-leather-jacket"
-          }
-        }
-      },
-      "block_order": [
-        "16359281184fd0d618-0"
-      ],
-      "custom_css": [],
-      "settings": {
-        "title": "",
-        "layout": "image-right",
-        "text_caps": false,
-        "quote_text_size": 20,
-        "quote_text_size_mobile": 20,
-        "image_shape": "landscape",
-        "use_alt_bg": false,
-        "autoplay": true,
-        "autoplay_speed": 15
       }
     },
     "8a6afb14-55a1-49b3-a252-144895026109": {
@@ -389,7 +360,6 @@
     "16359278676808bea5",
     "3ba7f754-412e-42da-9bcd-0422958d4e95",
     "7186c655-0a20-4826-ae01-4cec7ea4f81b",
-    "16359281184fd0d618",
     "8a6afb14-55a1-49b3-a252-144895026109"
   ]
 }

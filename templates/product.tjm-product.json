@@ -5,11 +5,13 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
@@ -31,7 +33,8 @@
         },
         "4887f261-c162-4aaa-9368-bef269addc86": {
           "type": "custom_swatches",
-          "settings": {}
+          "settings": {
+          }
         },
         "divider": {
           "type": "divider",
@@ -62,7 +65,8 @@
         },
         "618a2784-5f00-4dba-9416-fdf0fbb4358f": {
           "type": "customizethisproduct",
-          "settings": {}
+          "settings": {
+          }
         },
         "88984ba5-14c9-49d8-b1bc-5296cb4157cb": {
           "type": "accordion",
@@ -121,7 +125,8 @@
         },
         "bb171d7b-1364-4802-a4eb-86662c94db7f": {
           "type": "shopify:\/\/apps\/trust-badges-bear\/blocks\/widget\/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -152,14 +157,6 @@
         "enable_video_looping": true,
         "enable_var_img_grouping": false,
         "var_img_grouping_option": "Color,Colour,Couleur,Farbe"
-      }
-    },
-    "recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "title": "You may also like",
-        "show_vendor": false,
-        "grid": 5
       }
     },
     "8f714e09-34f6-4756-96ba-889c37443c28": {
@@ -297,16 +294,126 @@
         "full_width": true,
         "overlay_style": "shadow"
       }
+    },
+    "732bbf3a-223b-4cf9-bc57-26f152717833": {
+      "type": "quote-slider",
+      "blocks": {
+        "template--20474332971295__732bbf3a-223b-4cf9-bc57-26f152717833-quote-1": {
+          "type": "quote",
+          "settings": {
+            "quote": "“The perfect look and perfect fit”",
+            "logo": "shopify:\/\/shop_images\/Forbes-Logo.webp"
+          }
+        },
+        "template--20474332971295__732bbf3a-223b-4cf9-bc57-26f152717833-quote-2": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Impressed with the quality of its materials”",
+            "logo": "shopify:\/\/shop_images\/REFINERY29-Logo.webp"
+          }
+        },
+        "f269d3c5-4e8e-4422-a74e-7ee6b2e58bd2": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Luxe bag.. Anyone with a sense of style will love”",
+            "logo": "shopify:\/\/shop_images\/Esquire-Logo.webp"
+          }
+        },
+        "b8676572-8ef4-4ef6-b468-1f1480eeee82": {
+          "type": "quote",
+          "settings": {
+            "quote": "“A solid brand for first-time buyers”",
+            "logo": "shopify:\/\/shop_images\/Men_sHealth-Logo.webp"
+          }
+        },
+        "c6373288-88e5-4019-800c-4135811f6168": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Bespoke comfort and quality at an incredibly affordable price”",
+            "logo": "shopify:\/\/shop_images\/Gearmoose-Logo.webp"
+          }
+        },
+        "972e529a-e216-468d-ac52-678c88392626": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Tailor-made blazer without the bespoke price tag”",
+            "logo": "shopify:\/\/shop_images\/Elle-Logo.webp"
+          }
+        },
+        "61acb0e2-fc6e-4868-b20a-8a0fedffabb7": {
+          "type": "quote",
+          "settings": {
+            "quote": "“The affordability mixed with the quality is wild”",
+            "logo": "shopify:\/\/shop_images\/nextluxury-logo.webp"
+          }
+        },
+        "8c3e7056-68cd-474c-8784-72c9a0c16544": {
+          "type": "quote",
+          "settings": {
+            "quote": "“The Jacket Maker, where tech meets on-demand leather jackets”",
+            "logo": "shopify:\/\/shop_images\/askmen_logo.webp"
+          }
+        },
+        "46cefdfd-f6a1-4e95-8a3d-29dfdf8538c5": {
+          "type": "quote",
+          "settings": {
+            "quote": "“We received the jackets—it was love at first sight”",
+            "logo": "shopify:\/\/shop_images\/Coveteur-Logo.webp"
+          }
+        },
+        "08ad4a8d-e28c-4ec4-9487-30fb48107dd2": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Made from supremely durable full-grain leather”",
+            "logo": "shopify:\/\/shop_images\/Mashable-Logo.webp"
+          }
+        },
+        "8606278b-2e96-49e3-a54d-2b33cb4f6049": {
+          "type": "quote",
+          "settings": {
+            "quote": "“Investment-worthy pieces handmade from top-notch raw materials”",
+            "logo": "shopify:\/\/shop_images\/Buzzfeed-Logo.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--20474332971295__732bbf3a-223b-4cf9-bc57-26f152717833-quote-1",
+        "template--20474332971295__732bbf3a-223b-4cf9-bc57-26f152717833-quote-2",
+        "f269d3c5-4e8e-4422-a74e-7ee6b2e58bd2",
+        "b8676572-8ef4-4ef6-b468-1f1480eeee82",
+        "c6373288-88e5-4019-800c-4135811f6168",
+        "972e529a-e216-468d-ac52-678c88392626",
+        "61acb0e2-fc6e-4868-b20a-8a0fedffabb7",
+        "8c3e7056-68cd-474c-8784-72c9a0c16544",
+        "46cefdfd-f6a1-4e95-8a3d-29dfdf8538c5",
+        "08ad4a8d-e28c-4ec4-9487-30fb48107dd2",
+        "8606278b-2e96-49e3-a54d-2b33cb4f6049"
+      ],
+      "settings": {
+        "title": "AS FEATURED IN",
+        "extraline": "Over 3000 5-Star Customer Reviews",
+        "stars_image": "shopify:\/\/shop_images\/5-Star-Icon-Black_400x65_508d6f8b-92bd-4f12-a27a-caa5c904eefe.png"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 5
+      }
     }
   },
   "order": [
     "main",
-    "recommendations",
     "8f714e09-34f6-4756-96ba-889c37443c28",
     "42a9f7b7-3439-4272-a18e-e5afe5076da3",
     "836a5530-2cc8-4a07-ba31-0d3870395102",
     "b7afc90b-7b96-404f-abfc-5ac61b11509e",
     "26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff",
-    "687a8380-c47a-462f-ba22-ca2205a8558f"
+    "687a8380-c47a-462f-ba22-ca2205a8558f",
+    "732bbf3a-223b-4cf9-bc57-26f152717833",
+    "recommendations"
   ]
 }
