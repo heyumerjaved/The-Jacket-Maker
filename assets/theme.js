@@ -7122,7 +7122,7 @@
 
       $(this).on('variantChanged', function (evt, variant, product) {
         //Logic for injecting line item properties for MTM
-        if (variant.title == "MADE TO MEASURE (+£45)"){
+        if (variant.title == "MADE TO MEASURE (+$70)"){
 
           var mtmLineItemProperties = document.querySelector('.mtm-line-item-properties');
           
