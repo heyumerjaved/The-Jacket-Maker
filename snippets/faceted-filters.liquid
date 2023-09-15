@@ -209,6 +209,11 @@
         <button type="submit" class="btn">{{ 'collections.filtering.submit' | t }}</button>
       </noscript>
     </form>
+
+    {% assign thirdlist = filter_context.metafields.custom.animal_type_menu %}
+    {% assign fourthlist = filter_context.metafields.custom.color_menu %}
+
+
     {% if firstlist != blank %}
       <div class="custom-filter-wrapper">
         <div class="custom-filter-title">{{ firstlist.title }}</div>
@@ -224,6 +229,26 @@
         <div class="custom-filter-title">{{ secondlist.title }}</div>
         <ul>
         {% for link in linklists[secondlist].links %}
+          <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+    {% if thirdlist != blank %}
+      <div class="custom-filter-wrapper">
+        <div class="custom-filter-title">{{ linklists[thirdlist].title }}</div>
+        <ul>
+        {% for link in linklists[thirdlist].links %}
+          <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+    {% if fourthlist != blank %}
+      <div class="custom-filter-wrapper">
+        <div class="custom-filter-title">{{ linklists[fourthlist].title }}</div>
+        <ul>
+        {% for link in linklists[fourthlist].links %}
           <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
         {% endfor %}
         </ul>
