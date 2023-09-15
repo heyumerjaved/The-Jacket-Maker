@@ -31,6 +31,23 @@
             "show_in_quickbuy": false
           }
         },
+        "05834701-b14a-44a3-a3a2-9cc1c529ed50": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "4b169f4e-e235-4356-9c93-208427e6daeb": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Size up if you are in between sizes<\/p>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
         "4887f261-c162-4aaa-9368-bef269addc86": {
           "type": "custom_swatches",
           "settings": {
@@ -134,6 +151,8 @@
         "title",
         "price",
         "a551e945-5f58-4d00-b28e-93c7b15d81bd",
+        "05834701-b14a-44a3-a3a2-9cc1c529ed50",
+        "4b169f4e-e235-4356-9c93-208427e6daeb",
         "4887f261-c162-4aaa-9368-bef269addc86",
         "divider",
         "variant_picker",
@@ -397,11 +416,116 @@
     },
     "recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "title": "You may also like",
         "show_vendor": false,
         "grid": 5
+      }
+    },
+    "1a6c7fff-6a15-4cec-a6fb-1a9406267025": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20474332971295__1a6c7fff-6a15-4cec-a6fb-1a9406267025-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "THE JACKET MAKER DIFFERENCE",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20474332971295__1a6c7fff-6a15-4cec-a6fb-1a9406267025-heading-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    },
+    "c0a94c8d-3245-44fb-b145-b9c45f4f6f1b": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FINEST_RAW_MATERIALS_5c67c9d3-2e74-437c-8b0b-ef74ef9c4028.webp",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Finest Raw Materials",
+        "use_h1": false,
+        "text": "<p>It all starts with the raw materials and since we carry our life in our jackets, we don’t use anything but only the best possible materials. All our jackets are made with full grain natural leather, YKK Zippers, and polyester lining.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "547a7677-a767-4f96-bb0d-9aebbbb36572": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EXQUISITE_CRAFTSMANSHIP_1d2e6255-4aaa-4009-a775-0a075f3368aa.webp",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Exquisite Craftsmanship",
+        "use_h1": false,
+        "text": "<p>Our products are handmade, one at a time by one craftsman with precision and attention to detail, unlike the mass chain production. Not opting for chain production means higher cost but a better quality that you will notice in our stitching.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "56630112-55dd-456c-bcf2-f0abc3c6e2c7": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FAIR_PRICING_-_DIRECT_TO_YOU_470b7b38-228f-482c-b134-44d3a12852eb.webp",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Fair Pricing - Direct to You",
+        "use_h1": false,
+        "text": "<p>With our direct-to-consumer approach, our products come at ¼ the price of what luxury brands would sell them for. We keep our prices lower by cutting out middlemen, storefront costs and inefficient marketing spent. Additionally, with just-in-time production.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "271c2469-7a00-476f-80ab-8dea2f8c69b0": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SIZES_THAT_FIT_ALL_0b65e55e-5613-464f-a115-39570a2a4bd0.webp",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Sizes that fit all",
+        "use_h1": false,
+        "text": "<p>Inclusivity is a buzzword but we take it quite seriously. We truly know there is something electrifying about wearing a great leather jacket, we ensure no one misses out on this. All our jackets are offered in eight standard sizes from XS to 4XL and made-to-measure-option.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "right",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "caa4d6fe-2f75-4f88-9565-e75e940a78b2": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DISCOVERY___EXPRESSION_3730cca6-0ff3-4a38-8d54-7fcc40329c71.webp",
+        "image_width": 700,
+        "subheading": "",
+        "title": "Discovery & Expression",
+        "use_h1": false,
+        "text": "<p>As no two persons are alike, we believe in discovery and expression. Our customers can make 100% custom, bespoke jackets from scratch with the help of our design consultants. Thus, fostering diversity and enabling our customers to fully express themselves and be apart from the rest.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
       }
     }
   },
@@ -414,6 +538,12 @@
     "26bbd9cc-4cbc-4ddf-8c97-b67b4253fcff",
     "687a8380-c47a-462f-ba22-ca2205a8558f",
     "732bbf3a-223b-4cf9-bc57-26f152717833",
-    "recommendations"
+    "recommendations",
+    "1a6c7fff-6a15-4cec-a6fb-1a9406267025",
+    "c0a94c8d-3245-44fb-b145-b9c45f4f6f1b",
+    "547a7677-a767-4f96-bb0d-9aebbbb36572",
+    "56630112-55dd-456c-bcf2-f0abc3c6e2c7",
+    "271c2469-7a00-476f-80ab-8dea2f8c69b0",
+    "caa4d6fe-2f75-4f88-9565-e75e940a78b2"
   ]
 }

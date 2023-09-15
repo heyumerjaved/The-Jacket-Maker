@@ -3,7 +3,9 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": true
       }
@@ -74,7 +76,7 @@
     "73916580-e69f-447d-b2f9-e059c07dd87d": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2-_The_Carismatico_Black_Leather_Messenger_Bag_Made_Of_Premium_Full_Grain_Real_Leather-23-1666108182281_1.jpg",
+        "image": "shopify:\/\/shop_images\/FINEST_RAW_MATERIALS_5c67c9d3-2e74-437c-8b0b-ef74ef9c4028.webp",
         "image_width": 700,
         "subheading": "",
         "title": "Finest Raw Materials",
@@ -91,7 +93,7 @@
     "23537236-3611-4793-bdf2-d66650ae6ede": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Men-27s-Danny-Quilted-Brown-Leather-Biker-Jacket45614548-8-1557200563048.jpg",
+        "image": "shopify:\/\/shop_images\/EXQUISITE_CRAFTSMANSHIP_1d2e6255-4aaa-4009-a775-0a075f3368aa.webp",
         "image_width": 700,
         "subheading": "",
         "title": "Exquisite Craftsmanship",
@@ -108,7 +110,7 @@
     "29ce48b1-2774-4e69-917b-b3c7ba52bcb3": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/download.webp",
+        "image": "shopify:\/\/shop_images\/FAIR_PRICING_-_DIRECT_TO_YOU_470b7b38-228f-482c-b134-44d3a12852eb.webp",
         "image_width": 700,
         "subheading": "",
         "title": "Fair Pricing - Direct to You",
@@ -125,7 +127,7 @@
     "5748aae8-ab23-48cb-853a-2fe623a8ef54": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/unnamed-2.png",
+        "image": "shopify:\/\/shop_images\/SIZES_THAT_FIT_ALL_0b65e55e-5613-464f-a115-39570a2a4bd0.webp",
         "image_width": 700,
         "subheading": "",
         "title": "Sizes that fit all",
@@ -142,7 +144,7 @@
     "9bdabdd6-8ebd-4bdb-9bbc-25da9fd9e40f": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-08-28_123417.jpg",
+        "image": "shopify:\/\/shop_images\/DISCOVERY___EXPRESSION_3730cca6-0ff3-4a38-8d54-7fcc40329c71.webp",
         "image_width": 700,
         "subheading": "",
         "title": "Discovery & Expression",

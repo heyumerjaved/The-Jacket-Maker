@@ -18,9 +18,9 @@
             "text": "",
             "enlarge_text": true,
             "button_label_1": "SHOP MEN",
-            "button_url_1": "",
+            "button_url_1": "shopify:\/\/collections\/mens-leather-jackets",
             "button_label_2": "SHOP WOMEN",
-            "button_url_2": "",
+            "button_url_2": "shopify:\/\/collections\/womens-leather-jackets",
             "text_alignment": "bottom left"
           }
         },
@@ -178,7 +178,7 @@
         "text": "<p>Introducing made-to-last handcrafted leather shoes priced for everyone.<\/p>",
         "enlarge_text": true,
         "button_label_1": "SHOP NOW",
-        "button_url_1": "shopify:\/\/pages\/eviternity",
+        "button_url_1": "shopify:\/\/pages\/eviternity-by-the-jacket-maker",
         "button_label_2": "",
         "button_url_2": "",
         "text_alignment": "center center",
@@ -195,56 +195,56 @@
           "type": "featuredblock",
           "settings": {
             "title": "Men's Jackets",
-            "image": "shopify:\/\/shop_images\/1400x1000-_1.jpg",
-            "url": "shopify:\/\/products\/adalyn-quilted-distressed-brown-leather-biker-jacket-html"
+            "image": "shopify:\/\/shop_images\/Mens_Leather_Jackets.webp",
+            "url": "shopify:\/\/collections\/mens-leather-jackets"
           }
         },
         "template--20474332610847__8ea6a01d-73ed-402c-8b4f-3f0a802626d7-featuredblock-2": {
           "type": "featuredblock",
           "settings": {
             "title": "Women's Jackets",
-            "image": "shopify:\/\/shop_images\/1400x1000-_2.jpg",
-            "url": "shopify:\/\/products\/air-rolf-brown-leather-bomber-jacket-html"
+            "image": "shopify:\/\/shop_images\/Women_Leather_Jackets.webp",
+            "url": "shopify:\/\/collections\/womens-leather-jackets"
           }
         },
         "42c32d08-9e41-498b-9599-66c32d2f73e3": {
           "type": "featuredblock",
           "settings": {
             "title": "Men's Shoes",
-            "image": "shopify:\/\/shop_images\/1000x1000_1.jpg",
-            "url": "shopify:\/\/products\/air-rolf-black-leather-bomber-jacket"
+            "image": "shopify:\/\/shop_images\/Mens_Leather_Shoes.webp",
+            "url": "shopify:\/\/pages\/eviternity-by-the-jacket-maker"
           }
         },
         "f95ba29f-2789-4dd1-b30b-772d20f66189": {
           "type": "featuredblock",
           "settings": {
-            "title": "Suede Jackets",
-            "image": "shopify:\/\/shop_images\/1000x1000-_2.jpg",
-            "url": "shopify:\/\/products\/alberto-white-shearling-black-leather-jacket"
+            "title": "Men's Coats",
+            "image": "shopify:\/\/shop_images\/Men_s_Coats_449d0aa7-c462-4ad8-ae69-1106faba731b.webp",
+            "url": "shopify:\/\/collections\/mens-winter-coats"
           }
         },
         "08894606-e89c-4dea-888c-6553fb35037a": {
           "type": "featuredblock",
           "settings": {
             "title": "Leather Bags",
-            "image": "shopify:\/\/shop_images\/1000x1000-_3.jpg",
-            "url": "shopify:\/\/products\/armand-distressed-brown-leather-biker-jacket"
+            "image": "shopify:\/\/shop_images\/Leather_Bags.webp",
+            "url": "shopify:\/\/pages\/trucarry-by-the-jacket-maker"
           }
         },
         "64ee805e-ad2b-450d-8553-1448f7cb8f55": {
           "type": "featuredblock",
           "settings": {
             "title": "Biker Jackets",
-            "image": "shopify:\/\/shop_images\/1000x1000-_5.jpg",
-            "url": "shopify:\/\/products\/alice-brown-double-breasted-leather-coat"
+            "image": "shopify:\/\/shop_images\/Biker_Leather_Jackets.webp",
+            "url": "shopify:\/\/collections\/mens-biker-jackets"
           }
         },
         "86e0c9ab-4d2f-41f8-8f17-f83fac64a434": {
           "type": "featuredblock",
           "settings": {
-            "title": "Varsity Jackets",
-            "image": "shopify:\/\/shop_images\/1000x1000-_4.jpg",
-            "url": "shopify:\/\/products\/adalyn-quilted-mocha-suede-biker-jacket"
+            "title": "Women's Coats",
+            "image": "shopify:\/\/shop_images\/Women_s_Coats.webp",
+            "url": "shopify:\/\/collections\/women-leather-coats"
           }
         }
       },
