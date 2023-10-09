@@ -3,29 +3,30 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "full_width": false
+        "full_width": true
       }
     },
     "fbda812e-8719-4971-8a43-062571a9bfff": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Parka-20Jackets-1487685270492.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
+        "subheading": "",
+        "title": "Custom Parka<br> Jackets",
+        "heading_max_width": 500,
+        "title_size": 70,
         "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "use_h1": true,
+        "text": "<p>Design Custom Parka Jackets With Your Embroidery, Logo, Fabric & Color.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom left",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -72,28 +73,30 @@
     },
     "f13e4588-ee14-4f2a-a95f-5b26c5f4d255": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Men's Leather Jackets",
         "collection": "mens-leather-jackets",
         "show_vendor": false,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 5,
         "rows": 1,
-        "use_alt_bg": true,
-        "show_view_all": true,
+        "use_alt_bg": false,
+        "show_view_all": false,
         "full_width": true
       }
     },
     "45c48454-2712-41d4-ac96-bc0886550ef5": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Women's Leather Jackets",
         "collection": "womens-leather-jackets",
         "show_vendor": false,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 5,
         "rows": 1,
-        "use_alt_bg": true,
+        "use_alt_bg": false,
         "show_view_all": false,
         "full_width": true
       }
@@ -101,48 +104,50 @@
     "6dbcd4c8-15fa-4638-8760-03d33dc072f8": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/parka-usp-1487685270564.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "subheading": "",
+        "title": "Customize<br> Your Own<br> Parka",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
         "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "text": "<p>We take you on an insightful journey of discovering endless options and solutions leading to the ideal customized parka coat or jacket that will add a dash of uniqueness to your appearance. Whether it is an anorak, a snorkel parka, cagoule jacket or down coat, fishtail parka or a combination of different elements. We'll assist you every step of the way.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom left",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "shadow"
+        "overlay_style": "full image-overlay--bg-shadow"
       }
     },
     "6fe8186a-2ca7-499f-9b06-155b6f16bd6e": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/parka-fabric-1487756898093.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "subheading": "",
+        "title": "Parka <br>Fabrics",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
         "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "text": "<p>From insulation material such as wool, fleece, thinsulate or goose down, to nylon, cotton and polyester that are a few outer-shell options you have. Possibilities of water-proofing fabrics and experimenting with style elements. We even accommodate synthetic alternatives, with synthetic filling that include primaloft, hollofil, quallofil and others.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom right",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -155,9 +160,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Parka-20Jackets-1487756286607.webp",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Parka Jackets",
+            "text": "<p>We'll gladly assist you in choosing colours, fabrics, design elements or go through detail options and ultimately give you a Custom Parka Jacket that is best suited to your individuality and requirements.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -166,9 +172,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Parka-20Coats-1487756286722.webp",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Parka Coats",
+            "text": "<p>Dealing with parka coats and a wide range of options, we assist you on a one on one basis. Helping you determine what works best, based on style, requirements and living. From colour to design, detailing, filling and function.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -179,9 +186,39 @@
         "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-2"
       ],
       "settings": {
-        "title": "Multi-column",
+        "title": "",
         "text_alignment": "center",
         "button_style": "primary",
+        "use_alt_bg": true
+      }
+    },
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1",
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
         "use_alt_bg": false
       }
     }
@@ -194,6 +231,7 @@
     "45c48454-2712-41d4-ac96-bc0886550ef5",
     "6dbcd4c8-15fa-4638-8760-03d33dc072f8",
     "6fe8186a-2ca7-499f-9b06-155b6f16bd6e",
-    "d745053c-10f0-41c5-b667-012456fdd99c"
+    "d745053c-10f0-41c5-b667-012456fdd99c",
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317"
   ]
 }

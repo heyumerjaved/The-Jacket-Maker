@@ -12,49 +12,35 @@
         "f81f7c95-50c8-4350-b9ae-81eefb501325": {
           "type": "collection",
           "settings": {
-            "collection": "womens-leather-jackets",
+            "collection": "mens-leather-jackets",
             "image": "shopify:\/\/shop_images\/Leather_Jackets.webp"
           }
         },
         "fc74c4c0-a2f6-4842-bd03-277c147f2b1d": {
           "type": "collection",
           "settings": {
-            "collection": "custom-leather-shoes",
-            "image": "shopify:\/\/shop_images\/08_Knight_Derby_Brown_Suede_Leather_Boots_Side_Back_Walk-11-1674651086673_9d8894de-7cf0-4968-a439-30177951e700.webp"
+            "collection": "mens-bomber-jackets",
+            "image": "shopify:\/\/shop_images\/Mens-Bomber-Jackets-1582970719331.webp"
           }
         },
         "bb7d1a91-0be0-4a5b-9d33-f54fe05e41d2": {
           "type": "collection",
           "settings": {
-            "collection": "custom-leather-bags",
-            "image": "shopify:\/\/shop_images\/2-_The_Carismatico_Black_Leather_Messenger_Bag_Made_Of_Premium_Full_Grain_Real_Leather-23-1666108182281.jpg"
+            "collection": "mens-biker-leather-jackets",
+            "image": "shopify:\/\/shop_images\/Mens-Biker-Leather-Jackets-1582970679266_e9ec4523-70bf-4eb3-921e-a83e63a5a6d4.webp"
           }
         },
         "0748a62e-ccd3-465f-9dc4-1a4576a64b74": {
           "type": "collection",
           "settings": {
-            "collection": "custom-bomber-jackets",
-            "image": "shopify:\/\/shop_images\/Bomber_Jackets.webp"
-          }
-        },
-        "d2ca0fbe-4ed7-474f-9d66-e738d1848aab": {
-          "type": "collection",
-          "settings": {
-            "collection": "mens-biker-jackets",
-            "image": "shopify:\/\/shop_images\/Mens-Biker-Leather-Jackets-1582970679266.webp"
-          }
-        },
-        "d39cd667-3597-4bef-8532-a35a5fff47a5": {
-          "type": "collection",
-          "settings": {
-            "collection": "mens-blazers",
-            "image": "shopify:\/\/shop_images\/Mens-Leather-Blazers-1582970774384.webp"
+            "collection": "mens-suede-jackets",
+            "image": "shopify:\/\/shop_images\/Mens-Suede-Jackets-1582975727446_ff74bea9-3e69-4dc9-b960-bdc5eec6b8bd.webp"
           }
         },
         "defa5ef9-ee0c-4e5e-af79-3bf5208991de": {
           "type": "collection",
           "settings": {
-            "collection": "mens-winter-coats",
+            "collection": "mens-trench-coats",
             "image": "shopify:\/\/shop_images\/Mens-Leather-Coats-1582970965715.webp"
           }
         },
@@ -64,6 +50,20 @@
             "collection": "mens-winter-jackets",
             "image": "shopify:\/\/shop_images\/Mens-Winter-Jackets-1582970827918.webp"
           }
+        },
+        "5f14ad05-2485-4a37-9269-c03434022759": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-blazers",
+            "image": "shopify:\/\/shop_images\/Mens-Leather-Blazers-1582970774384_24dadf4d-1aa0-4d53-9393-552d33df425d.webp"
+          }
+        },
+        "59bb8c66-7362-46e0-8edb-912ba4e0717a": {
+          "type": "collection",
+          "settings": {
+            "collection": "leather-bags",
+            "image": "shopify:\/\/shop_images\/1024_x_1024_-_Trucarry.webp"
+          }
         }
       },
       "block_order": [
@@ -71,17 +71,20 @@
         "fc74c4c0-a2f6-4842-bd03-277c147f2b1d",
         "bb7d1a91-0be0-4a5b-9d33-f54fe05e41d2",
         "0748a62e-ccd3-465f-9dc4-1a4576a64b74",
-        "d2ca0fbe-4ed7-474f-9d66-e738d1848aab",
-        "d39cd667-3597-4bef-8532-a35a5fff47a5",
         "defa5ef9-ee0c-4e5e-af79-3bf5208991de",
-        "bff5a8df-1d2e-4fa2-87bf-c0be909dfc40"
+        "bff5a8df-1d2e-4fa2-87bf-c0be909dfc40",
+        "5f14ad05-2485-4a37-9269-c03434022759",
+        "59bb8c66-7362-46e0-8edb-912ba4e0717a"
+      ],
+      "custom_css": [
+        "h2 {font-size: 60;}"
       ],
       "settings": {
         "title": "",
         "enable_carousel": false,
-        "grid": 3,
+        "grid": 2,
         "use_alt_bg": false,
-        "full_width": true
+        "full_width": false
       }
     }
   },

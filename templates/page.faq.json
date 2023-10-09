@@ -2,6 +2,7 @@
   "sections": {
     "heading": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "height": "fixed",
         "height_desktop": 400,

@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Men-03.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Men-Mobile-03.jpg",
-            "slide_link": "shopify:\/\/pages\/women",
+            "slide_link": "shopify:\/\/collections\/mens-leather-jackets",
             "subheading": "",
             "title": "FINEST LEATHER JACKETS",
             "heading_max_width": 680,
@@ -24,42 +24,86 @@
             "text_alignment": "bottom left"
           }
         },
-        "cabbff2b-fb30-44b3-a60f-3a3c8ae3908f": {
+        "69b6c8dd-1861-4663-a42d-0dc90b266096": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eviternity-02.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Eviternity-Mobile-02.jpg",
+            "image": "shopify:\/\/shop_images\/2048_x_1024_-_TJM.webp",
+            "mobile_image": "shopify:\/\/shop_images\/2048_x_1024_-_TJM.webp",
             "slide_link": "",
             "subheading": "",
-            "title": "Men's Shoes",
+            "title": "Finest Quality <br> Fair Prices",
+            "heading_max_width": 800,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "Shop Men",
+            "button_url_1": "shopify:\/\/collections\/mens-leather-jackets",
+            "button_label_2": "Shop Women",
+            "button_url_2": "shopify:\/\/collections\/womens-leather-jackets",
+            "text_alignment": "bottom left"
+          }
+        },
+        "35ba4b4d-30eb-43b7-adc4-a1632e12aab9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2048_x_1024_-_Trucarry.webp",
+            "mobile_image": "shopify:\/\/shop_images\/1024_x_1024_-_Trucarry.webp",
+            "slide_link": "",
+            "subheading": "",
+            "title": "TruCarry <br>Leather Bags",
             "heading_max_width": 800,
             "title_size": 84,
             "title_size_mobile": 46,
             "use_h1": false,
             "text": "",
             "enlarge_text": true,
-            "button_label_1": "Shop Now",
-            "button_url_1": "",
+            "button_label_1": "Shop Leather Bags",
+            "button_url_1": "shopify:\/\/pages\/trucarry",
             "button_label_2": "",
             "button_url_2": "",
-            "text_alignment": "center center"
+            "text_alignment": "bottom left"
+          }
+        },
+        "0841f211-be76-4d39-aa00-5a280d0c671f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2048_x_1024_-_Eviternity.webp",
+            "mobile_image": "shopify:\/\/shop_images\/1024_x_1024_-_Eviternity.webp",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Eviternity<br>Leather Shoes",
+            "heading_max_width": 800,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Shop Leather Shoes",
+            "button_url_1": "shopify:\/\/pages\/eviternity",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "bottom left"
           }
         }
       },
       "block_order": [
         "16359276425da8ce46-0",
-        "cabbff2b-fb30-44b3-a60f-3a3c8ae3908f"
+        "69b6c8dd-1861-4663-a42d-0dc90b266096",
+        "35ba4b4d-30eb-43b7-adc4-a1632e12aab9",
+        "0841f211-be76-4d39-aa00-5a280d0c671f"
       ],
       "settings": {
         "height": "full",
-        "height_desktop": 840,
+        "height_desktop": 800,
         "height_mobile": 460,
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "full image-overlay--bg-shadow",
-        "slide_transition": "fade",
-        "slide_navigation": "arrows",
-        "autoplay": false,
+        "slide_transition": "slide",
+        "slide_navigation": "dots",
+        "autoplay": true,
         "autoplay_speed": 7
       }
     },
@@ -178,7 +222,7 @@
         "text": "<p>Introducing made-to-last handcrafted leather shoes priced for everyone.<\/p>",
         "enlarge_text": true,
         "button_label_1": "SHOP NOW",
-        "button_url_1": "shopify:\/\/pages\/eviternity-by-the-jacket-maker",
+        "button_url_1": "shopify:\/\/pages\/eviternity",
         "button_label_2": "",
         "button_url_2": "",
         "text_alignment": "center center",
@@ -212,7 +256,7 @@
           "settings": {
             "title": "Men's Shoes",
             "image": "shopify:\/\/shop_images\/Mens_Leather_Shoes.webp",
-            "url": "shopify:\/\/pages\/eviternity-by-the-jacket-maker"
+            "url": "shopify:\/\/pages\/eviternity"
           }
         },
         "f95ba29f-2789-4dd1-b30b-772d20f66189": {
@@ -228,7 +272,7 @@
           "settings": {
             "title": "Leather Bags",
             "image": "shopify:\/\/shop_images\/Leather_Bags.webp",
-            "url": "shopify:\/\/pages\/trucarry-by-the-jacket-maker"
+            "url": "shopify:\/\/pages\/trucarry"
           }
         },
         "64ee805e-ad2b-450d-8553-1448f7cb8f55": {
@@ -236,7 +280,7 @@
           "settings": {
             "title": "Biker Jackets",
             "image": "shopify:\/\/shop_images\/Biker_Leather_Jackets.webp",
-            "url": "shopify:\/\/collections\/mens-biker-jackets"
+            "url": "shopify:\/\/collections\/mens-biker-leather-jackets"
           }
         },
         "86e0c9ab-4d2f-41f8-8f17-f83fac64a434": {
@@ -280,21 +324,21 @@
         "template--19881662087455__3ba7f754-412e-42da-9bcd-0422958d4e95-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "WHY THE JACKET MAKER",
+            "title": "OUR STORY",
             "use_h1": false
           }
         },
         "template--19881662087455__3ba7f754-412e-42da-9bcd-0422958d4e95-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Few years ago, we were looking for a leather jacket. Nothing special, the usual: fair price, great quality, clean design. we quickly realized that our options were limited. On one hand, we could buy from a luxury brand, which meant spending over a $1000 out of our student budget. On the other hand, buying a cheaper jacket from a fast-fashion brand would mean shopping for a jacket again, very soon. <\/p><p>Fed up, we did what all the cool entreprenuers do: build an empire.<br\/><br\/>No, not really. But we did build a team to create <strong>The Jacket Maker, <\/strong>where we ensure premium quality and fair prices by cutting out middlemen and storefront costs. As a result, you get one-click access to finest quality jackets that don't break your bank. <\/p>",
+            "text": "<p>The Jacket Maker's journey began with a simple search for the perfect leather jacket.<br\/>Soon we grew tired of the limited choices: overpriced luxury or fleeting fast fashion. The problem? A convoluted supply chain with excessive go-betweens, marking up prices, and neglecting product quality. We decided to change that narrative & make high-quality leather jackets accessible to all. How? By eliminating the unnecessary, from distributors to retailers, and embracing direct-to-consumer principles. We design, manufacture, and deliver exceptional leather jackets directly to you. No hefty markups, just finest quality at fair prices because we believe everyone deserves the electrifying feeling of wearing a leather jacket, and we're here to make it happen.<br\/><\/p>",
             "enlarge_text": true
           }
         },
         "db752db6-609e-4707-bd67-3408e429fa99": {
           "type": "button",
           "settings": {
-            "button_label": "EXPLORE MORE",
+            "button_label": "READ OUR PROMISE",
             "button_link": "shopify:\/\/pages\/our-story",
             "button_style": "primary"
           }
@@ -350,6 +394,29 @@
         "full_width": false,
         "use_alt_bg": false
       }
+    },
+    "1696351787cadaecc3": {
+      "type": "apps",
+      "blocks": {
+        "5935f9a2-c3cd-4f2d-8f98-30ed7b5631d5": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "Rm4Eyn"
+          }
+        }
+      },
+      "block_order": [
+        "5935f9a2-c3cd-4f2d-8f98-30ed7b5631d5"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "a9bf6129-3034-4c75-9bcd-1087a878f615": {
+      "type": "new-consultation-form",
+      "settings": {
+        "title": "Start Your Consultation"
+      }
     }
   },
   "order": [
@@ -360,6 +427,8 @@
     "16359278676808bea5",
     "3ba7f754-412e-42da-9bcd-0422958d4e95",
     "7186c655-0a20-4826-ae01-4cec7ea4f81b",
-    "8a6afb14-55a1-49b3-a252-144895026109"
+    "8a6afb14-55a1-49b3-a252-144895026109",
+    "1696351787cadaecc3",
+    "a9bf6129-3034-4c75-9bcd-1087a878f615"
   ]
 }

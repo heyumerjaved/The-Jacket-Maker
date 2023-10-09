@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "6fb74bec-d292-412c-bec6-e0af5fd26f8f": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom_Boots-1693567970811.webp",
+            "image_width": 400,
+            "title": "​Custom Boots",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-boots"
+          }
+        },
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom_Dress_Shoes-1693568022651.webp",
+            "image_width": 400,
+            "title": "Custom Dress Shoes",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-dress-shoes"
+          }
+        },
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom_Leather_Shoes-1693568048342.webp",
+            "image_width": 400,
+            "title": "​Custom Leather Shoes",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-leather-shoes"
+          }
+        },
+        "fd1afefd-d606-4e2b-a6f3-80c29f1ac7a9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom_Loafers-1693568083472.webp",
+            "image_width": 400,
+            "title": "​Custom Loafers",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-embroidered-jackets"
+          }
+        },
+        "4684604d-f51a-4629-8459-384cf5be5701": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom_Moccasins-1693568106469.webp",
+            "image_width": 400,
+            "title": "​Custom Moccasins",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-moccasins"
+          }
+        },
+        "b55c5f45-7b32-423a-8b42-b5a56d4b487a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom_Oxford_Shoes-1693568136235.webp",
+            "image_width": 400,
+            "title": "Custom Oxford Shoes",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-oxford-shoes"
+          }
+        },
+        "a1476f3f-1573-4567-b5d3-f9737442dd10": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "ddb8d46e-24db-4f82-a6ec-7ff3f2bb48da": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-1",
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-2",
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-3",
+        "fd1afefd-d606-4e2b-a6f3-80c29f1ac7a9",
+        "4684604d-f51a-4629-8459-384cf5be5701",
+        "b55c5f45-7b32-423a-8b42-b5a56d4b487a",
+        "a1476f3f-1573-4567-b5d3-f9737442dd10",
+        "ddb8d46e-24db-4f82-a6ec-7ff3f2bb48da"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6fb74bec-d292-412c-bec6-e0af5fd26f8f"
+  ]
+}

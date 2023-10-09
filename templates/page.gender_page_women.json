@@ -19,14 +19,14 @@
         "20e02585-3e32-4198-a947-a71a085e1fca": {
           "type": "collection",
           "settings": {
-            "collection": "womens-bomber-jackets",
+            "collection": "women-bomber-jackets",
             "image": "shopify:\/\/shop_images\/Women-Leather-Bomber-Jackets-1582971772570.webp"
           }
         },
         "f71edc38-369f-4392-9345-baccd40904c8": {
           "type": "collection",
           "settings": {
-            "collection": "womens-biker-jackets",
+            "collection": "womens-biker-leather-jackets",
             "image": "shopify:\/\/shop_images\/Women-Biker-Leather-Jackets-1582971780515.webp"
           }
         },
@@ -40,7 +40,7 @@
         "f461a860-4542-456f-a5b3-4338143bcddd": {
           "type": "collection",
           "settings": {
-            "collection": "womens-leather-blazers",
+            "collection": "women-blazers",
             "image": "shopify:\/\/shop_images\/Women-Leather-Blazers-1582971765016.webp"
           }
         }
@@ -52,7 +52,9 @@
         "a236a4dc-3c4c-49b1-8734-dc6a33fbd058",
         "f461a860-4542-456f-a5b3-4338143bcddd"
       ],
-      "custom_css": [],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "",
         "enable_carousel": false,

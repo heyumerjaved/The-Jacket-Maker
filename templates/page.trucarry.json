@@ -82,6 +82,282 @@
         "overlaytext": "Philos Backpack"
       }
     },
+    "a1adc535-9acd-496a-b112-4d52d2a9fa68": {
+      "type": "trucarry-featured-products",
+      "blocks": {
+        "9a54865d-0c48-4279-94b7-2d45d30824e7": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Brown"
+          }
+        },
+        "0c00ad12-676a-4474-b0a7-2e740f2c63a9": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02-_The_Philos_Brown_Leather_Backpack_front-3-1666105573812_e0a54a8e-eb62-4d00-a092-f76ae7575b12.jpg",
+            "smalltext": "Brown"
+          }
+        },
+        "4b3d0221-efcb-4b67-92be-5961203d8d99": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02--The-Philos-Navy-Blue-Leather-Backpack-front-3-1666634069825.jpg",
+            "smalltext": "Navy Blue"
+          }
+        },
+        "3f3d9756-bafc-4250-84f2-9078f553e1f0": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Green"
+          }
+        }
+      },
+      "block_order": [
+        "9a54865d-0c48-4279-94b7-2d45d30824e7",
+        "0c00ad12-676a-4474-b0a7-2e740f2c63a9",
+        "4b3d0221-efcb-4b67-92be-5961203d8d99",
+        "3f3d9756-bafc-4250-84f2-9078f553e1f0"
+      ],
+      "settings": {
+        "main_product": "the-philos-black-leather-backpack",
+        "main_image": "shopify:\/\/shop_images\/Briefcase-1666635295965.jpg",
+        "overlaytext": "The Captain Briefcase"
+      }
+    },
+    "fdbc392e-d566-4117-8a89-047897a053e2": {
+      "type": "trucarry-featured-products",
+      "blocks": {
+        "040a173b-2627-47cd-85a6-b6f1dda10fbd": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Brown"
+          }
+        },
+        "b2f099bb-0a69-4fc2-a9db-86f301811cee": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02-_The_Philos_Brown_Leather_Backpack_front-3-1666105573812_e0a54a8e-eb62-4d00-a092-f76ae7575b12.jpg",
+            "smalltext": "Brown"
+          }
+        },
+        "90f9a950-8a1c-41ff-9e0c-fb8ae736193c": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02--The-Philos-Navy-Blue-Leather-Backpack-front-3-1666634069825.jpg",
+            "smalltext": "Navy Blue"
+          }
+        },
+        "aba86841-5cfe-4357-8271-127382c1b982": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Green"
+          }
+        }
+      },
+      "block_order": [
+        "040a173b-2627-47cd-85a6-b6f1dda10fbd",
+        "b2f099bb-0a69-4fc2-a9db-86f301811cee",
+        "90f9a950-8a1c-41ff-9e0c-fb8ae736193c",
+        "aba86841-5cfe-4357-8271-127382c1b982"
+      ],
+      "settings": {
+        "main_product": "the-philos-black-leather-backpack",
+        "main_image": "shopify:\/\/shop_images\/Duffle-1666635313005.jpg",
+        "overlaytext": "The Darrio Duffle"
+      }
+    },
+    "c33faad5-ceba-48f1-bee2-05919a9ad51b": {
+      "type": "trucarry-featured-products",
+      "blocks": {
+        "b14af7f0-2c04-4811-aa8d-c004b5a7d204": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Brown"
+          }
+        },
+        "a97ec737-5264-4d90-a9c2-890ddf15c2a0": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02-_The_Philos_Brown_Leather_Backpack_front-3-1666105573812_e0a54a8e-eb62-4d00-a092-f76ae7575b12.jpg",
+            "smalltext": "Brown"
+          }
+        },
+        "84dbc917-29e3-41b3-a8b0-d1c625e18f28": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02--The-Philos-Navy-Blue-Leather-Backpack-front-3-1666634069825.jpg",
+            "smalltext": "Navy Blue"
+          }
+        },
+        "aa3a1457-5d79-4562-9a47-ca5e12016df8": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Green"
+          }
+        }
+      },
+      "block_order": [
+        "b14af7f0-2c04-4811-aa8d-c004b5a7d204",
+        "a97ec737-5264-4d90-a9c2-890ddf15c2a0",
+        "84dbc917-29e3-41b3-a8b0-d1c625e18f28",
+        "aa3a1457-5d79-4562-9a47-ca5e12016df8"
+      ],
+      "settings": {
+        "main_product": "the-philos-black-leather-backpack",
+        "main_image": "shopify:\/\/shop_images\/Messenger-1666635328699.jpg",
+        "overlaytext": "The Carismatico Messenger"
+      }
+    },
+    "a5dd1d6d-34b5-4743-a601-6c8f85b5449c": {
+      "type": "trucarry-featured-products",
+      "blocks": {
+        "5f52c8dd-724f-4a71-9149-a788d522a248": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Brown"
+          }
+        },
+        "22ea33ab-9c2e-40d4-baed-98f91a64c761": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02-_The_Philos_Brown_Leather_Backpack_front-3-1666105573812_e0a54a8e-eb62-4d00-a092-f76ae7575b12.jpg",
+            "smalltext": "Brown"
+          }
+        },
+        "592ec9bf-f6b8-490c-80af-9fdbcccf9d5a": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02--The-Philos-Navy-Blue-Leather-Backpack-front-3-1666634069825.jpg",
+            "smalltext": "Navy Blue"
+          }
+        },
+        "c2944941-a8e7-41cf-acf4-34599479afb9": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Green"
+          }
+        }
+      },
+      "block_order": [
+        "5f52c8dd-724f-4a71-9149-a788d522a248",
+        "22ea33ab-9c2e-40d4-baed-98f91a64c761",
+        "592ec9bf-f6b8-490c-80af-9fdbcccf9d5a",
+        "c2944941-a8e7-41cf-acf4-34599479afb9"
+      ],
+      "settings": {
+        "main_product": "the-philos-black-leather-backpack",
+        "main_image": "shopify:\/\/shop_images\/Folio-Organiser-1666635415199.jpg",
+        "overlaytext": "The Eclectic Folio"
+      }
+    },
+    "9973243d-e95a-4bea-8a33-6d4f14cbea8b": {
+      "type": "trucarry-featured-products",
+      "blocks": {
+        "fdd44c85-b1e2-43ba-89a6-b5041c46cf9b": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Brown"
+          }
+        },
+        "991be2cc-35bb-48f1-bb35-b44be285f43d": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02-_The_Philos_Brown_Leather_Backpack_front-3-1666105573812_e0a54a8e-eb62-4d00-a092-f76ae7575b12.jpg",
+            "smalltext": "Brown"
+          }
+        },
+        "364709b7-426a-427c-8c0e-b440a0693bf0": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02--The-Philos-Navy-Blue-Leather-Backpack-front-3-1666634069825.jpg",
+            "smalltext": "Navy Blue"
+          }
+        },
+        "bfdabd33-a76e-496c-9eb8-96213de833f8": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Green"
+          }
+        }
+      },
+      "block_order": [
+        "fdd44c85-b1e2-43ba-89a6-b5041c46cf9b",
+        "991be2cc-35bb-48f1-bb35-b44be285f43d",
+        "364709b7-426a-427c-8c0e-b440a0693bf0",
+        "bfdabd33-a76e-496c-9eb8-96213de833f8"
+      ],
+      "settings": {
+        "main_product": "the-philos-black-leather-backpack",
+        "main_image": "shopify:\/\/shop_images\/Tote-1666635434877.jpg",
+        "overlaytext": "The Poet Tote"
+      }
+    },
+    "03c4f1c0-bb86-4f00-9a8d-869768cf2717": {
+      "type": "trucarry-featured-products",
+      "blocks": {
+        "79d9e545-8f16-411f-af65-8fb1f0af7bbf": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Brown"
+          }
+        },
+        "369e0e85-3a63-4edd-bcce-5695da12ecd7": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02-_The_Philos_Brown_Leather_Backpack_front-3-1666105573812_e0a54a8e-eb62-4d00-a092-f76ae7575b12.jpg",
+            "smalltext": "Brown"
+          }
+        },
+        "895d1b2c-e3b2-4150-b9b7-8240583cdaa9": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "mp_image": "shopify:\/\/shop_images\/02--The-Philos-Navy-Blue-Leather-Backpack-front-3-1666634069825.jpg",
+            "smalltext": "Navy Blue"
+          }
+        },
+        "2250b22d-be0e-404e-964c-cd34574d5e00": {
+          "type": "product",
+          "settings": {
+            "mp_product": "the-philos-black-leather-backpack",
+            "smalltext": "Green"
+          }
+        }
+      },
+      "block_order": [
+        "79d9e545-8f16-411f-af65-8fb1f0af7bbf",
+        "369e0e85-3a63-4edd-bcce-5695da12ecd7",
+        "895d1b2c-e3b2-4150-b9b7-8240583cdaa9",
+        "2250b22d-be0e-404e-964c-cd34574d5e00"
+      ],
+      "settings": {
+        "main_product": "the-philos-black-leather-backpack",
+        "main_image": "shopify:\/\/shop_images\/Laptop-Sleeve-1666635340264.jpg",
+        "overlaytext": "The Baxter Sleeve"
+      }
+    },
     "be16f625-335c-46c8-8004-394d5c6728d3": {
       "type": "trucarry-featured-products",
       "blocks": {
@@ -120,28 +396,11 @@
         "982d7cac-709e-48c1-a799-8635cb4e8366",
         "a9c03ac8-cd49-4588-b6b0-2ed9be54ca3d"
       ],
+      "disabled": true,
       "settings": {
         "main_product": "abstract-maroon-leather-jacket-html",
         "main_image": "shopify:\/\/shop_images\/01-header-d3c803ab6c2c14a09ec348a3ff24b913f3e4238e01f41a3876a35dd17cf3795b.jpg",
         "overlaytext": "Bags & Jackets"
-      }
-    },
-    "be8d56e0-ccf7-492c-b2c6-386410b2886c": {
-      "type": "video",
-      "settings": {
-        "video_external": "https:\/\/vimeo.com\/524933864",
-        "image": "shopify:\/\/shop_images\/video_thumbnail.png",
-        "subheading": "",
-        "video_title": "",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "",
-        "enlarge_text": true,
-        "text_alignment": "center center",
-        "full_width": true,
-        "overlay_style": "shadow"
       }
     },
     "68a23324-bca7-4c1d-bc7d-42761859dd92": {
@@ -218,15 +477,39 @@
       ],
       "settings": {
       }
+    },
+    "be8d56e0-ccf7-492c-b2c6-386410b2886c": {
+      "type": "video",
+      "settings": {
+        "video_external": "https:\/\/vimeo.com\/762940789?share=copy",
+        "image": "shopify:\/\/shop_images\/video_thumbnail.png",
+        "subheading": "",
+        "video_title": "",
+        "heading_max_width": 800,
+        "title_size": 84,
+        "title_size_mobile": 46,
+        "use_h1": false,
+        "text": "",
+        "enlarge_text": true,
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
     }
   },
   "order": [
     "main",
     "8f5cf3ba-92d4-4a99-810c-519fa0d45791",
     "84a7278e-1546-40e9-9fa1-6abaf587b99d",
+    "a1adc535-9acd-496a-b112-4d52d2a9fa68",
+    "fdbc392e-d566-4117-8a89-047897a053e2",
+    "c33faad5-ceba-48f1-bee2-05919a9ad51b",
+    "a5dd1d6d-34b5-4743-a601-6c8f85b5449c",
+    "9973243d-e95a-4bea-8a33-6d4f14cbea8b",
+    "03c4f1c0-bb86-4f00-9a8d-869768cf2717",
     "be16f625-335c-46c8-8004-394d5c6728d3",
-    "be8d56e0-ccf7-492c-b2c6-386410b2886c",
     "68a23324-bca7-4c1d-bc7d-42761859dd92",
-    "f25f9c0f-8d13-40c0-afe9-03acb03a5dcd"
+    "f25f9c0f-8d13-40c0-afe9-03acb03a5dcd",
+    "be8d56e0-ccf7-492c-b2c6-386410b2886c"
   ]
 }

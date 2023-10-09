@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "6fb74bec-d292-412c-bec6-e0af5fd26f8f": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Leather-20Bags-1507984702204_1.webp",
+            "image_width": 400,
+            "title": "Custom Leather Bags",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-leather-bags"
+          }
+        },
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Handbags-1505409399408_1.webp",
+            "image_width": 400,
+            "title": "Custom Handbags",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-handbags"
+          }
+        },
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/custom-20tote-20bags-1505409321921_1.webp",
+            "image_width": 400,
+            "title": "Custom Tote Bags",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-tote-bags"
+          }
+        },
+        "fd1afefd-d606-4e2b-a6f3-80c29f1ac7a9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Leather-20Backpacks-1507984623465_1.webp",
+            "image_width": 400,
+            "title": "Custom Backpacks",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-embroidered-jackets"
+          }
+        },
+        "4684604d-f51a-4629-8459-384cf5be5701": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Messenger-20Bag-1507825727395_1.webp",
+            "image_width": 400,
+            "title": "Custom Messenger Bags",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-denim-jackets"
+          }
+        },
+        "b55c5f45-7b32-423a-8b42-b5a56d4b487a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Briefcases-1507984559144_1.webp",
+            "image_width": 400,
+            "title": "Custom Briefcases",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-windbreaker-jackets"
+          }
+        },
+        "020c0ba4-7e86-4c07-96e7-e47e882098ec": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Duffle-20Weekender-20Bags-1507826430606_1.webp",
+            "image_width": 400,
+            "title": "Custom Duffel & Weekender Bags",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-trench-coats"
+          }
+        },
+        "45e357a9-3396-431d-a751-1b1898320fe2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Portfolio-20Leather-1507826333674_1.webp",
+            "image_width": 400,
+            "title": "Custom Portfolio Bags",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-motorcycle-jackets"
+          }
+        },
+        "b1a53b3e-d79b-4e69-9bf4-a13218343058": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Leather-20Clutch-20Purses-201-1507984973277_1.webp",
+            "image_width": 400,
+            "title": "Custom Clutch Purses",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-parka-jackets"
+          }
+        },
+        "a1476f3f-1573-4567-b5d3-f9737442dd10": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "ddb8d46e-24db-4f82-a6ec-7ff3f2bb48da": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-1",
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-2",
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-3",
+        "fd1afefd-d606-4e2b-a6f3-80c29f1ac7a9",
+        "4684604d-f51a-4629-8459-384cf5be5701",
+        "b55c5f45-7b32-423a-8b42-b5a56d4b487a",
+        "020c0ba4-7e86-4c07-96e7-e47e882098ec",
+        "45e357a9-3396-431d-a751-1b1898320fe2",
+        "b1a53b3e-d79b-4e69-9bf4-a13218343058",
+        "a1476f3f-1573-4567-b5d3-f9737442dd10",
+        "ddb8d46e-24db-4f82-a6ec-7ff3f2bb48da"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6fb74bec-d292-412c-bec6-e0af5fd26f8f"
+  ]
+}

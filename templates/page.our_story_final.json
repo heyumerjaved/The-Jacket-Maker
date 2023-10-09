@@ -216,6 +216,7 @@
         "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-3",
         "template--20698511048991__8b943aa7-0277-403d-a75c-2d59969a36d7-image-4"
       ],
+      "disabled": true,
       "settings": {
         "grid": 4,
         "height": "fixed",

@@ -21,13 +21,13 @@
         "title_size": 62,
         "title_size_mobile": 36,
         "use_h1": false,
-        "text": "<p>Fusing bespoke with digital technology<\/p>",
-        "enlarge_text": true,
+        "text": "<p>Combining Bespoke & Digital Technology<\/p>",
+        "enlarge_text": false,
         "button_label_1": "",
         "button_url_1": "",
         "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "center left",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -47,7 +47,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Our Bespoke Process is truly bespoke to the roots. We may best be described as digital bespoke, following the traditions of bespoke and fusing it with digital technology.<br\/><br\/>Despite operating as an e-commerce, as opposed to a physical store for traditional bespoke, we have not lost bespoke essence. For every custom order, we go through the decades old process of consultation, taking exact measurements, making unique patterns, offering widest fabric selection possible & giving limitless customization options. E-commerce enables us to offer bespoke services across the globe and make it accessible for all.<\/p><p>We believe bespoke is all about a discovery of perfection and an expression which shouldn’t be limited by options, after all this is what sets bespoke apart from made to measure.<\/p>",
-            "enlarge_text": true
+            "enlarge_text": false
           }
         }
       },
@@ -61,11 +61,454 @@
         "full_width": true,
         "use_alt_bg": true
       }
+    },
+    "05e0e767-f075-40a0-aea3-779f934a9647": {
+      "type": "multi-column",
+      "blocks": {
+        "template--20699012399391__05e0e767-f075-40a0-aea3-779f934a9647-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/custom-request-436305f34d35e6f633a39bd80bc39d8c56af4ed22e8aead68eeb90a508e8f3ae.svg",
+            "image_width": 700,
+            "title": "Custom order request",
+            "text": "<p>Begin your journey with a request through our web form. We can start your consultation with as little details as you have.<br\/><br\/><\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--20699012399391__05e0e767-f075-40a0-aea3-779f934a9647-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/discussion-efea9931a57cf310d9df0df51226498d2a78d07c9a0c64723605606969d6e182.svg",
+            "image_width": 700,
+            "title": "Free design consultancy",
+            "text": "<p>Get a dedicated design consultant to work on your project details, pricing, delivery date and digital illustration. Consultancy is totally free of cost and you can opt out at any stage.<br\/><br\/><\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--20699012399391__05e0e767-f075-40a0-aea3-779f934a9647-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/listing-purchase-c2a28cdd39681cb25a5c1ae5c7f5de7c23c38d8d8a6b552e0f20945454be185d.svg",
+            "image_width": 700,
+            "title": "Order placement",
+            "text": "<p>Place your order using the listing link provided by your design consultant. Listing link mentions agreed details of custom project along with digital illustration.<br\/><br\/><\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "a70fe880-9026-4e54-98b3-1d58d55d1dba": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/delivery-aa3dd3d045618de3130b69e3ebd4a8e211bdf1d1560e7c2863dfdb04009ebe05_9e31c6d4-e730-4cdd-a62e-44123ca5498c.svg",
+            "image_width": 700,
+            "title": "Production & Delivery",
+            "text": "<p>See your design come to life through our 6-step production process, followed by photoshoot sharing. Up on your approval, order is dispatched.<br\/><br\/><\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20699012399391__05e0e767-f075-40a0-aea3-779f934a9647-text_block-1",
+        "template--20699012399391__05e0e767-f075-40a0-aea3-779f934a9647-text_block-2",
+        "template--20699012399391__05e0e767-f075-40a0-aea3-779f934a9647-text_block-3",
+        "a70fe880-9026-4e54-98b3-1d58d55d1dba"
+      ],
+      "settings": {
+        "title": "How it works",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "3f1f16f6-5cd6-4600-9efc-c7186b8276ff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20699012399391__3f1f16f6-5cd6-4600-9efc-c7186b8276ff-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Production process",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20699012399391__3f1f16f6-5cd6-4600-9efc-c7186b8276ff-heading-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": true
+      }
+    },
+    "aa2b9ba1-9207-458a-9985-1f39334911b6": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_81f31f4c-55f9-4269-8279-ea6226312fd3.png",
+        "image_width": 150,
+        "subheading": "",
+        "title": "01. Digital illustration",
+        "use_h1": false,
+        "text": "<p>To begin the bespoke digital process, our creative team in collaboration with design consultant makes a digital illustration of the custom project, which is shared with the customer in advance and then with the production team, once the customer approves.<br\/><br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "fabdf0f2-1fb7-4bfd-a16f-e6bb03f2791f": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_1.png",
+        "image_width": 150,
+        "subheading": "",
+        "title": "02. Pattern making",
+        "use_h1": false,
+        "text": "<p>Design consultant briefs every fine detail of the custom project to the production team with the help of digital illustration, supporting pictures and text.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "fac19fe2-f072-48da-83ec-b68372536be9": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_2_b8b26a83-485e-4bfa-a86b-ffd4589b9c8b.png",
+        "image_width": 150,
+        "subheading": "",
+        "title": "03. Fabrication\/Leather making",
+        "use_h1": false,
+        "text": "<p>If the custom product is to be made of leather, production team places order for leather making which usually take 3-4 weeks. If the garment is to be made of fabric then production team sources fabric from our trusted vendors.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "2df61720-0396-4f49-8cc2-60fc07a72117": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_3.png",
+        "image_width": 150,
+        "subheading": "",
+        "title": "04. Cutting & construction",
+        "use_h1": false,
+        "text": "<p>Once fabric\/leather comes in our production facility, it is sent for cutting followed by stitching.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "581f7cbf-6156-43ee-8a60-0ddd0a84e8f6": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_4.png",
+        "image_width": 150,
+        "subheading": "",
+        "title": "05. Embroidery, printing & accessories",
+        "use_h1": false,
+        "text": "<p>If custom project involves embroidery, printing or any 3-D printed accessory, it is sent to the respective department after stitching.<br\/><br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "db7c5e10-c242-4b0d-8d77-9490e5b65b21": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unnamed_5.png",
+        "image_width": 150,
+        "subheading": "",
+        "title": "06. Finishing & QC",
+        "use_h1": false,
+        "text": "<p>Once the final product is ready. It is vital for us to send every piece through a strict quality control inspection, where the garment is scrutinized from every angle to ensure nothing is missed out and is perfectly crafted.<br\/><br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "use_alt_bg": false
+      }
+    },
+    "d663a604-7ab1-4282-a5d6-da6e7ec56fcd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20699012399391__d663a604-7ab1-4282-a5d6-da6e7ec56fcd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Happy Customers",
+            "use_h1": false
+          }
+        },
+        "template--20699012399391__d663a604-7ab1-4282-a5d6-da6e7ec56fcd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20699012399391__d663a604-7ab1-4282-a5d6-da6e7ec56fcd-heading-1",
+        "template--20699012399391__d663a604-7ab1-4282-a5d6-da6e7ec56fcd-text-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "use_alt_bg": true
+      }
+    },
+    "122b64b0-bd1e-4e16-9bc2-e04b046d59a0": {
+      "type": "testimonials",
+      "blocks": {
+        "template--20699012399391__122b64b0-bd1e-4e16-9bc2-e04b046d59a0-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Excellent service\/ fits like a glove\/ best jacket company on the net! Five Stars!!",
+            "author": "Jonathan Hudson",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "template--20699012399391__122b64b0-bd1e-4e16-9bc2-e04b046d59a0-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "It was very nice, good quality. This is my 4th product I brought from this company. I ❤ my brand new coat.",
+            "author": "Eric Evans",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "f1e3bb9e-5a22-405f-ad38-408158aa0363": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "I'm impressed by your handling of an order, advising along the way and timely delivered of just what I expected. Thank You.",
+            "author": "Paul Bower",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20699012399391__122b64b0-bd1e-4e16-9bc2-e04b046d59a0-testimonial-1",
+        "template--20699012399391__122b64b0-bd1e-4e16-9bc2-e04b046d59a0-testimonial-2",
+        "f1e3bb9e-5a22-405f-ad38-408158aa0363"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "no-image",
+        "text_caps": false,
+        "quote_text_size": 14,
+        "quote_text_size_mobile": 14,
+        "image_shape": "square",
+        "use_alt_bg": false,
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "8782ac7d-781d-4adc-9dd4-7ed3cd939202": {
+      "type": "rich-text",
+      "blocks": {
+        "9ccf726d-2ff1-4bc3-ba6b-45bd00896687": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read All Reviews",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "efce2b37-ebfc-446a-ad37-a78b941174e7": {
+          "type": "button",
+          "settings": {
+            "button_label": "View All Pictures",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "9ccf726d-2ff1-4bc3-ba6b-45bd00896687",
+        "efce2b37-ebfc-446a-ad37-a78b941174e7"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "use_alt_bg": false
+      }
+    },
+    "97a1daf3-3cfe-4d4b-9f76-e098204f1bba": {
+      "type": "multi-column",
+      "blocks": {
+        "template--20699012399391__97a1daf3-3cfe-4d4b-9f76-e098204f1bba-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/leather-jackets-happy-customers-1519206977705-1530102989650.webp",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--20699012399391__97a1daf3-3cfe-4d4b-9f76-e098204f1bba-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/28-1563365038823_1.webp",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--20699012399391__97a1daf3-3cfe-4d4b-9f76-e098204f1bba-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1--Custom-Leather-Jacket-1530103031313.webp",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "ba1ea154-7369-4023-81bb-fd8338753525": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/5-1563539363502.webp",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "42d1f992-7e9a-4090-9a3b-c407705111bb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Plain-Black-Bomber-Jacket-1523873563298-1530100779227.webp",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "f8e3224e-096d-4b0e-8cc9-a23ec0f92c4d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/asdasda-1614685061300.jpg",
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20699012399391__97a1daf3-3cfe-4d4b-9f76-e098204f1bba-text_block-1",
+        "template--20699012399391__97a1daf3-3cfe-4d4b-9f76-e098204f1bba-text_block-2",
+        "template--20699012399391__97a1daf3-3cfe-4d4b-9f76-e098204f1bba-text_block-3",
+        "ba1ea154-7369-4023-81bb-fd8338753525",
+        "42d1f992-7e9a-4090-9a3b-c407705111bb",
+        "f8e3224e-096d-4b0e-8cc9-a23ec0f92c4d"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    },
+    "886f23b5-7acc-4e63-9f33-f76b11c34ea0": {
+      "type": "customize-form",
+      "blocks": {
+        "template--20699012399391__886f23b5-7acc-4e63-9f33-f76b11c34ea0-name_input-1": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "template--20699012399391__886f23b5-7acc-4e63-9f33-f76b11c34ea0-email_input-1": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "template--20699012399391__886f23b5-7acc-4e63-9f33-f76b11c34ea0-message_input-1": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        },
+        "c44c1376-5f5a-4908-b732-413ee8f4237d": {
+          "type": "phone_input",
+          "settings": {
+            "required": false,
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20699012399391__886f23b5-7acc-4e63-9f33-f76b11c34ea0-name_input-1",
+        "template--20699012399391__886f23b5-7acc-4e63-9f33-f76b11c34ea0-email_input-1",
+        "template--20699012399391__886f23b5-7acc-4e63-9f33-f76b11c34ea0-message_input-1",
+        "c44c1376-5f5a-4908-b732-413ee8f4237d"
+      ],
+      "settings": {
+        "custom_title": "Customize Your Own",
+        "custom_text": ""
+      }
     }
   },
   "order": [
     "main",
     "0feee7ec-ba32-4326-8e2a-bc6df0396747",
-    "8f650f20-08a6-4b90-9af7-ea26195a6274"
+    "8f650f20-08a6-4b90-9af7-ea26195a6274",
+    "05e0e767-f075-40a0-aea3-779f934a9647",
+    "3f1f16f6-5cd6-4600-9efc-c7186b8276ff",
+    "aa2b9ba1-9207-458a-9985-1f39334911b6",
+    "fabdf0f2-1fb7-4bfd-a16f-e6bb03f2791f",
+    "fac19fe2-f072-48da-83ec-b68372536be9",
+    "2df61720-0396-4f49-8cc2-60fc07a72117",
+    "581f7cbf-6156-43ee-8a60-0ddd0a84e8f6",
+    "db7c5e10-c242-4b0d-8d77-9490e5b65b21",
+    "d663a604-7ab1-4282-a5d6-da6e7ec56fcd",
+    "122b64b0-bd1e-4e16-9bc2-e04b046d59a0",
+    "8782ac7d-781d-4adc-9dd4-7ed3cd939202",
+    "97a1daf3-3cfe-4d4b-9f76-e098204f1bba",
+    "886f23b5-7acc-4e63-9f33-f76b11c34ea0"
   ]
 }

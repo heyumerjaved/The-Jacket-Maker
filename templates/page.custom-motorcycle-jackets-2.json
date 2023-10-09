@@ -1,0 +1,250 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": true
+      }
+    },
+    "fbda812e-8719-4971-8a43-062571a9bfff": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Custom-20Motorcycle-20Jackets-1487684455456.webp",
+        "height": "fixed",
+        "height_desktop": 700,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "Custom <br>Motorcycle <br>Jackets",
+        "heading_max_width": 500,
+        "title_size": 70,
+        "title_size_mobile": 46,
+        "use_h1": true,
+        "text": "<p>Design Custom Leather Jackets With Your Embroidery, Logo & Color.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "bottom left",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "4539bb5c-5a3c-4463-be37-bfd2b5533489": {
+      "type": "customize-form",
+      "blocks": {
+        "template--20474332709151__4539bb5c-5a3c-4463-be37-bfd2b5533489-name_input-1": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "template--20474332709151__4539bb5c-5a3c-4463-be37-bfd2b5533489-email_input-1": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "template--20474332709151__4539bb5c-5a3c-4463-be37-bfd2b5533489-make_input-1": {
+          "type": "make_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "template--20474332709151__4539bb5c-5a3c-4463-be37-bfd2b5533489-message_input-1": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20474332709151__4539bb5c-5a3c-4463-be37-bfd2b5533489-name_input-1",
+        "template--20474332709151__4539bb5c-5a3c-4463-be37-bfd2b5533489-email_input-1",
+        "template--20474332709151__4539bb5c-5a3c-4463-be37-bfd2b5533489-make_input-1",
+        "template--20474332709151__4539bb5c-5a3c-4463-be37-bfd2b5533489-message_input-1"
+      ],
+      "settings": {
+        "custom_title": "Customize Your Own",
+        "custom_text": ""
+      }
+    },
+    "f13e4588-ee14-4f2a-a95f-5b26c5f4d255": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Men's Cafe Racer Jackets",
+        "collection": "mens-cafe-racer-jackets",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "use_alt_bg": false,
+        "show_view_all": false,
+        "full_width": true
+      }
+    },
+    "45c48454-2712-41d4-ac96-bc0886550ef5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Men's Double Rider Jackets",
+        "collection": "mens-double-rider-jackets",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "use_alt_bg": false,
+        "show_view_all": false,
+        "full_width": true
+      }
+    },
+    "2f162c00-15c9-4208-844b-9c1172c92877": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Women's Biker Jackets",
+        "collection": "womens-biker-leather-jackets",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "use_alt_bg": false,
+        "show_view_all": false,
+        "full_width": true
+      }
+    },
+    "6dbcd4c8-15fa-4638-8760-03d33dc072f8": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Custom-20Biker-20Jackets-1487684455628.webp",
+        "height": "fixed",
+        "height_desktop": 700,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "Customize <br>Your Own <br>Motorcycle<br> Jacket",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
+        "use_h1": false,
+        "text": "<p>Whether you're a lone-wolf or one on a run with a motorcycle club, you will agree that biker jacket is definitely a 'must-have' piece that embodies style, function and team spirit to name a few important factors. As always, we do our best to assist you from start to finish regardless of your choice of design, detail or attachments that work to bring your customized motorcycle jacket or vest to life.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "bottom left",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "6fe8186a-2ca7-499f-9b06-155b6f16bd6e": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Motorcycle-20Leater-20Jackets-1487684455740.webp",
+        "height": "fixed",
+        "height_desktop": 700,
+        "height_mobile": 460,
+        "image_link": "",
+        "subheading": "",
+        "title": "Leather & <br>Fabric Types",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
+        "use_h1": false,
+        "text": "<p>Let’s find the perfect motorcycle jackets for you and your team! From an impressive range of leather, fabrics, including waxed cotton and denim, abrasion resistant mesh, ballistic nylon or cordura that are best suited to textile motorcycle jackets. One of many leather and textile combination motorcycle jackets, mesh and armoured jackets and vests.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
+        "button_url_1": "",
+        "button_label_2": "",
+        "button_url_2": "",
+        "text_alignment": "bottom right",
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "d745053c-10f0-41c5-b667-012456fdd99c": {
+      "type": "multi-column",
+      "blocks": {
+        "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Club-20Motorcycle-20Vests-1487684455812.webp",
+            "image_width": 700,
+            "title": "Motorcycle Club Vests",
+            "text": "<p>Motorcycle Club Vests are the perfect solution for hardcore motorcyclist attitude in warmer climates. We’ll walk you through a creative process that customizes your design and highlights the best qualities and features of your club. We will help you in shaping the way you look through your Customized Motorcycle Vest.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Motorcycle-20Club-20Jackets-1487684455873.webp",
+            "image_width": 700,
+            "title": "Motorcycle Club Jackets",
+            "text": "<p>Customized Motorcycle Club Jackets can highlight uniqueness of your motorcycle club, or promote unity and team spirit. We will assist you in personalizing your motorcycle club jacket from scratch. From shape to style, features, functions, detail and more. Adding further wowza to your look, through your Motorcycle Club Jacket.<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-1",
+        "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-2"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": true
+      }
+    },
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1",
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "use_alt_bg": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fbda812e-8719-4971-8a43-062571a9bfff",
+    "4539bb5c-5a3c-4463-be37-bfd2b5533489",
+    "f13e4588-ee14-4f2a-a95f-5b26c5f4d255",
+    "45c48454-2712-41d4-ac96-bc0886550ef5",
+    "2f162c00-15c9-4208-844b-9c1172c92877",
+    "6dbcd4c8-15fa-4638-8760-03d33dc072f8",
+    "6fe8186a-2ca7-499f-9b06-155b6f16bd6e",
+    "d745053c-10f0-41c5-b667-012456fdd99c",
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317"
+  ]
+}

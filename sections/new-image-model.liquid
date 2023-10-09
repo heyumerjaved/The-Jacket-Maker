@@ -1,0 +1,319 @@
+<div class="new_image_model_main">
+  {% if section.settings.title != blank %}
+  <h2 class="section_heading">{{ section.settings.title }} </h2>
+  {% endif %}
+  {% if section.settings.sub_title != blank %}
+  <p class="section_sub_heading">{{ section.settings.sub_title }} </p>
+  {% endif %}
+  <div class="new_image_model_main_inner">
+    {% for block in section.blocks %}
+      {% if block.settings.image != blank %}
+      <div class="new_image_model_img">
+        <img src="{{ block.settings.image | img_url:'master' }}" data-toggle="modal" data-target="#myModal_{{ block.id }}"/>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% for block in section.blocks %}
+    {% if block.settings.image != blank %}
+      <div id="myModal_{{ block.id }}" class="modal modal-md" style="display: none;">
+          <div class="modal-dialog" id="template_{{ block.id }}">
+              <div class="modal-content">
+                  <div class="modal-close">×</div> 
+                  <div class="model__grid">
+                    <div class="model_grid_item">
+                      <div class="img_wrapper">
+                        <img src="{{ block.settings.image | img_url:'master' }}"/>
+                      </div>
+                    </div>
+                    <div class="model_grid_item">
+                      {% if  block.settings.title != blank %}
+                        <h3 class="title">{{ block.settings.title }}</h3>
+                      {% endif %}
+                      {% if  block.settings.paragraph != blank %}
+                        <div class="paragraph">{{ block.settings.paragraph }}</div>
+                      {% endif %}
+                      <ul>
+                        {% if block.settings.fb != blank %}
+                        <li>
+                          <a href="{{ block.settings.fb }}">
+                            <img src="{{ 'fb.svg' | asset_url }}" width="25px" height="25px"/>
+                          </a>
+                        </li>
+                        {% endif %}
+                        {% if block.settings.insta != blank %}
+                        <li>
+                          <a href="{{ block.settings.insta }}">
+                            <img src="{{ 'ins.svg' | asset_url }}" width="25px" height="25px"/>
+                          </a>
+                        </li>
+                        {% endif %}
+                        {% if block.settings.twitter != blank %}
+                        <li>
+                          <a href="{{ block.settings.twitter }}">
+                            <img src="{{ 'twi.svg' | asset_url }}" width="25px" height="25px"/>
+                          </a>
+                        </li>
+                        {% endif %}
+                        {% if block.settings.pinterst != blank %}
+                        <li>
+                          <a href="{{ block.settings.pinterst }}">
+                            <img src="{{ 'pin.svg' | asset_url }}" width="25px" height="25px"/>
+                          </a>
+                        </li>
+                        {% endif %}
+                      </ul>
+
+                      <div class="new_model_product">
+                        <h3>SHOP THE LOOK</h3>
+                        {% if block.settings.prd_selection == 'custom' %}
+                          <div class="img_wrapper">
+                            <img src="{{ 'test.svg' | asset_url}}"/>
+                          </div>
+                          <p>The Product was custom made on demand.</p>
+                          <a href="{{ block.settings.custom_link }}">Create Your Custom Leather Jackets</a>
+                        {% else %}
+                          {% if block.settings.product.featured_image != blank %}
+                          <div class="img_wrapper">
+                            <img src="{{ block.settings.product.featured_image | img_url:'master' }}"/>
+                          </div>
+                            {% endif %}
+                          <p>{{ block.settings.product.title }}</p>
+                          <a href="{{ block.settings.product.url }}">View</a>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+  .new_model_product a{
+    padding: 6px 10px !important;
+    background-color: #313131;
+    transition: 500ms ease-out 0s;
+    display: inline-block;
+    border: 1px solid #313131;
+    color: #fff;
+    font-size: 12px;
+    margin: 10px auto 20px auto;
+    max-width: 200px;
+    text-align: center;
+  }
+  .new_model_product a:hover {
+    border: 1px solid #313131;
+    color: #313131 !important;
+    background-color: transparent !important;
+}
+  .new_model_product p{
+    text-transform: none;
+    font-size: 14px;
+    margin: 0 auto 5px auto;
+    max-width: 200px;
+    text-align: center;
+  }
+  .new_model_product{
+    display:flex;
+    justify-content:Center;
+    align-items:center;
+    flex-direction:column;
+  }
+  .new_model_product .img_wrapper{
+    max-width:250px;
+    margin-bottom:15px;
+  }
+  .new_model_product .img_wrapper img{
+    max-width:100%;
+  }
+  .new_model_product >h3{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    text-align:center;
+    width:100%;
+    margin-top: 25px;
+  }
+  .new_image_model_main .modal-md .modal-dialog ul li{
+    list-style-type: none !important;
+}
+  .new_image_model_main .modal-md .modal-dialog ul{
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+  .new_image_model_main .modal-md .modal-dialog .paragraph, .new_image_model_main .modal-md .modal-dialog .paragraph p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+  .new_image_model_main .modal-md .modal-dialog .title{
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: initial;
+    color: #333;
+    margin-bottom: 20px;
+}
+  .new_image_model_main .modal-md .modal-dialog  .model__grid {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 30px;
+}
+  .new_image_model_main .modal-md .modal-dialog {
+    width: 65vw !important;
+}
+  .new_image_model_main{
+    margin:40px 15px;
+  }
+  .new_image_model_main .section_heading{
+    font-size: 42px;
+    display: block;
+    line-height: 55px;
+    color: #666 !important;
+    width: 100% !important;
+    text-align:Center;
+    text-transform:none;
+    margin:0;
+  }
+  .new_image_model_main .section_sub_heading{
+    color: #666;
+    font-weight: normal !important;
+    font-style: normal;
+    text-shadow: none;
+    margin-bottom:25px;
+    text-align:Center;
+    text-transform:none;
+  }
+  .new_image_model_main .new_image_model_img{
+    margin:0 15px;
+  }
+  .new_image_model_main .new_image_model_img > img{
+    max-width:100%;
+  }
+  @media only screen and (max-width:768px){
+    .new_image_model_main .modal-md .modal-dialog  .model__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .new_image_model_main .new_image_model_img{
+      margin:0 5px;
+    }
+    .new_image_model_main .modal-md .modal-dialog {
+        width: 95vw !important;
+    }
+    .new_image_model_main .section_heading{
+      font-size: 32px;
+      line-height: 36px;
+          word-break: break-all;
+    }
+  }
+</style>
+
+
+
+
+{% schema %}
+  {
+    "name": "New Image Model",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default":"#TheJacketMaker Customers Gallery"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Sub title",
+        "default":"Tag #thejacketmaker or upload your photos for a chance to be featured in our gallery"
+      }
+    ],
+    "blocks": [
+       {
+         "name": "Model",
+         "type": "text",
+         "settings": [
+           {
+             "type": "image_picker",
+             "id": "image",
+             "label": "Image"
+           },
+           {
+              "type": "text",
+              "id": "title",
+              "label": "Heading",
+              "default":"Hunter Leonard"
+           },
+           {
+              "type": "richtext",
+              "id": "paragraph",
+              "label": "Testimonial",
+              "default":"<p>To begin the bespoke digital process, our creative team in collaboration with design consultant makes a digital illustration of the custom project, which is shared with the customer in advance and then with the production team, once the customer approves.</p>"
+           },
+           {
+            "type": "text",
+            "id": "fb",
+            "label": "Facebook"
+            },
+           {
+            "type": "text",
+            "id": "insta",
+            "label": "Instagram"
+            },
+           {
+            "type": "text",
+            "id": "twitter",
+            "label": "Twitter"
+            },
+           {
+            "type": "text",
+            "id": "pinterst",
+            "label": "Pinterst"
+            },
+           {
+              "type": "select",
+              "id": "prd_selection",
+              "label": "Product",
+              "options": [
+                {
+                  "value": "custom",
+                  "label": "Custom Product"
+                },
+                {
+                  "value": "product",
+                  "label": "Simple Product"
+                }
+              ],
+              "default": "product"
+            },
+            {
+              "type": "url",
+              "id": "custom_link",
+              "label": "Custom Product Link",
+              "info":"This will only work when you select Custom Product option."
+            },
+             {
+              "type": "product",
+              "id": "product",
+              "label": "Product",
+               "info":"This will only work when you select Product option."
+            }
+         ]
+       }
+    ],
+    "presets": [
+      {
+        "name": "New Image Model"
+      }
+    ]
+  }
+{% endschema %}

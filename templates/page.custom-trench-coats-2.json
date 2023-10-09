@@ -3,29 +3,30 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "full_width": false
+        "full_width": true
       }
     },
     "fbda812e-8719-4971-8a43-062571a9bfff": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Custom-20Trench-20Coat-20Men-1487235673240.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
+        "subheading": "",
+        "title": "Custom Trench Coats",
+        "heading_max_width": 500,
+        "title_size": 70,
         "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "use_h1": true,
+        "text": "<p>Design Your Custom Trench Coat With Your Embroidery, Fabric & Color.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom left",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -73,27 +74,27 @@
     "f13e4588-ee14-4f2a-a95f-5b26c5f4d255": {
       "type": "featured-collection",
       "settings": {
-        "title": "Men's Leather Jackets",
-        "collection": "mens-leather-jackets",
+        "title": "Men's Trench Coats",
+        "collection": "mens-trench-coats",
         "show_vendor": false,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 5,
         "rows": 1,
-        "use_alt_bg": true,
-        "show_view_all": true,
+        "use_alt_bg": false,
+        "show_view_all": false,
         "full_width": true
       }
     },
     "45c48454-2712-41d4-ac96-bc0886550ef5": {
       "type": "featured-collection",
       "settings": {
-        "title": "Women's Leather Jackets",
-        "collection": "womens-leather-jackets",
+        "title": "Women's Winter Coats & Trenchs",
+        "collection": "women-winter-coats",
         "show_vendor": false,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 5,
         "rows": 1,
-        "use_alt_bg": true,
+        "use_alt_bg": false,
         "show_view_all": false,
         "full_width": true
       }
@@ -101,48 +102,50 @@
     "6dbcd4c8-15fa-4638-8760-03d33dc072f8": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Custom-20Trench-20Coats-20Women-1487235673328.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "subheading": "",
+        "title": "Customize <br>Your Own <br>Trench Coat",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
         "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "text": "<p>Whether you're inclined towards a single or double-breasted trench, something with a short length, fitted or straight, with zipper closure or buttons, epaulets, patches, single or double vents, flared or any style element that may cross your mind or eyes. We're here to guide you through to achieve your ideal customized trench coat<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom left",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "shadow"
+        "overlay_style": "full image-overlay--bg-shadow"
       }
     },
     "6fe8186a-2ca7-499f-9b06-155b6f16bd6e": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Trench-20Coats-20Fabrics-1487235673403.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "subheading": "",
+        "title": "Trench<br> Coats<br> Fabrics",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
         "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "text": "<p>We will ensure you are aware and decide on the best fabric, based on your design as we offer you Cotton, Leather, Cotton Drill and Poplin, to Wool Gabardine, Cotton Polyester, Polyester, Nylon, Denim and Gore-Tex which is for waterproofing. In colours such as camel or khaki, sand, stone, navy blue and black. You will be relieved to know we've got your back.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom right",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -155,9 +158,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Embroidered-20Trench-20Coats-1487235673581.webp",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Embroidered Trench Coats",
+            "text": "<p>We assist you in finding the best ways to incorporate the uniqueness of embroidery into designs and detail for your very own Custom Embroidered Trench Coat.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -166,9 +170,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Shearling-20Trench-20Coats-1487235673616.webp",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Shearling Trench Coats",
+            "text": "<p>We also help you with choosing the right shearling fur, detail and coverage. Adding a sophistication that is simplistic, is a great reason to opt for your own Custom Shearling Trench Coat.<br\/><\/p>",
             "button_label": "",
             "link": ""
           }
@@ -179,9 +184,39 @@
         "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-2"
       ],
       "settings": {
-        "title": "Multi-column",
+        "title": "",
         "text_alignment": "center",
         "button_style": "primary",
+        "use_alt_bg": true
+      }
+    },
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1",
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
         "use_alt_bg": false
       }
     }
@@ -194,6 +229,7 @@
     "45c48454-2712-41d4-ac96-bc0886550ef5",
     "6dbcd4c8-15fa-4638-8760-03d33dc072f8",
     "6fe8186a-2ca7-499f-9b06-155b6f16bd6e",
-    "d745053c-10f0-41c5-b667-012456fdd99c"
+    "d745053c-10f0-41c5-b667-012456fdd99c",
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317"
   ]
 }

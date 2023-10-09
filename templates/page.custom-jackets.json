@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "6fb74bec-d292-412c-bec6-e0af5fd26f8f": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Leather-20Jackets-1498324876587.webp",
+            "image_width": 400,
+            "title": "Custom Leather Jackets",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-leather-jackets"
+          }
+        },
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Bomber-20Jackets-1498324917230.webp",
+            "image_width": 400,
+            "title": "Custom Bomber Jackets",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-bomber-jackets"
+          }
+        },
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Varsity-20Jackets-1498324942090.webp",
+            "image_width": 400,
+            "title": "Custom Bomber Jackets",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-varsity-jackets"
+          }
+        },
+        "fd1afefd-d606-4e2b-a6f3-80c29f1ac7a9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Embroidered-20Jacket-20-283-29-1596735447743.webp",
+            "image_width": 400,
+            "title": "Custom Embroidered Jackets",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-embroidered-jackets"
+          }
+        },
+        "4684604d-f51a-4629-8459-384cf5be5701": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Denim-20Jackets-1498324965620.webp",
+            "image_width": 400,
+            "title": "Custom Denim Jackets",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-denim-jackets"
+          }
+        },
+        "b55c5f45-7b32-423a-8b42-b5a56d4b487a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Windbreaker-20Jackets-202-1498329352912.webp",
+            "image_width": 400,
+            "title": "Custom Windbreaker Jackets",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-windbreaker-jackets"
+          }
+        },
+        "020c0ba4-7e86-4c07-96e7-e47e882098ec": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Trench-20Coats-1498324900537.webp",
+            "image_width": 400,
+            "title": "Custom Trench Coats",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-trench-coats"
+          }
+        },
+        "45e357a9-3396-431d-a751-1b1898320fe2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Motorcycle-20Jackets-1498325047985.webp",
+            "image_width": 400,
+            "title": "Custom Motorcycle Jackets",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-motorcycle-jackets"
+          }
+        },
+        "b1a53b3e-d79b-4e69-9bf4-a13218343058": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Custom-20Parka-20JAckets-1498325061680.webp",
+            "image_width": 400,
+            "title": "Custom Parka Jackets",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-parka-jackets"
+          }
+        },
+        "3e4da592-7b0e-44f8-b04e-9ac151473b18": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/thumbnail-1657025306544.jpg",
+            "image_width": 400,
+            "title": "Custom Leather Vests",
+            "text": "",
+            "button_label": "",
+            "link": "shopify:\/\/pages\/custom-leather-vests"
+          }
+        },
+        "a1476f3f-1573-4567-b5d3-f9737442dd10": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "ddb8d46e-24db-4f82-a6ec-7ff3f2bb48da": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 700,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-1",
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-2",
+        "template--21171859816735__6fb74bec-d292-412c-bec6-e0af5fd26f8f-text_block-3",
+        "fd1afefd-d606-4e2b-a6f3-80c29f1ac7a9",
+        "4684604d-f51a-4629-8459-384cf5be5701",
+        "b55c5f45-7b32-423a-8b42-b5a56d4b487a",
+        "020c0ba4-7e86-4c07-96e7-e47e882098ec",
+        "45e357a9-3396-431d-a751-1b1898320fe2",
+        "b1a53b3e-d79b-4e69-9bf4-a13218343058",
+        "3e4da592-7b0e-44f8-b04e-9ac151473b18",
+        "a1476f3f-1573-4567-b5d3-f9737442dd10",
+        "ddb8d46e-24db-4f82-a6ec-7ff3f2bb48da"
+      ],
+      "settings": {
+        "title": "",
+        "text_alignment": "center",
+        "button_style": "primary",
+        "use_alt_bg": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6fb74bec-d292-412c-bec6-e0af5fd26f8f"
+  ]
+}

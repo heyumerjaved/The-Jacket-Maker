@@ -3,29 +3,30 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "full_width": false
+        "full_width": true
       }
     },
     "fbda812e-8719-4971-8a43-062571a9bfff": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Custom-20Varsity-20Jackets-1487682386534.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
+        "subheading": "",
+        "title": "Custom Varsity & Custom Letterman Jackets",
+        "heading_max_width": 500,
+        "title_size": 70,
         "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "use_h1": true,
+        "text": "<p>Design Your Own Custom Varsity Jacket & Letterman Jacket With Embroidery, Logo, Fabric & Color.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom left",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -73,27 +74,27 @@
     "f13e4588-ee14-4f2a-a95f-5b26c5f4d255": {
       "type": "featured-collection",
       "settings": {
-        "title": "Men's Leather Jackets",
-        "collection": "mens-leather-jackets",
+        "title": "Men's Bomber Jackets",
+        "collection": "mens-bomber-jackets",
         "show_vendor": false,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 5,
         "rows": 1,
-        "use_alt_bg": true,
-        "show_view_all": true,
+        "use_alt_bg": false,
+        "show_view_all": false,
         "full_width": true
       }
     },
     "45c48454-2712-41d4-ac96-bc0886550ef5": {
       "type": "featured-collection",
       "settings": {
-        "title": "Women's Leather Jackets",
-        "collection": "womens-leather-jackets",
+        "title": "Women's Bomber Jackets",
+        "collection": "women-bomber-jackets",
         "show_vendor": false,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 5,
         "rows": 1,
-        "use_alt_bg": true,
+        "use_alt_bg": false,
         "show_view_all": false,
         "full_width": true
       }
@@ -101,48 +102,50 @@
     "6dbcd4c8-15fa-4638-8760-03d33dc072f8": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Custom-20Letterman-20Jackets-1487682386786.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "subheading": "",
+        "title": "Customize Your Own Varsity Jacket",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
         "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "text": "<p>Whether it is a Varsity Jacket or Coat you're interested in, or a Varsity Hoodie, Sweater or better yet a Varsity Cardigan. We are happy to guide you through an easy breezy process where customizing your Varsity Jacket makes for a unique, personalized interpretation of your style.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom left",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "shadow"
+        "overlay_style": "full image-overlay--bg-shadow"
       }
     },
     "6fe8186a-2ca7-499f-9b06-155b6f16bd6e": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Varsity-20Jackets-20Fabrics-1487682386838.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "subheading": "",
+        "title": "Varsity <br>Jacket<br> Fabrics",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
         "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "text": "<p>Offering you fabrics such as Leather, Wool and Cotton, Suede or Polyester and Nylon, Denim, Fleece or even Satin in flattering colours to achieve your customized Varsity Jacket. We'll ensure you make the right choices in selecting the right sleeves, zipper fronts or snap button closure. We're here for you every step of the way.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom right",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -155,9 +158,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Embroidered-20Varsity-20Jackets-1487682386945.webp",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Embroidered Varsity Jackets",
+            "text": "<p>We’ll guide you through options including unique logos, monograms or graphics that work best to personalize your very own Custom Embroidered Varsity Jacket.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -166,9 +170,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Varsity-20Sweaters-1487682386976.webp",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Varsity Sweaters",
+            "text": "<p>Our Varsity Sweaters offer you range, variety and options to ensure you make the right choices and go with the best. Assisting you to achieve the finest customized design imaginable from colour and style, to fabric and detail.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -179,9 +184,39 @@
         "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-2"
       ],
       "settings": {
-        "title": "Multi-column",
+        "title": "",
         "text_alignment": "center",
         "button_style": "primary",
+        "use_alt_bg": true
+      }
+    },
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1",
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
         "use_alt_bg": false
       }
     }
@@ -194,6 +229,7 @@
     "45c48454-2712-41d4-ac96-bc0886550ef5",
     "6dbcd4c8-15fa-4638-8760-03d33dc072f8",
     "6fe8186a-2ca7-499f-9b06-155b6f16bd6e",
-    "d745053c-10f0-41c5-b667-012456fdd99c"
+    "d745053c-10f0-41c5-b667-012456fdd99c",
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317"
   ]
 }

@@ -1020,7 +1020,7 @@
     "font_size_logo_int": 24,
     "button_style": "normal",
     "button_shape": "sharp",
-    "coll_grid_image_shape": "square",
+    "coll_grid_image_shape": "portrait-45",
     "coll_grid_image_position": "center center",
     "coll_grid_show_count": false,
     "prod_thumb_shape": "square",
@@ -1053,12 +1053,12 @@
     "social_facebook_url": "http:\/\/www.facebook.com\/thejacketmaker\/",
     "social_instagram_url": "https:\/\/www.instagram.com\/thejacketmaker",
     "social_pinterest_url": "https:\/\/www.pinterest.com\/thejacketmaker\/",
-    "search_type": "product,article,page",
+    "search_type": "product",
     "enable_live_search": true,
     "live_search_show_vendor": false,
     "live_search_show_price": false,
     "live_search_search_meta": true,
-    "favicon": "shopify:\/\/shop_images\/download.png",
+    "favicon": "shopify:\/\/shop_images\/512-logo-black.svg",
     "cart_type": "drawer",
     "after_add_to_cart": "notification",
     "free_shipping_bar_col_under": "#00800a",
@@ -1087,7 +1087,7 @@
           "nav_mob_products_collection": "",
           "enable_search": true,
           "search_suggestions_title": "",
-          "search_suggestions_menu": "main-menu",
+          "search_suggestions_menu": "",
           "icon_strategy": "icons_all",
           "cart_icon": "bag"
         }
@@ -1141,41 +1141,43 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1601372812538": {
-            "type": "text",
-            "settings": {
-              "title": "Talk about your store",
-              "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
-              "image_width": 55,
-              "show_social_icons": true,
-              "soc_icons_large": true
-            }
-          },
           "1601372709037": {
             "type": "menu",
             "settings": {
-              "title": "Quick links",
-              "menu": "footer"
+              "title": "MEN'S COLLECTION",
+              "menu": "mens-collection"
             }
           },
-          "1601372771635": {
-            "type": "newsletter",
+          "c743e9e3-a46d-4d7d-be25-4e9b3fc45e2f": {
+            "type": "menu",
             "settings": {
-              "title": "Newsletter",
-              "text": "<p>Sign up for exclusive offers, original stories, events and more.<\/p>",
-              "button_style": "primary",
-              "show_social_icons": true,
-              "soc_icons_large": false
+              "title": "Women's Collection",
+              "menu": "womens-collection"
+            }
+          },
+          "acf85054-28f5-4b52-8572-53a58cd06d71": {
+            "type": "menu",
+            "settings": {
+              "title": "Customize",
+              "menu": "customize"
+            }
+          },
+          "919ab70f-bed9-4b5c-9f3a-7cd9d67a0932": {
+            "type": "menu",
+            "settings": {
+              "title": "Help",
+              "menu": "help"
             }
           }
         },
         "block_order": [
-          "1601372812538",
           "1601372709037",
-          "1601372771635"
+          "c743e9e3-a46d-4d7d-be25-4e9b3fc45e2f",
+          "acf85054-28f5-4b52-8572-53a58cd06d71",
+          "919ab70f-bed9-4b5c-9f3a-7cd9d67a0932"
         ],
         "settings": {
-          "lower_menu": "main-menu",
+          "lower_menu": "footer",
           "show_payment_icons": false,
           "show_country_selector": false,
           "show_language_selector": false
@@ -1228,14 +1230,14 @@
       "popup": {
         "type": "popup",
         "settings": {
-          "mode": "enabled",
+          "mode": "disabled",
           "popup_delay_seconds": 4,
           "popup_dismiss_for_days": 2,
           "position": "bottom-right",
-          "title": "Sign up and save",
-          "text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers.<\/p>",
-          "show_newsletter": true,
-          "show_social_icons": true
+          "title": "",
+          "text": "",
+          "show_newsletter": false,
+          "show_social_icons": false
         }
       },
       "cart-drawer": {

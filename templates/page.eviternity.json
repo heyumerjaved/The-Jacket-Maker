@@ -35,43 +35,29 @@
         "82bc4c7e-c2dc-472a-be66-734a8f945a90": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-black-leather-shoes",
+            "mp_product": "professor-oxford-brown-leather-shoes",
             "smalltext": "Black"
           }
         },
         "cfb419a7-afc5-42af-9923-9b9d8d22b530": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-brown-leather-shoes-html",
+            "mp_product": "professor-oxford-tan-leather-shoes",
             "smalltext": "Dark Brown"
           }
         },
         "09bd9ed6-700d-4fcd-82f1-a2785ad25542": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-brown-nubuck-leather-shoes-html",
+            "mp_product": "professor-oxford-midnight-blue-leather-shoes",
             "smalltext": "Brown"
           }
         },
         "bdca46ea-f2a1-4740-acc4-c7182d245fcb": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-midnight-blue-suede-leather-shoes",
+            "mp_product": "professor-oxford-black-leather-shoes",
             "smalltext": "Blue"
-          }
-        },
-        "8b1de6f4-85e3-4e5f-b88d-6ee519d9260b": {
-          "type": "product",
-          "settings": {
-            "mp_product": "baxton-brown-leather-loafers",
-            "smalltext": "Brown"
-          }
-        },
-        "42a9ade4-defe-4a26-a98b-878ed2b62fa5": {
-          "type": "product",
-          "settings": {
-            "mp_product": "boston-double-monk-strap-black-leather-shoes",
-            "smalltext": "Black"
           }
         }
       },
@@ -79,9 +65,7 @@
         "82bc4c7e-c2dc-472a-be66-734a8f945a90",
         "cfb419a7-afc5-42af-9923-9b9d8d22b530",
         "09bd9ed6-700d-4fcd-82f1-a2785ad25542",
-        "bdca46ea-f2a1-4740-acc4-c7182d245fcb",
-        "8b1de6f4-85e3-4e5f-b88d-6ee519d9260b",
-        "42a9ade4-defe-4a26-a98b-878ed2b62fa5"
+        "bdca46ea-f2a1-4740-acc4-c7182d245fcb"
       ],
       "settings": {
         "main_product": "attorney-derby-black-leather-shoes",
@@ -95,34 +79,33 @@
         "46c47ecc-c3be-44e4-a62a-1e95f6fc68ba": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-black-leather-shoes",
+            "mp_product": "knight-derby-brown-leather-boots",
             "smalltext": "Black"
           }
         },
         "867d4c11-d327-467e-8cc3-38de0ee68f13": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-brown-leather-shoes-html",
+            "mp_product": "knight-derby-tan-leather-boots",
             "smalltext": "Dark Brown"
           }
         },
         "cc5ea4d5-b849-4a53-89fe-efd02fbe1413": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-brown-nubuck-leather-shoes-html",
+            "mp_product": "knight-derby-midnight-blue-suede-leather-boots",
             "smalltext": "Brown"
           }
         },
         "836e33a6-25fb-4084-9d58-63acf0bbb869": {
           "type": "product",
           "settings": {
-            "mp_product": "attorney-derby-midnight-blue-suede-leather-shoes",
-            "smalltext": "Blue"
+            "mp_product": "knight-derby-brown-suede-leather-boots",
+            "smalltext": "Suede-Brown"
           }
         },
         "4272106f-caef-4456-bd87-793d8204a74c": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "mp_product": "baxton-brown-leather-loafers",
             "smalltext": "Brown"
@@ -130,7 +113,6 @@
         },
         "068b64c7-c8ae-4b07-84e2-3cf627e320b2": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "mp_product": "boston-double-monk-strap-black-leather-shoes",
             "smalltext": "Black"
@@ -147,8 +129,614 @@
       ],
       "settings": {
         "main_product": "attorney-derby-black-leather-shoes",
-        "main_image": "shopify:\/\/shop_images\/07_Professor_Oxford_Black_Leathe.png",
-        "overlaytext": "Professor Oxford"
+        "main_image": "shopify:\/\/shop_images\/08_Knight_Derby_Brown_Suede_Leather_Boots_Side_Back_Walk-1674293916584.webp",
+        "overlaytext": "Knight Derby Boots"
+      }
+    },
+    "84d6aedd-395d-4cfc-9bca-ff4582f4b63e": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "6c3d0fd8-2757-4158-a43a-7cd6fd163a89": {
+          "type": "product",
+          "settings": {
+            "mp_product": "carter-runn-brown-leather-sneakers",
+            "smalltext": "Brown"
+          }
+        },
+        "bf509cb5-0e2a-4757-9767-bb128941bc72": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-brown-leather-shoes-html",
+            "smalltext": "Dark Brown"
+          }
+        },
+        "0052f239-ab2f-4315-8a52-edae527058be": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-brown-nubuck-leather-shoes-html",
+            "smalltext": "Brown"
+          }
+        },
+        "a3977ae9-4776-4f08-a67a-8f6fdade6b63": {
+          "type": "product",
+          "settings": {
+            "mp_product": "carter-runn-tan-leather-sneakers",
+            "smalltext": "Tan"
+          }
+        },
+        "7d99dd4b-d2ef-430b-b003-cd81373af143": {
+          "type": "product",
+          "settings": {
+            "mp_product": "carter-runn-white-leather-sneakers",
+            "smalltext": "White"
+          }
+        },
+        "d338c7bc-0405-4aa8-b7e8-c9a2a52b5e04": {
+          "type": "product",
+          "settings": {
+            "mp_product": "carter-runn-black-leather-sneakers",
+            "smalltext": "Black"
+          }
+        }
+      },
+      "block_order": [
+        "6c3d0fd8-2757-4158-a43a-7cd6fd163a89",
+        "bf509cb5-0e2a-4757-9767-bb128941bc72",
+        "0052f239-ab2f-4315-8a52-edae527058be",
+        "a3977ae9-4776-4f08-a67a-8f6fdade6b63",
+        "7d99dd4b-d2ef-430b-b003-cd81373af143",
+        "d338c7bc-0405-4aa8-b7e8-c9a2a52b5e04"
+      ],
+      "settings": {
+        "main_product": "attorney-derby-black-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/07_Carter_Runn_Black_Leather_Sneakers_Interactive-1674294055640.webp",
+        "overlaytext": "Carter Runn Sneakers"
+      }
+    },
+    "266112f7-3791-4474-9f40-ca4e62d812ba": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "0c8bd2a7-714f-4d69-9608-9fbfe48ec7fa": {
+          "type": "product",
+          "settings": {
+            "mp_product": "director-wholecut-brown-leather-shoes",
+            "smalltext": "Brown"
+          }
+        },
+        "9e847444-8543-4341-b4eb-245a51f75920": {
+          "type": "product",
+          "settings": {
+            "mp_product": "director-wholecut-tan-leather-shoes",
+            "smalltext": "Tan-Brown"
+          }
+        },
+        "2ec1cc99-8ffb-448a-9f79-2cf4c796201d": {
+          "type": "product",
+          "settings": {
+            "mp_product": "director-wholecut-midnight-blue-leather-shoes",
+            "smalltext": "Midnight-Blue"
+          }
+        },
+        "f4317b8c-6423-4636-958e-469a9f25f4f0": {
+          "type": "product",
+          "settings": {
+            "mp_product": "director-wholecut-maroon-leather-shoes",
+            "smalltext": "Maroon"
+          }
+        },
+        "b0b013c6-66aa-41ed-87e7-e2bb649bdb80": {
+          "type": "product",
+          "settings": {
+            "mp_product": "director-wholecut-black-leather-shoes",
+            "smalltext": "Black"
+          }
+        },
+        "b25d63b3-1c76-4198-94b9-7b555a1152fa": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "mp_product": "boston-double-monk-strap-black-leather-shoes",
+            "smalltext": "Black"
+          }
+        }
+      },
+      "block_order": [
+        "0c8bd2a7-714f-4d69-9608-9fbfe48ec7fa",
+        "9e847444-8543-4341-b4eb-245a51f75920",
+        "2ec1cc99-8ffb-448a-9f79-2cf4c796201d",
+        "f4317b8c-6423-4636-958e-469a9f25f4f0",
+        "b0b013c6-66aa-41ed-87e7-e2bb649bdb80",
+        "b25d63b3-1c76-4198-94b9-7b555a1152fa"
+      ],
+      "settings": {
+        "main_product": "attorney-derby-black-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/08_Director_Wholecut_Maroon_Leather_Shoes_Side_Walk-1674294217625.webp",
+        "overlaytext": "Director Wholecut"
+      }
+    },
+    "f50e8582-c26b-433e-ae9e-7448f2567a63": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "38031842-10a6-4fb0-b1f8-006b893102c1": {
+          "type": "product",
+          "settings": {
+            "mp_product": "clarkson-chelsea-maroon-leather-boots",
+            "smalltext": "Maroon"
+          }
+        },
+        "346997ef-640b-4b88-b3e4-6ed58f6a5120": {
+          "type": "product",
+          "settings": {
+            "mp_product": "clarkson-chelsea-black-suede-leather-boots",
+            "smalltext": "Suede-Black"
+          }
+        },
+        "c80f66a6-9526-4d0f-a536-07ab4725f102": {
+          "type": "product",
+          "settings": {
+            "mp_product": "clarkson-chelsea-brown-suede-leather-boots",
+            "smalltext": "Suede-Brown"
+          }
+        },
+        "c000f5e4-4563-4878-8436-e6151a95908f": {
+          "type": "product",
+          "settings": {
+            "mp_product": "clarkson-chelsea-midnight-blue-suede-leather-boots",
+            "smalltext": "Suede-Blue"
+          }
+        },
+        "2dfb0e19-2c2e-4a2f-b9e4-e6fb3463652c": {
+          "type": "product",
+          "settings": {
+            "mp_product": "clarkson-chelsea-black-leather-boots",
+            "smalltext": "Black"
+          }
+        },
+        "9f941aaf-db07-4aec-a883-79d78539d55b": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "mp_product": "boston-double-monk-strap-black-leather-shoes",
+            "smalltext": "Black"
+          }
+        }
+      },
+      "block_order": [
+        "38031842-10a6-4fb0-b1f8-006b893102c1",
+        "346997ef-640b-4b88-b3e4-6ed58f6a5120",
+        "c80f66a6-9526-4d0f-a536-07ab4725f102",
+        "c000f5e4-4563-4878-8436-e6151a95908f",
+        "2dfb0e19-2c2e-4a2f-b9e4-e6fb3463652c",
+        "9f941aaf-db07-4aec-a883-79d78539d55b"
+      ],
+      "settings": {
+        "main_product": "professor-oxford-brown-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/08_Clarkson_Chelsea_Maroon_Leather_Boots_Bottom_Back_Wak-1674293370166.webp",
+        "overlaytext": "Clarkson Chelsea"
+      }
+    },
+    "2573b7e9-d2c6-41ef-b814-34bf21c8d75e": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "31ca50ae-ff9f-4f6f-b796-d319a09b1f52": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-brown-leather-shoes",
+            "smalltext": "Brown"
+          }
+        },
+        "c773dda5-e289-4a6f-afa8-e61430cb3f13": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-midnight-blue-leather-shoes",
+            "smalltext": "Midnight-Blue"
+          }
+        },
+        "91ad9390-8fcd-49ac-a98f-9de48f96780b": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-maroon-leather-shoes",
+            "smalltext": "Maroon"
+          }
+        },
+        "61a91d55-2adc-45e4-97be-3bbab038a89f": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-brown-nubuck-leather-shoes",
+            "smalltext": "Nubuck-Brown"
+          }
+        },
+        "f1dcce40-5274-411e-89f0-e1d33a1c1755": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-black-suede-leather-shoes",
+            "smalltext": "Suede-Black"
+          }
+        },
+        "fd111608-d5fe-4a34-b0f8-44f650291013": {
+          "type": "product",
+          "settings": {
+            "mp_product": "attorney-derby-brown-suede-leather-shoes",
+            "smalltext": "Suede-Brown"
+          }
+        }
+      },
+      "block_order": [
+        "31ca50ae-ff9f-4f6f-b796-d319a09b1f52",
+        "c773dda5-e289-4a6f-afa8-e61430cb3f13",
+        "91ad9390-8fcd-49ac-a98f-9de48f96780b",
+        "61a91d55-2adc-45e4-97be-3bbab038a89f",
+        "f1dcce40-5274-411e-89f0-e1d33a1c1755",
+        "fd111608-d5fe-4a34-b0f8-44f650291013"
+      ],
+      "settings": {
+        "main_product": "professor-oxford-brown-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/07-_02-_Attorney_Derby_Midnight_Blue_Leather_Shoes_Front_walk-10-1674450789125-1674897964919.webp",
+        "overlaytext": "Attorney Derby"
+      }
+    },
+    "060a82e3-1d6c-47a0-9ff9-b8bb20e7ce92": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "202abea4-06be-4f16-830a-45c68ca2c97e": {
+          "type": "product",
+          "settings": {
+            "mp_product": "dirk-brogues-derby-black-leather-shoes",
+            "smalltext": "Black"
+          }
+        },
+        "7eb2ef73-ef56-419e-8a2d-077416bf1e99": {
+          "type": "product",
+          "settings": {
+            "mp_product": "dirk-brogues-derby-brown-leather-shoes",
+            "smalltext": "Brown"
+          }
+        },
+        "af0e0348-0320-4de0-b943-e8af6a34b978": {
+          "type": "product",
+          "settings": {
+            "mp_product": "dirk-brogues-derby-maroon-leather-shoes",
+            "smalltext": "Maroon"
+          }
+        },
+        "bb0845e3-4bd0-4e04-bfb1-5292ba56ffaf": {
+          "type": "product",
+          "settings": {
+            "mp_product": "dirk-brogues-derby-brown-nubuck-leather-shoes",
+            "smalltext": "Nubuck-Brown"
+          }
+        },
+        "a7c324cd-27eb-464f-a96e-e9a63f6476a8": {
+          "type": "product",
+          "settings": {
+            "mp_product": "dirk-brogues-derby-black-nubuck-leather-shoes",
+            "smalltext": "Nubuck-Black"
+          }
+        },
+        "681c7592-e3f1-4e0d-a42a-1f672c88ebda": {
+          "type": "product",
+          "settings": {
+            "mp_product": "dirk-brogues-derby-tan-leather-shoes",
+            "smalltext": "Tan-Brown"
+          }
+        }
+      },
+      "block_order": [
+        "202abea4-06be-4f16-830a-45c68ca2c97e",
+        "7eb2ef73-ef56-419e-8a2d-077416bf1e99",
+        "af0e0348-0320-4de0-b943-e8af6a34b978",
+        "bb0845e3-4bd0-4e04-bfb1-5292ba56ffaf",
+        "a7c324cd-27eb-464f-a96e-e9a63f6476a8",
+        "681c7592-e3f1-4e0d-a42a-1f672c88ebda"
+      ],
+      "settings": {
+        "main_product": "professor-oxford-brown-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/09_Dirk_Brogues_Derby_Brown_Leather_Shoes_Stairshot-1674292746926.webp",
+        "overlaytext": "Dirk Brogues Derby"
+      }
+    },
+    "4637bb41-6daa-44da-8bdd-762615c00301": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "6ead9642-1d80-4ec6-a36e-e55e9d76cc61": {
+          "type": "product",
+          "settings": {
+            "mp_product": "duster-brogues-derby-black-leather-boots",
+            "smalltext": "Black"
+          }
+        },
+        "8ded6a5c-4463-4e94-a956-ff85ee789ed3": {
+          "type": "product",
+          "settings": {
+            "mp_product": "duster-brogues-derby-oil-pull-up-brown-leather-boots",
+            "smalltext": "Brown Oil Pull-Up"
+          }
+        },
+        "488b8264-2cf8-4f2b-b161-50303694a3dd": {
+          "type": "product",
+          "settings": {
+            "mp_product": "duster-brogues-derby-brown-nubuck-leather-boots",
+            "smalltext": "Nubuck-Brown"
+          }
+        },
+        "dcbf2a2d-e52f-4bfd-9578-e24ec6f3eaa1": {
+          "type": "product",
+          "settings": {
+            "mp_product": "duster-brogues-derby-black-nubuck-leather-boots",
+            "smalltext": "Nubuck-Black"
+          }
+        },
+        "b8b7f969-0337-4be4-aaaf-e26ad1dc59b8": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "mp_product": "attorney-derby-black-suede-leather-shoes",
+            "smalltext": "Suede-Black"
+          }
+        },
+        "b1e829f2-b851-4d74-92e3-368be44b417a": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "mp_product": "attorney-derby-brown-suede-leather-shoes",
+            "smalltext": "Suede-Brown"
+          }
+        }
+      },
+      "block_order": [
+        "6ead9642-1d80-4ec6-a36e-e55e9d76cc61",
+        "8ded6a5c-4463-4e94-a956-ff85ee789ed3",
+        "488b8264-2cf8-4f2b-b161-50303694a3dd",
+        "dcbf2a2d-e52f-4bfd-9578-e24ec6f3eaa1",
+        "b8b7f969-0337-4be4-aaaf-e26ad1dc59b8",
+        "b1e829f2-b851-4d74-92e3-368be44b417a"
+      ],
+      "settings": {
+        "main_product": "professor-oxford-brown-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/09_Duster_Brogues_Derby_Black_Nubuck_-1674293103723.webp",
+        "overlaytext": "Duster Brogues Derby Boots"
+      }
+    },
+    "09d8631f-e233-47f0-b794-fae42286d6fb": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "44703471-8074-46c4-bdef-9978626d3285": {
+          "type": "product",
+          "settings": {
+            "mp_product": "baxton-brown-leather-loafers",
+            "smalltext": "Brown"
+          }
+        },
+        "9928fabf-67c8-4e9f-a870-3c109a87d874": {
+          "type": "product",
+          "settings": {
+            "mp_product": "baxton-brown-suede-leather-loafers",
+            "smalltext": "Suede-Brown"
+          }
+        },
+        "68b49f72-9620-45e3-819f-89d5c14096b5": {
+          "type": "product",
+          "settings": {
+            "mp_product": "baxton-blue-suede-leather-loafers",
+            "smalltext": "Suede Blue"
+          }
+        },
+        "7b94a01a-f06d-4a1c-b193-379916c8d1b5": {
+          "type": "product",
+          "settings": {
+            "mp_product": "baxton-black-suede-leather-loafers",
+            "smalltext": "Suede-Black"
+          }
+        },
+        "f0c88e1b-62b6-4e27-b4a8-430523b52133": {
+          "type": "product",
+          "settings": {
+            "mp_product": "baxton-black-leather-loafers",
+            "smalltext": "Black"
+          }
+        },
+        "5a1d1618-514e-4a0a-96f3-090807ea05a0": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "mp_product": "attorney-derby-brown-suede-leather-shoes",
+            "smalltext": "Suede-Brown"
+          }
+        }
+      },
+      "block_order": [
+        "44703471-8074-46c4-bdef-9978626d3285",
+        "9928fabf-67c8-4e9f-a870-3c109a87d874",
+        "68b49f72-9620-45e3-819f-89d5c14096b5",
+        "7b94a01a-f06d-4a1c-b193-379916c8d1b5",
+        "f0c88e1b-62b6-4e27-b4a8-430523b52133",
+        "5a1d1618-514e-4a0a-96f3-090807ea05a0"
+      ],
+      "settings": {
+        "main_product": "professor-oxford-brown-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/07_Baxton_Black_Leather_Loafers-10-1674719995157-1674897882481.webp",
+        "overlaytext": "Baxton Loafers"
+      }
+    },
+    "1145d372-fc7e-4bac-b35c-4307b0c749ed": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "a7b2d2b0-3946-4a14-bc58-055bce7caa34": {
+          "type": "product",
+          "settings": {
+            "mp_product": "greyson-brogues-oxford-brown-leather-shoes",
+            "smalltext": "Brown"
+          }
+        },
+        "ef03089f-a888-4c2d-823c-6f64508f06b6": {
+          "type": "product",
+          "settings": {
+            "mp_product": "greyson-brogues-oxford-tan-leather-shoes",
+            "smalltext": "Tan-Brown"
+          }
+        },
+        "8e5b1de3-64ea-4d43-9b68-db61d64528ff": {
+          "type": "product",
+          "settings": {
+            "mp_product": "greyson-brogues-oxford-maroon-leather-shoes",
+            "smalltext": "Maroon"
+          }
+        },
+        "1c2c47fa-5f26-4e51-b138-49c507efc077": {
+          "type": "product",
+          "settings": {
+            "mp_product": "greyson-brogues-oxford-brown-suede-leather-shoes",
+            "smalltext": "Suede-Brown"
+          }
+        },
+        "909c2e52-a114-4c24-a188-e12e109c34a0": {
+          "type": "product",
+          "settings": {
+            "mp_product": "greyson-brogues-oxford-black-nubuck-leather-shoes",
+            "smalltext": "Nubuck-Black"
+          }
+        },
+        "28d9c246-a2ed-4292-a5c0-e5fb11855426": {
+          "type": "product",
+          "settings": {
+            "mp_product": "greyson-brogues-oxford-oil-pull-up-brown-leather-shoes",
+            "smalltext": "Brown Oil Pull-Up"
+          }
+        }
+      },
+      "block_order": [
+        "a7b2d2b0-3946-4a14-bc58-055bce7caa34",
+        "ef03089f-a888-4c2d-823c-6f64508f06b6",
+        "8e5b1de3-64ea-4d43-9b68-db61d64528ff",
+        "1c2c47fa-5f26-4e51-b138-49c507efc077",
+        "909c2e52-a114-4c24-a188-e12e109c34a0",
+        "28d9c246-a2ed-4292-a5c0-e5fb11855426"
+      ],
+      "settings": {
+        "main_product": "professor-oxford-brown-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/09_Greyson_Brogues_Oxford_Black_Leather_Shoes_Interactive-1674293255887.webp",
+        "overlaytext": "Greyson Brogues Oxford"
+      }
+    },
+    "a8721684-edde-44d3-99b7-df18a2331b84": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "53c0e56f-4457-4ccd-b11a-f0eba6fb7dae": {
+          "type": "product",
+          "settings": {
+            "mp_product": "corry-chukka-brown-leather-boots",
+            "smalltext": "Brown"
+          }
+        },
+        "d8116380-900d-4c30-abc5-e8f5e0b1132e": {
+          "type": "product",
+          "settings": {
+            "mp_product": "corry-chukka-brown-suede-leather-boots",
+            "smalltext": "Suede-Brown"
+          }
+        },
+        "78f42157-41ff-4328-aa62-623c9bcf14c5": {
+          "type": "product",
+          "settings": {
+            "mp_product": "corry-chukka-midnight-blue-suede-leather-boots",
+            "smalltext": "Suede-Blue"
+          }
+        },
+        "342ff520-fb40-445e-b3ea-b120644abad5": {
+          "type": "product",
+          "settings": {
+            "mp_product": "corry-chukka-black-nubuck-leather-boots",
+            "smalltext": "Nubuck-Black"
+          }
+        },
+        "d53ac44a-f163-4535-807a-098f738581c8": {
+          "type": "product",
+          "settings": {
+            "mp_product": "corry-chukka-black-leather-boots",
+            "smalltext": "Black"
+          }
+        },
+        "7abcb673-2997-4a02-80ac-37fd5107860c": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "mp_product": "greyson-brogues-oxford-oil-pull-up-brown-leather-shoes",
+            "smalltext": "Brown Oil Pull-Up"
+          }
+        }
+      },
+      "block_order": [
+        "53c0e56f-4457-4ccd-b11a-f0eba6fb7dae",
+        "d8116380-900d-4c30-abc5-e8f5e0b1132e",
+        "78f42157-41ff-4328-aa62-623c9bcf14c5",
+        "342ff520-fb40-445e-b3ea-b120644abad5",
+        "d53ac44a-f163-4535-807a-098f738581c8",
+        "7abcb673-2997-4a02-80ac-37fd5107860c"
+      ],
+      "settings": {
+        "main_product": "professor-oxford-brown-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/07-Corry_Chukka_Black_Leather_Boots_Front_Walk-10-1674719112076-1674897811221_c4e0f12f-0c38-4e34-992d-305111862547.webp",
+        "overlaytext": "Corry Chukka"
+      }
+    },
+    "8539627b-4b72-49ef-9425-813645858736": {
+      "type": "eviternity-featured-products",
+      "blocks": {
+        "febf53aa-f74c-4a00-a5d2-7f2c492e5770": {
+          "type": "product",
+          "settings": {
+            "mp_product": "boston-double-monk-strap-brown-leather-shoes",
+            "smalltext": "Brown"
+          }
+        },
+        "52ef9112-fd38-4d71-b9fd-d8e732e92a21": {
+          "type": "product",
+          "settings": {
+            "mp_product": "boston-double-monk-strap-tan-leather-shoes",
+            "smalltext": "Tan-Brown"
+          }
+        },
+        "7186d718-b4b4-42f9-8e85-1bb0cf68bbec": {
+          "type": "product",
+          "settings": {
+            "mp_product": "boston-double-monk-strap-maroon-leather-shoes",
+            "smalltext": "Maroon"
+          }
+        },
+        "bd778ed7-6530-4556-8d66-fd0af832e7a9": {
+          "type": "product",
+          "settings": {
+            "mp_product": "boston-double-monk-strap-brown-suede-leather-shoes",
+            "smalltext": "Suede-Brown"
+          }
+        },
+        "975424ee-5415-4a77-bbc8-0f55e0b56134": {
+          "type": "product",
+          "settings": {
+            "mp_product": "boston-double-monk-strap-oil-pull-up-brown-leather-shoes",
+            "smalltext": "Brown Oil-Pullup"
+          }
+        },
+        "59f24cc7-0430-4e09-875e-7d582b1fa636": {
+          "type": "product",
+          "settings": {
+            "mp_product": "boston-double-monk-strap-black-leather-shoes",
+            "smalltext": "Black"
+          }
+        }
+      },
+      "block_order": [
+        "febf53aa-f74c-4a00-a5d2-7f2c492e5770",
+        "52ef9112-fd38-4d71-b9fd-d8e732e92a21",
+        "7186d718-b4b4-42f9-8e85-1bb0cf68bbec",
+        "bd778ed7-6530-4556-8d66-fd0af832e7a9",
+        "975424ee-5415-4a77-bbc8-0f55e0b56134",
+        "59f24cc7-0430-4e09-875e-7d582b1fa636"
+      ],
+      "settings": {
+        "main_product": "professor-oxford-brown-leather-shoes",
+        "main_image": "shopify:\/\/shop_images\/08_Boston_Double_Monk_Strap_Oil_Pull-up_Brown_Suede_Leather_Shoes_Side_Walk-11-1674719808842-1674897737460.webp",
+        "overlaytext": "Boston Double Monk Strap"
       }
     },
     "048f829e-e119-4a6c-a800-ae413201cbe0": {
@@ -229,8 +817,8 @@
     "be8d56e0-ccf7-492c-b2c6-386410b2886c": {
       "type": "video",
       "settings": {
-        "video_external": "https:\/\/vimeo.com\/524933864",
-        "image": "shopify:\/\/shop_images\/video_thumbnail.png",
+        "video_external": "https:\/\/vimeo.com\/785923991?share=copy",
+        "image": "shopify:\/\/shop_images\/vimeo_2.jpg",
         "subheading": "",
         "video_title": "",
         "heading_max_width": 800,
@@ -250,6 +838,16 @@
     "8f5cf3ba-92d4-4a99-810c-519fa0d45791",
     "828aed6e-7261-4b18-95ce-fd25dc567443",
     "32c56252-a103-4f5d-8da2-68ab60147185",
+    "84d6aedd-395d-4cfc-9bca-ff4582f4b63e",
+    "266112f7-3791-4474-9f40-ca4e62d812ba",
+    "f50e8582-c26b-433e-ae9e-7448f2567a63",
+    "2573b7e9-d2c6-41ef-b814-34bf21c8d75e",
+    "060a82e3-1d6c-47a0-9ff9-b8bb20e7ce92",
+    "4637bb41-6daa-44da-8bdd-762615c00301",
+    "09d8631f-e233-47f0-b794-fae42286d6fb",
+    "1145d372-fc7e-4bac-b35c-4307b0c749ed",
+    "a8721684-edde-44d3-99b7-df18a2331b84",
+    "8539627b-4b72-49ef-9425-813645858736",
     "048f829e-e119-4a6c-a800-ae413201cbe0",
     "b29f7161-1bb4-4f49-b4c1-a16c6e3af97b",
     "be8d56e0-ccf7-492c-b2c6-386410b2886c"

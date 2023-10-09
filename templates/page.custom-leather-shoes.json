@@ -3,29 +3,30 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "full_width": false
+        "full_width": true
       }
     },
     "fbda812e-8719-4971-8a43-062571a9bfff": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/1-1693568588350.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
+        "subheading": "",
+        "title": "Design Your Custom Leather Shoes",
+        "heading_max_width": 500,
+        "title_size": 70,
         "title_size_mobile": 46,
-        "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "use_h1": true,
+        "text": "<p>The Jacket Maker offers custom leather Shoes for men and women. Offering you a facility to get any kind of boot made in any color, style, material, finish and detail of your choice.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom left",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -73,27 +74,28 @@
     "f13e4588-ee14-4f2a-a95f-5b26c5f4d255": {
       "type": "featured-collection",
       "settings": {
-        "title": "Men's Leather Jackets",
-        "collection": "mens-leather-jackets",
+        "title": "Men's Leather Shoes",
+        "collection": "mens-leather-shoes",
         "show_vendor": false,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 5,
         "rows": 1,
-        "use_alt_bg": true,
-        "show_view_all": true,
+        "use_alt_bg": false,
+        "show_view_all": false,
         "full_width": true
       }
     },
     "45c48454-2712-41d4-ac96-bc0886550ef5": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Women's Leather Jackets",
         "collection": "womens-leather-jackets",
         "show_vendor": false,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 5,
         "rows": 1,
-        "use_alt_bg": true,
+        "use_alt_bg": false,
         "show_view_all": false,
         "full_width": true
       }
@@ -101,48 +103,50 @@
     "6dbcd4c8-15fa-4638-8760-03d33dc072f8": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2-1693568588493.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "subheading": "",
+        "title": "Handmade <br>Customizable <br>Leather<br> Shoes",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
         "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "text": "<p>Customize your leather shoes in any way you like. Our custom shoes are handmade one shoe pair at a time with unlimited personalization options & free assistance from our design consultants.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom left",
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "shadow"
+        "overlay_style": "full image-overlay--bg-shadow"
       }
     },
     "6fe8186a-2ca7-499f-9b06-155b6f16bd6e": {
       "type": "image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/3-1693568588685.webp",
         "height": "fixed",
-        "height_desktop": 600,
+        "height_desktop": 700,
         "height_mobile": 460,
         "image_link": "",
-        "subheading": "Tell your story",
-        "title": "Text heading",
-        "heading_max_width": 800,
-        "title_size": 84,
-        "title_size_mobile": 46,
+        "subheading": "",
+        "title": "Best Fitted <br>Custom <br>Leather <br>Shoes For <br>All",
+        "heading_max_width": 500,
+        "title_size": 40,
+        "title_size_mobile": 30,
         "use_h1": false,
-        "text": "<p>And optional subtext<\/p>",
-        "enlarge_text": true,
-        "button_label_1": "Shop this",
+        "text": "<p>Each foot is unique and everyone has different requirements. The best fit shoes determine your comfort and define your personality – that’s why you shouldn’t settle for an ordinary pair of custom leather shoes.<\/p>",
+        "enlarge_text": false,
+        "button_label_1": "",
         "button_url_1": "",
-        "button_label_2": "Shop all",
+        "button_label_2": "",
         "button_url_2": "",
-        "text_alignment": "center center",
+        "text_alignment": "bottom right",
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow"
@@ -155,9 +159,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Printed-20Leather-20Jackets-1487683502760_1.webp",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Printed Leather Jackets",
+            "text": "<p>Get your choice of artwork, design or logo printed on your custom printed leather jacket.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -166,9 +171,10 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Embroidered-20Leather-20Jackets-1487683502856_2.webp",
             "image_width": 700,
-            "title": "Add a title or tagline",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "title": "Embroidered Leather Jackets",
+            "text": "<p>Get your choice of artwork, design or logo embroidered on your custom embroidered leather jacket.<\/p>",
             "button_label": "",
             "link": ""
           }
@@ -178,10 +184,41 @@
         "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-1",
         "template--20474332709151__d745053c-10f0-41c5-b667-012456fdd99c-text_block-2"
       ],
+      "disabled": true,
       "settings": {
-        "title": "Multi-column",
+        "title": "",
         "text_alignment": "center",
         "button_style": "primary",
+        "use_alt_bg": true
+      }
+    },
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--21167320400159__a65ee5d4-507e-4767-81c9-1e00ef2d3317-heading-1",
+        "6c00344d-c9dc-42a6-ae01-0249e62eedf8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
         "use_alt_bg": false
       }
     }
@@ -194,6 +231,7 @@
     "45c48454-2712-41d4-ac96-bc0886550ef5",
     "6dbcd4c8-15fa-4638-8760-03d33dc072f8",
     "6fe8186a-2ca7-499f-9b06-155b6f16bd6e",
-    "d745053c-10f0-41c5-b667-012456fdd99c"
+    "d745053c-10f0-41c5-b667-012456fdd99c",
+    "a65ee5d4-507e-4767-81c9-1e00ef2d3317"
   ]
 }

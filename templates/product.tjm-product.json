@@ -20,6 +20,12 @@
             "enable_product_reviews_by_price": true
           }
         },
+        "bc03eb6c-5bd2-477d-8b91-264510e129ec": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "a551e945-5f58-4d00-b28e-93c7b15d81bd": {
           "type": "text",
           "settings": {
@@ -85,28 +91,6 @@
           "settings": {
           }
         },
-        "88984ba5-14c9-49d8-b1bc-5296cb4157cb": {
-          "type": "accordion",
-          "settings": {
-            "title": "DESCRIPTION",
-            "icon": "",
-            "content": "<p>{{ product.metafields.custom.description | metafield_tag }} <\/p>",
-            "page": "",
-            "open": false,
-            "show_in_quickbuy": false
-          }
-        },
-        "d3d15f18-7803-40f2-8fa8-0ffad18f9d14": {
-          "type": "accordion",
-          "settings": {
-            "title": "REVIEWS",
-            "icon": "star",
-            "content": "<p>Made to Measure tab content <\/p>",
-            "page": "",
-            "open": false,
-            "show_in_quickbuy": false
-          }
-        },
         "215ebb52-d9c1-43b3-bddc-6cf518f07104": {
           "type": "accordion",
           "settings": {
@@ -118,8 +102,18 @@
             "show_in_quickbuy": false
           }
         },
+        "c9ccc429-72ce-4a1a-b602-15f702d45bdb": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": true,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
         "3d2850fb-354a-4e17-9e17-ca4be79d5b92": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "CARE DETAILS",
             "icon": "",
@@ -131,6 +125,7 @@
         },
         "ce883322-baef-4f31-9811-1629147f7dbf": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "title": "SIZE & FIT",
             "icon": "",
@@ -140,9 +135,15 @@
             "show_in_quickbuy": false
           }
         },
-        "bb171d7b-1364-4802-a4eb-86662c94db7f": {
-          "type": "shopify:\/\/apps\/trust-badges-bear\/blocks\/widget\/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+        "73bd6af8-3753-421f-a21c-dac5c50e2eb2": {
+          "type": "accordion",
           "settings": {
+            "title": "Shipping & Returns",
+            "icon": "",
+            "content": "<ul><li>We provide free shipping worldwide using express shipping.<\/li><\/ul><p><strong>Prime Products<\/strong><\/p><ul><li>Products marked as prime are shipped the next business day.<\/li><\/ul><p><strong>Jacket Orders<\/strong><\/p><ul><li>Non-prime, standard size orders are shipped within 5-10 working days.<\/li><li>Made-to-measure orders are shipped within 3-5 weeks.<\/li><\/ul><p><strong>Shoe Orders<\/strong><\/p><ul><li>Standard size orders are shipped within 10-15 working days.<\/li><li>Made-to-measure orders are shipped within 4-7 weeks.<\/li><\/ul><p><strong>Returns<\/strong><\/p><ul><li>We have a hassle-free return policy of 30 days.<\/li><li>If you don't like the items, or they don't fit, you can just request a return online within 30 days of receipt.<\/li><li>Standard size orders can be returned for a full refund or exchange.<\/li><li>Made-to-measure or other customized orders can only be returned for alteration.<\/li><\/ul><p><\/p>",
+            "page": "",
+            "open": false,
+            "show_in_quickbuy": false
           }
         }
       },
@@ -150,6 +151,7 @@
         "vendor",
         "title",
         "price",
+        "bc03eb6c-5bd2-477d-8b91-264510e129ec",
         "a551e945-5f58-4d00-b28e-93c7b15d81bd",
         "05834701-b14a-44a3-a3a2-9cc1c529ed50",
         "4b169f4e-e235-4356-9c93-208427e6daeb",
@@ -158,12 +160,11 @@
         "variant_picker",
         "buy_buttons",
         "618a2784-5f00-4dba-9416-fdf0fbb4358f",
-        "88984ba5-14c9-49d8-b1bc-5296cb4157cb",
-        "d3d15f18-7803-40f2-8fa8-0ffad18f9d14",
         "215ebb52-d9c1-43b3-bddc-6cf518f07104",
+        "c9ccc429-72ce-4a1a-b602-15f702d45bdb",
         "3d2850fb-354a-4e17-9e17-ca4be79d5b92",
         "ce883322-baef-4f31-9811-1629147f7dbf",
-        "bb171d7b-1364-4802-a4eb-86662c94db7f"
+        "73bd6af8-3753-421f-a21c-dac5c50e2eb2"
       ],
       "settings": {
         "show_breadcrumbs": true,
@@ -184,6 +185,23 @@
       "settings": {
         "full_width": false,
         "code": "{% assign array_of_badges = product.metafields.symmetry. productlayflat.value %}\n{% if array_of_badges %}\n {% for product_badge in array_of_badges %}\n  <img src=\"{{ product_badge | image_url }}\">\n {% endfor %}\n{% endif %}"
+      }
+    },
+    "169502878627ab379d": {
+      "type": "apps",
+      "blocks": {
+        "27f589db-ee5e-4be4-9371-bb4e1f1eea4b": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "27f589db-ee5e-4be4-9371-bb4e1f1eea4b"
+      ],
+      "settings": {
+        "full_width": false
       }
     },
     "42a9f7b7-3439-4272-a18e-e5afe5076da3": {
@@ -532,6 +550,7 @@
   "order": [
     "main",
     "8f714e09-34f6-4756-96ba-889c37443c28",
+    "169502878627ab379d",
     "42a9f7b7-3439-4272-a18e-e5afe5076da3",
     "836a5530-2cc8-4a07-ba31-0d3870395102",
     "b7afc90b-7b96-404f-abfc-5ac61b11509e",

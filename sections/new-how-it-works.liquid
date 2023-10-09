@@ -1,0 +1,113 @@
+<div class="new_how_it_works">
+    {% if section.settings.title != blank %}
+      <h2 class="section_heading">{{ section.settings.title }}</h2>
+    {% endif %}
+    <div class="new_how_it_works_container">
+      {% for block in section.blocks %}
+        <div class="new_how_it_works_single">
+          {% if block.settings.image != blank %}
+          <div class="img_wrapper">
+            <img src="{{ block.settings.image | img_url:'master' }}"/>
+          </div>
+          {% endif %}
+          <div class="heading_text_container">
+            {% if block.settings.title != blank %}
+            <h3 class="heading">{{ block.settings.title }}</h3>
+            {% endif %}
+            {% if block.settings.paragraph != blank %}
+              <div class="text">
+                {{ block.settings.paragraph }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+<style>
+  .new_how_it_works {
+    background: #F8F8F8;
+    padding: 50px 15px;
+}
+  .new_how_it_works h2.section_heading {
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: #666 !important;
+    font-size: 36px;
+    text-transform: none;
+}
+  .new_how_it_works  .new_how_it_works_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    padding: 0 15px;
+}
+  .new_how_it_works  .new_how_it_works_container  .new_how_it_works_single{
+     padding: 0 15px;
+  }
+  .new_how_it_works .img_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+  .new_how_it_works .img_wrapper img {
+    max-width: 70px;
+}
+  .new_how_it_works .heading_text_container .heading{
+    text-align: center;
+    font-size: 24px;
+    text-transform: none;
+}
+  .new_how_it_works .heading_text_container .text,.new_how_it_works .heading_text_container  .text p {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    line-height:20px;
+        margin: 0;
+}
+</style>
+{% schema %}
+  {
+    "name": "New How It Works",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default":"How it works"
+      }
+    ],
+    "blocks": [
+       {
+         "name": "How",
+         "type": "text",
+         "settings": [
+           {
+             "type": "image_picker",
+             "id": "image",
+             "label": "Image"
+           },
+           {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default":"Custom order request"
+          },
+           {
+            "type": "richtext",
+            "id": "paragraph",
+            "label": "Paragraph",
+             "default":"<p>Begin your journey with a request through our web form. We can start your consultation with as little details as you have.</p>"
+          }
+         ]
+       }
+    ],
+    "presets": [
+      {
+        "name": "New How It Works"
+      }
+    ]
+  }
+{% endschema %}

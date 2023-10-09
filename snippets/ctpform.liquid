@@ -1,11 +1,19 @@
 <button data-toggle="modal" class="btn-invert" data-target="#myModal">Customize this product</button>
   <!-- Modal markup -->
+  
   <div id="myModal" class="modal modal-md">
     <div class="modal-dialog" id="template">
         <div class="modal-content">
-            <div class="modal-close">&times;</div>
+            <div class="modal-close">&times;</div>            
             <h1>Customize this product</h1>
-            <form action="https://portal.thejacketmaker.com/shopify/product/customize" method="POST">
+          
+            <div id="product-customize-feedback" class="feedback-modal" style="display:none;">
+                <div class="feedback-content">
+                    <p id="product-customize-feedback-message"></p>
+                </div>
+            </div>
+          
+            <form action="https://portal.thejacketmaker.com/shopify/product/customize" id="product-customize-form" method="POST" enctype="multipart/form-data">
                 <input type="hidden" name="product_id" value="{{ productid }}">
 
                 <div class="flexible-layout flexible-layout--form">
@@ -17,13 +25,58 @@
                         <label for="contact_email">Email</label>
                         <input type="email" required="" id="contact_email" class="email" name="email" autocomplete="email" spellcheck="false" autocapitalize="off" value="">
                     </div>
+                  
                     <div class="column column--full">
                         <label for="message">Message</label>
                         <textarea id="message" required="" name="description" spellcheck="false"></textarea>
                     </div>
+                  <div class="column column--full">
+                        <label for="message">Upload Imgae</label>
+                        <input type="file" required="" id="myFile" name="filename" accept="image/png, image/jpeg">
+                    </div>
                 </div>
-                <input type="submit" value="Submit">
+                <input type="submit" id="product-customize-submit" value="Submit">
             </form>
         </div>
     </div>
 </div>
+<style>
+#myFile {
+  width: 350px;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #D9D9D9;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var customizeForm = document.getElementById('product-customize-form');
+    var feedbackModal = document.getElementById('product-customize-feedback');
+    var feedbackMessage = document.getElementById('product-customize-feedback-message');
+    var submitButton = document.getElementById('product-customize-submit');
+
+    customizeForm.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting the traditional way
+        submitButton.disabled = true;
+        var formData = $(this).serialize(); // Using jQuery to serialize the form data
+      
+        $.ajax({
+            type: 'POST',
+            url: $(this).attr('action'),
+            data: formData,
+            success: function(response) {
+                console.log(response);
+                feedbackModal.style.display = 'block';
+                feedbackMessage.textContent = `Your customization request #${response.id} has been received against`;
+                customizeForm.style.display = 'none';
+            },
+            error: function() {
+                alert('An error occurred. Please try again.');
+                submitButton.disabled = false;
+            }
+        });
+    });
+});
+</script>

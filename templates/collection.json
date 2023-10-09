@@ -42,6 +42,7 @@
       "blocks": {
         "template--20474332250399__650352a8-ae6a-4b78-a652-dc2e4ea7a296-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Rich text",
             "use_h1": false
@@ -49,6 +50,7 @@
         },
         "template--20474332250399__650352a8-ae6a-4b78-a652-dc2e4ea7a296-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.<\/p>",
             "enlarge_text": true
